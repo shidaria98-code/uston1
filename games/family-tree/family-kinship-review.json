@@ -1,0 +1,2798 @@
+[
+  {
+    "focus": "Михаил",
+    "person": "Михаил",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Михаил",
+    "person": "Акулина",
+    "ru": "жена",
+    "ud": "кышно",
+    "path": [
+      "wife"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Николай",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Валентина",
+    "ru": "сын → жена",
+    "ud": "пиелэн кышноез",
+    "path": [
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Иван",
+    "ru": "сын → сын → жена → отец",
+    "ud": "пиелэн пиезлэн кышноезлэн атаез",
+    "path": [
+      "son",
+      "son",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Елена",
+    "ru": "сын → сын → жена → мать",
+    "ud": "пиелэн пиезлэн кышноезлэн анаез",
+    "path": [
+      "son",
+      "son",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Андрей",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Марина",
+    "ru": "сын → сын → жена",
+    "ud": "пиелэн пиезлэн кышноез",
+    "path": [
+      "son",
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Павел",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Анна",
+    "ru": "сын → сын → жена",
+    "ud": "пиелэн пиезлэн кышноез",
+    "path": [
+      "son",
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Ольга",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Максим",
+    "ru": "сын → сын → сын",
+    "ud": "пиелэн пиезлэн пиез",
+    "path": [
+      "son",
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Дарья",
+    "ru": "сын → сын → дочь",
+    "ud": "пиелэн пиезлэн нылыз",
+    "path": [
+      "son",
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Артём",
+    "ru": "сын → сын → сын",
+    "ud": "пиелэн пиезлэн пиез",
+    "path": [
+      "son",
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Алина",
+    "ru": "сын → сын → дочь",
+    "ud": "пиелэн пиезлэн нылыз",
+    "path": [
+      "son",
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Михаил",
+    "person": "Вера",
+    "ru": "сын → сын → дочь",
+    "ud": "пиелэн пиезлэн нылыз",
+    "path": [
+      "son",
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Михаил",
+    "ru": "муж",
+    "ud": "карт",
+    "path": [
+      "husband"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Акулина",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Акулина",
+    "person": "Николай",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Валентина",
+    "ru": "сын → жена",
+    "ud": "пиелэн кышноез",
+    "path": [
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Иван",
+    "ru": "сын → сын → жена → отец",
+    "ud": "пиелэн пиезлэн кышноезлэн атаез",
+    "path": [
+      "son",
+      "son",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Елена",
+    "ru": "сын → сын → жена → мать",
+    "ud": "пиелэн пиезлэн кышноезлэн анаез",
+    "path": [
+      "son",
+      "son",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Андрей",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Марина",
+    "ru": "сын → сын → жена",
+    "ud": "пиелэн пиезлэн кышноез",
+    "path": [
+      "son",
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Павел",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Анна",
+    "ru": "сын → сын → жена",
+    "ud": "пиелэн пиезлэн кышноез",
+    "path": [
+      "son",
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Ольга",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Максим",
+    "ru": "сын → сын → сын",
+    "ud": "пиелэн пиезлэн пиез",
+    "path": [
+      "son",
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Дарья",
+    "ru": "сын → сын → дочь",
+    "ud": "пиелэн пиезлэн нылыз",
+    "path": [
+      "son",
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Артём",
+    "ru": "сын → сын → сын",
+    "ud": "пиелэн пиезлэн пиез",
+    "path": [
+      "son",
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Алина",
+    "ru": "сын → сын → дочь",
+    "ud": "пиелэн пиезлэн нылыз",
+    "path": [
+      "son",
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Акулина",
+    "person": "Вера",
+    "ru": "сын → сын → дочь",
+    "ud": "пиелэн пиезлэн нылыз",
+    "path": [
+      "son",
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Михаил",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Николай",
+    "person": "Акулина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Николай",
+    "person": "Николай",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Николай",
+    "person": "Валентина",
+    "ru": "жена",
+    "ud": "кышно",
+    "path": [
+      "wife"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Николай",
+    "person": "Иван",
+    "ru": "сын → жена → отец",
+    "ud": "пиелэн кышноезлэн атаез",
+    "path": [
+      "son",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Елена",
+    "ru": "сын → жена → мать",
+    "ud": "пиелэн кышноезлэн анаез",
+    "path": [
+      "son",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Андрей",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Николай",
+    "person": "Марина",
+    "ru": "сын → жена",
+    "ud": "пиелэн кышноез",
+    "path": [
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Павел",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Николай",
+    "person": "Анна",
+    "ru": "сын → жена",
+    "ud": "пиелэн кышноез",
+    "path": [
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Ольга",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Николай",
+    "person": "Максим",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Дарья",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Артём",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Алина",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Николай",
+    "person": "Вера",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Михаил",
+    "ru": "муж → отец",
+    "ud": "картлэн атаез",
+    "path": [
+      "husband",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Акулина",
+    "ru": "муж → мать",
+    "ud": "картлэн анаез",
+    "path": [
+      "husband",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Николай",
+    "ru": "муж",
+    "ud": "карт",
+    "path": [
+      "husband"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Валентина",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Валентина",
+    "person": "Иван",
+    "ru": "сын → жена → отец",
+    "ud": "пиелэн кышноезлэн атаез",
+    "path": [
+      "son",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Елена",
+    "ru": "сын → жена → мать",
+    "ud": "пиелэн кышноезлэн анаез",
+    "path": [
+      "son",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Андрей",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Марина",
+    "ru": "сын → жена",
+    "ud": "пиелэн кышноез",
+    "path": [
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Павел",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Анна",
+    "ru": "сын → жена",
+    "ud": "пиелэн кышноез",
+    "path": [
+      "son",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Ольга",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Максим",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Дарья",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Артём",
+    "ru": "сын → сын",
+    "ud": "пиелэн пиез",
+    "path": [
+      "son",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Алина",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Валентина",
+    "person": "Вера",
+    "ru": "сын → дочь",
+    "ud": "пиелэн нылыз",
+    "path": [
+      "son",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Михаил",
+    "ru": "дочь → муж → отец → отец",
+    "ud": "нылылэн картэзлэн атаезлэн атаез",
+    "path": [
+      "daughter",
+      "husband",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Акулина",
+    "ru": "дочь → муж → отец → мать",
+    "ud": "нылылэн картэзлэн атаезлэн анаез",
+    "path": [
+      "daughter",
+      "husband",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Николай",
+    "ru": "дочь → муж → отец",
+    "ud": "нылылэн картэзлэн атаез",
+    "path": [
+      "daughter",
+      "husband",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Валентина",
+    "ru": "дочь → муж → мать",
+    "ud": "нылылэн картэзлэн анаез",
+    "path": [
+      "daughter",
+      "husband",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Иван",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Иван",
+    "person": "Елена",
+    "ru": "жена",
+    "ud": "кышно",
+    "path": [
+      "wife"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Иван",
+    "person": "Андрей",
+    "ru": "дочь → муж",
+    "ud": "нылылэн картэз",
+    "path": [
+      "daughter",
+      "husband"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Марина",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Иван",
+    "person": "Павел",
+    "ru": "дочь → муж → младший брат",
+    "ud": "нылылэн картэзлэн вынэз",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Анна",
+    "ru": "дочь → муж → младший брат → жена",
+    "ud": "нылылэн картэзлэн вынэзлэн кышноез",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Ольга",
+    "ru": "дочь → муж → младшая сестра",
+    "ud": "нылылэн картэзлэн сузэрез",
+    "path": [
+      "daughter",
+      "husband",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Максим",
+    "ru": "дочь → муж → младший брат → сын",
+    "ud": "нылылэн картэзлэн вынэзлэн пиез",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Дарья",
+    "ru": "дочь → муж → младший брат → дочь",
+    "ud": "нылылэн картэзлэн вынэзлэн нылыз",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Артём",
+    "ru": "дочь → сын",
+    "ud": "нылылэн пиез",
+    "path": [
+      "daughter",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Алина",
+    "ru": "дочь → дочь",
+    "ud": "нылылэн нылыз",
+    "path": [
+      "daughter",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Иван",
+    "person": "Вера",
+    "ru": "дочь → дочь",
+    "ud": "нылылэн нылыз",
+    "path": [
+      "daughter",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Михаил",
+    "ru": "дочь → муж → отец → отец",
+    "ud": "нылылэн картэзлэн атаезлэн атаез",
+    "path": [
+      "daughter",
+      "husband",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Акулина",
+    "ru": "дочь → муж → отец → мать",
+    "ud": "нылылэн картэзлэн атаезлэн анаез",
+    "path": [
+      "daughter",
+      "husband",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Николай",
+    "ru": "дочь → муж → отец",
+    "ud": "нылылэн картэзлэн атаез",
+    "path": [
+      "daughter",
+      "husband",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Валентина",
+    "ru": "дочь → муж → мать",
+    "ud": "нылылэн картэзлэн анаез",
+    "path": [
+      "daughter",
+      "husband",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Иван",
+    "ru": "муж",
+    "ud": "карт",
+    "path": [
+      "husband"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Елена",
+    "person": "Елена",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Елена",
+    "person": "Андрей",
+    "ru": "дочь → муж",
+    "ud": "нылылэн картэз",
+    "path": [
+      "daughter",
+      "husband"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Марина",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Елена",
+    "person": "Павел",
+    "ru": "дочь → муж → младший брат",
+    "ud": "нылылэн картэзлэн вынэз",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Анна",
+    "ru": "дочь → муж → младший брат → жена",
+    "ud": "нылылэн картэзлэн вынэзлэн кышноез",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Ольга",
+    "ru": "дочь → муж → младшая сестра",
+    "ud": "нылылэн картэзлэн сузэрез",
+    "path": [
+      "daughter",
+      "husband",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Максим",
+    "ru": "дочь → муж → младший брат → сын",
+    "ud": "нылылэн картэзлэн вынэзлэн пиез",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Дарья",
+    "ru": "дочь → муж → младший брат → дочь",
+    "ud": "нылылэн картэзлэн вынэзлэн нылыз",
+    "path": [
+      "daughter",
+      "husband",
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Артём",
+    "ru": "дочь → сын",
+    "ud": "нылылэн пиез",
+    "path": [
+      "daughter",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Алина",
+    "ru": "дочь → дочь",
+    "ud": "нылылэн нылыз",
+    "path": [
+      "daughter",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Елена",
+    "person": "Вера",
+    "ru": "дочь → дочь",
+    "ud": "нылылэн нылыз",
+    "path": [
+      "daughter",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Михаил",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Акулина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Николай",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Валентина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Иван",
+    "ru": "жена → отец",
+    "ud": "кышнолэн атаез",
+    "path": [
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Елена",
+    "ru": "жена → мать",
+    "ud": "кышнолэн анаез",
+    "path": [
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Андрей",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Андрей",
+    "person": "Марина",
+    "ru": "жена",
+    "ud": "кышно",
+    "path": [
+      "wife"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Павел",
+    "ru": "младший брат",
+    "ud": "вын",
+    "path": [
+      "youngerbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Анна",
+    "ru": "младший брат → жена",
+    "ud": "вынылэн кышноез",
+    "path": [
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Ольга",
+    "ru": "младшая сестра",
+    "ud": "сузэр",
+    "path": [
+      "youngersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Максим",
+    "ru": "младший брат → сын",
+    "ud": "вынылэн пиез",
+    "path": [
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Дарья",
+    "ru": "младший брат → дочь",
+    "ud": "вынылэн нылыз",
+    "path": [
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Артём",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Алина",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Андрей",
+    "person": "Вера",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Марина",
+    "person": "Михаил",
+    "ru": "муж → отец → отец",
+    "ud": "картлэн атаезлэн атаез",
+    "path": [
+      "husband",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Акулина",
+    "ru": "муж → отец → мать",
+    "ud": "картлэн атаезлэн анаез",
+    "path": [
+      "husband",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Николай",
+    "ru": "муж → отец",
+    "ud": "картлэн атаез",
+    "path": [
+      "husband",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Валентина",
+    "ru": "муж → мать",
+    "ud": "картлэн анаез",
+    "path": [
+      "husband",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Иван",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Марина",
+    "person": "Елена",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Марина",
+    "person": "Андрей",
+    "ru": "муж",
+    "ud": "карт",
+    "path": [
+      "husband"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Марина",
+    "person": "Марина",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Марина",
+    "person": "Павел",
+    "ru": "муж → младший брат",
+    "ud": "картлэн вынэз",
+    "path": [
+      "husband",
+      "youngerbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Анна",
+    "ru": "муж → младший брат → жена",
+    "ud": "картлэн вынэзлэн кышноез",
+    "path": [
+      "husband",
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Ольга",
+    "ru": "муж → младшая сестра",
+    "ud": "картлэн сузэрез",
+    "path": [
+      "husband",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Максим",
+    "ru": "муж → младший брат → сын",
+    "ud": "картлэн вынэзлэн пиез",
+    "path": [
+      "husband",
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Дарья",
+    "ru": "муж → младший брат → дочь",
+    "ud": "картлэн вынэзлэн нылыз",
+    "path": [
+      "husband",
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Марина",
+    "person": "Артём",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Марина",
+    "person": "Алина",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Марина",
+    "person": "Вера",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Михаил",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Акулина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Николай",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Валентина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Иван",
+    "ru": "старший брат → жена → отец",
+    "ud": "агаелэн кышноезлэн атаез",
+    "path": [
+      "elderbrother",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Елена",
+    "ru": "старший брат → жена → мать",
+    "ud": "агаелэн кышноезлэн анаез",
+    "path": [
+      "elderbrother",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Андрей",
+    "ru": "старший брат",
+    "ud": "агай",
+    "path": [
+      "elderbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Марина",
+    "ru": "старший брат → жена",
+    "ud": "агаелэн кышноез",
+    "path": [
+      "elderbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Павел",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Павел",
+    "person": "Анна",
+    "ru": "жена",
+    "ud": "кышно",
+    "path": [
+      "wife"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Ольга",
+    "ru": "младшая сестра",
+    "ud": "сузэр",
+    "path": [
+      "youngersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Максим",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Дарья",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Павел",
+    "person": "Артём",
+    "ru": "старший брат → сын",
+    "ud": "агаелэн пиез",
+    "path": [
+      "elderbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Алина",
+    "ru": "старший брат → дочь",
+    "ud": "агаелэн нылыз",
+    "path": [
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Павел",
+    "person": "Вера",
+    "ru": "старший брат → дочь",
+    "ud": "агаелэн нылыз",
+    "path": [
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Михаил",
+    "ru": "муж → отец → отец",
+    "ud": "картлэн атаезлэн атаез",
+    "path": [
+      "husband",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Акулина",
+    "ru": "муж → отец → мать",
+    "ud": "картлэн атаезлэн анаез",
+    "path": [
+      "husband",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Николай",
+    "ru": "муж → отец",
+    "ud": "картлэн атаез",
+    "path": [
+      "husband",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Валентина",
+    "ru": "муж → мать",
+    "ud": "картлэн анаез",
+    "path": [
+      "husband",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Иван",
+    "ru": "муж → старший брат → жена → отец",
+    "ud": "картлэн агаезлэн кышноезлэн атаез",
+    "path": [
+      "husband",
+      "elderbrother",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Елена",
+    "ru": "муж → старший брат → жена → мать",
+    "ud": "картлэн агаезлэн кышноезлэн анаез",
+    "path": [
+      "husband",
+      "elderbrother",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Андрей",
+    "ru": "муж → старший брат",
+    "ud": "картлэн агаез",
+    "path": [
+      "husband",
+      "elderbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Марина",
+    "ru": "муж → старший брат → жена",
+    "ud": "картлэн агаезлэн кышноез",
+    "path": [
+      "husband",
+      "elderbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Павел",
+    "ru": "муж",
+    "ud": "карт",
+    "path": [
+      "husband"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Анна",
+    "person": "Анна",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Анна",
+    "person": "Ольга",
+    "ru": "муж → младшая сестра",
+    "ud": "картлэн сузэрез",
+    "path": [
+      "husband",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Максим",
+    "ru": "сын",
+    "ud": "пи",
+    "path": [
+      "son"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Анна",
+    "person": "Дарья",
+    "ru": "дочь",
+    "ud": "ныл",
+    "path": [
+      "daughter"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Анна",
+    "person": "Артём",
+    "ru": "муж → старший брат → сын",
+    "ud": "картлэн агаезлэн пиез",
+    "path": [
+      "husband",
+      "elderbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Алина",
+    "ru": "муж → старший брат → дочь",
+    "ud": "картлэн агаезлэн нылыз",
+    "path": [
+      "husband",
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Анна",
+    "person": "Вера",
+    "ru": "муж → старший брат → дочь",
+    "ud": "картлэн агаезлэн нылыз",
+    "path": [
+      "husband",
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Михаил",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Акулина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Николай",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Валентина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Иван",
+    "ru": "старший брат → жена → отец",
+    "ud": "агаелэн кышноезлэн атаез",
+    "path": [
+      "elderbrother",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Елена",
+    "ru": "старший брат → жена → мать",
+    "ud": "агаелэн кышноезлэн анаез",
+    "path": [
+      "elderbrother",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Андрей",
+    "ru": "старший брат",
+    "ud": "агай",
+    "path": [
+      "elderbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Марина",
+    "ru": "старший брат → жена",
+    "ud": "агаелэн кышноез",
+    "path": [
+      "elderbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Павел",
+    "ru": "старший брат",
+    "ud": "агай",
+    "path": [
+      "elderbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Анна",
+    "ru": "старший брат → жена",
+    "ud": "агаелэн кышноез",
+    "path": [
+      "elderbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Ольга",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Ольга",
+    "person": "Максим",
+    "ru": "старший брат → сын",
+    "ud": "агаелэн пиез",
+    "path": [
+      "elderbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Дарья",
+    "ru": "старший брат → дочь",
+    "ud": "агаелэн нылыз",
+    "path": [
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Артём",
+    "ru": "старший брат → сын",
+    "ud": "агаелэн пиез",
+    "path": [
+      "elderbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Алина",
+    "ru": "старший брат → дочь",
+    "ud": "агаелэн нылыз",
+    "path": [
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Ольга",
+    "person": "Вера",
+    "ru": "старший брат → дочь",
+    "ud": "агаелэн нылыз",
+    "path": [
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Михаил",
+    "ru": "Прадедушка (отец → отец → отец)",
+    "ud": "пересь песятай",
+    "path": [
+      "father",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Акулина",
+    "ru": "Прабабушка (отец → отец → мать)",
+    "ud": "пересь песянай",
+    "path": [
+      "father",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Николай",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Валентина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Иван",
+    "ru": "отец → старший брат → жена → отец",
+    "ud": "атайлэн агаезлэн кышноезлэн атаез",
+    "path": [
+      "father",
+      "elderbrother",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Елена",
+    "ru": "отец → старший брат → жена → мать",
+    "ud": "атайлэн агаезлэн кышноезлэн анаез",
+    "path": [
+      "father",
+      "elderbrother",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Андрей",
+    "ru": "Дядя (отец → старший брат)",
+    "ud": "атайлэн агаез",
+    "path": [
+      "father",
+      "elderbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Марина",
+    "ru": "отец → старший брат → жена",
+    "ud": "атайлэн агаезлэн кышноез",
+    "path": [
+      "father",
+      "elderbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Павел",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Максим",
+    "person": "Анна",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Максим",
+    "person": "Ольга",
+    "ru": "Тётя (отец → младшая сестра)",
+    "ud": "атайлэн сузэрез",
+    "path": [
+      "father",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Максим",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Максим",
+    "person": "Дарья",
+    "ru": "младшая сестра",
+    "ud": "сузэр",
+    "path": [
+      "youngersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Максим",
+    "person": "Артём",
+    "ru": "отец → старший брат → сын",
+    "ud": "атайлэн агаезлэн пиез",
+    "path": [
+      "father",
+      "elderbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Алина",
+    "ru": "отец → старший брат → дочь",
+    "ud": "атайлэн агаезлэн нылыз",
+    "path": [
+      "father",
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Максим",
+    "person": "Вера",
+    "ru": "отец → старший брат → дочь",
+    "ud": "атайлэн агаезлэн нылыз",
+    "path": [
+      "father",
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Михаил",
+    "ru": "Прадедушка (отец → отец → отец)",
+    "ud": "пересь песятай",
+    "path": [
+      "father",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Акулина",
+    "ru": "Прабабушка (отец → отец → мать)",
+    "ud": "пересь песянай",
+    "path": [
+      "father",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Николай",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Валентина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Иван",
+    "ru": "отец → старший брат → жена → отец",
+    "ud": "атайлэн агаезлэн кышноезлэн атаез",
+    "path": [
+      "father",
+      "elderbrother",
+      "wife",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Елена",
+    "ru": "отец → старший брат → жена → мать",
+    "ud": "атайлэн агаезлэн кышноезлэн анаез",
+    "path": [
+      "father",
+      "elderbrother",
+      "wife",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Андрей",
+    "ru": "Дядя (отец → старший брат)",
+    "ud": "атайлэн агаез",
+    "path": [
+      "father",
+      "elderbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Марина",
+    "ru": "отец → старший брат → жена",
+    "ud": "атайлэн агаезлэн кышноез",
+    "path": [
+      "father",
+      "elderbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Павел",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Анна",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Ольга",
+    "ru": "Тётя (отец → младшая сестра)",
+    "ud": "атайлэн сузэрез",
+    "path": [
+      "father",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Максим",
+    "ru": "старший брат",
+    "ud": "агай",
+    "path": [
+      "elderbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Дарья",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Дарья",
+    "person": "Артём",
+    "ru": "отец → старший брат → сын",
+    "ud": "атайлэн агаезлэн пиез",
+    "path": [
+      "father",
+      "elderbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Алина",
+    "ru": "отец → старший брат → дочь",
+    "ud": "атайлэн агаезлэн нылыз",
+    "path": [
+      "father",
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Дарья",
+    "person": "Вера",
+    "ru": "отец → старший брат → дочь",
+    "ud": "атайлэн агаезлэн нылыз",
+    "path": [
+      "father",
+      "elderbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Михаил",
+    "ru": "Прадедушка (отец → отец → отец)",
+    "ud": "пересь песятай",
+    "path": [
+      "father",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Акулина",
+    "ru": "Прабабушка (отец → отец → мать)",
+    "ud": "пересь песянай",
+    "path": [
+      "father",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Николай",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Валентина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Иван",
+    "ru": "Дедушка по матери",
+    "ud": "ӵужатай",
+    "path": [
+      "mother",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Елена",
+    "ru": "Бабушка по матери",
+    "ud": "ӵужанай",
+    "path": [
+      "mother",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Андрей",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Артём",
+    "person": "Марина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Артём",
+    "person": "Павел",
+    "ru": "Дядя (отец → младший брат)",
+    "ud": "атайлэн вынэз",
+    "path": [
+      "father",
+      "youngerbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Анна",
+    "ru": "отец → младший брат → жена",
+    "ud": "атайлэн вынэзлэн кышноез",
+    "path": [
+      "father",
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Ольга",
+    "ru": "Тётя (отец → младшая сестра)",
+    "ud": "атайлэн сузэрез",
+    "path": [
+      "father",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Максим",
+    "ru": "отец → младший брат → сын",
+    "ud": "атайлэн вынэзлэн пиез",
+    "path": [
+      "father",
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Дарья",
+    "ru": "отец → младший брат → дочь",
+    "ud": "атайлэн вынэзлэн нылыз",
+    "path": [
+      "father",
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Артём",
+    "person": "Артём",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Артём",
+    "person": "Алина",
+    "ru": "младшая сестра",
+    "ud": "сузэр",
+    "path": [
+      "youngersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Артём",
+    "person": "Вера",
+    "ru": "младшая сестра",
+    "ud": "сузэр",
+    "path": [
+      "youngersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Алина",
+    "person": "Михаил",
+    "ru": "Прадедушка (отец → отец → отец)",
+    "ud": "пересь песятай",
+    "path": [
+      "father",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Акулина",
+    "ru": "Прабабушка (отец → отец → мать)",
+    "ud": "пересь песянай",
+    "path": [
+      "father",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Николай",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Валентина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Иван",
+    "ru": "Дедушка по матери",
+    "ud": "ӵужатай",
+    "path": [
+      "mother",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Елена",
+    "ru": "Бабушка по матери",
+    "ud": "ӵужанай",
+    "path": [
+      "mother",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Андрей",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Алина",
+    "person": "Марина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Алина",
+    "person": "Павел",
+    "ru": "Дядя (отец → младший брат)",
+    "ud": "атайлэн вынэз",
+    "path": [
+      "father",
+      "youngerbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Анна",
+    "ru": "отец → младший брат → жена",
+    "ud": "атайлэн вынэзлэн кышноез",
+    "path": [
+      "father",
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Ольга",
+    "ru": "Тётя (отец → младшая сестра)",
+    "ud": "атайлэн сузэрез",
+    "path": [
+      "father",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Максим",
+    "ru": "отец → младший брат → сын",
+    "ud": "атайлэн вынэзлэн пиез",
+    "path": [
+      "father",
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Дарья",
+    "ru": "отец → младший брат → дочь",
+    "ud": "атайлэн вынэзлэн нылыз",
+    "path": [
+      "father",
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Алина",
+    "person": "Артём",
+    "ru": "старший брат",
+    "ud": "агай",
+    "path": [
+      "elderbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Алина",
+    "person": "Алина",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  },
+  {
+    "focus": "Алина",
+    "person": "Вера",
+    "ru": "младшая сестра",
+    "ud": "сузэр",
+    "path": [
+      "youngersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Вера",
+    "person": "Михаил",
+    "ru": "Прадедушка (отец → отец → отец)",
+    "ud": "пересь песятай",
+    "path": [
+      "father",
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Акулина",
+    "ru": "Прабабушка (отец → отец → мать)",
+    "ud": "пересь песянай",
+    "path": [
+      "father",
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Николай",
+    "ru": "Дедушка по отцу",
+    "ud": "песятай",
+    "path": [
+      "father",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Валентина",
+    "ru": "Бабушка по отцу",
+    "ud": "песянай",
+    "path": [
+      "father",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Иван",
+    "ru": "Дедушка по матери",
+    "ud": "ӵужатай",
+    "path": [
+      "mother",
+      "father"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Елена",
+    "ru": "Бабушка по матери",
+    "ud": "ӵужанай",
+    "path": [
+      "mother",
+      "mother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Андрей",
+    "ru": "отец",
+    "ud": "атай",
+    "path": [
+      "father"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Вера",
+    "person": "Марина",
+    "ru": "мать",
+    "ud": "анай",
+    "path": [
+      "mother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Вера",
+    "person": "Павел",
+    "ru": "Дядя (отец → младший брат)",
+    "ud": "атайлэн вынэз",
+    "path": [
+      "father",
+      "youngerbrother"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Анна",
+    "ru": "отец → младший брат → жена",
+    "ud": "атайлэн вынэзлэн кышноез",
+    "path": [
+      "father",
+      "youngerbrother",
+      "wife"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Ольга",
+    "ru": "Тётя (отец → младшая сестра)",
+    "ud": "атайлэн сузэрез",
+    "path": [
+      "father",
+      "youngersister"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Максим",
+    "ru": "отец → младший брат → сын",
+    "ud": "атайлэн вынэзлэн пиез",
+    "path": [
+      "father",
+      "youngerbrother",
+      "son"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Дарья",
+    "ru": "отец → младший брат → дочь",
+    "ud": "атайлэн вынэзлэн нылыз",
+    "path": [
+      "father",
+      "youngerbrother",
+      "daughter"
+    ],
+    "source": "context-description"
+  },
+  {
+    "focus": "Вера",
+    "person": "Артём",
+    "ru": "старший брат",
+    "ud": "агай",
+    "path": [
+      "elderbrother"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Вера",
+    "person": "Алина",
+    "ru": "старшая сестра",
+    "ud": "апай",
+    "path": [
+      "eldersister"
+    ],
+    "source": "lexicon"
+  },
+  {
+    "focus": "Вера",
+    "person": "Вера",
+    "ru": "Выбранный герой",
+    "ud": "●",
+    "path": []
+  }
+]
