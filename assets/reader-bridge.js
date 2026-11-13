@@ -4,7 +4,13 @@
 let trustedParent=!embedded;
 if(embedded){try{trustedParent=parent.location.origin===location.origin&&(location.protocol!=='file:'||parent.location.protocol==='file:');}catch(e){trustedParent=false;}}
 const targetOrigin=location.protocol==='file:'?'*':location.origin;
-if(!trustedParent){document.documentElement.hidden=true;window.stop();return;}
+if(!trustedParent){
+ if(location.protocol==='file:'){
+  // Opaque local parents cannot be authenticated: no save transfer in this mode.
+  window.addEventListener('DOMContentLoaded',()=>{const a=document.getElementById('portal-return');if(a)a.onclick=e=>{e.preventDefault();parent.postMessage({type:'udm-return-to-hub',version:1,app:window.PORTAL_APP_ID},'*');};});
+ }else{document.documentElement.hidden=true;window.stop();}
+ return;
+}
 function snapshot(){const data={};for(const k of allowed){try{const s=localStorage.getItem(k);data[k]=s===null?null:JSON.parse(s);}catch(e){}}return data;}
 function publish(){if(embedded&&ready&&!applying)parent.postMessage({type:'udm-reader-progress',version:1,app:window.PORTAL_APP_ID,data:snapshot()},targetOrigin);}
 const nativeSet=Storage.prototype.setItem,nativeRemove=Storage.prototype.removeItem;
