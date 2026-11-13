@@ -193,7 +193,7 @@ function render(){const l=node();saveStory(); if(window.GameDictionary) GameDict
  $('text').textContent=l.text.replaceAll('{name}',name).replaceAll('соскучился',gender==='girl'?'соскучилась':'соскучился');
  GameAudio.story(l.text);
  $('meta').textContent=chapter(l)===1?'Сначала знакомимся со словом — затем закрепляем его в игре.':'Новые слова появляются в диалоге, а затем в заданиях.';
- $('choices').replaceChildren();const choice=!!l.choice;$('choices').classList.toggle('hide',!choice);$('actions').classList.toggle('hide',choice||!!l.quiz||!!l.activity||!!l.build||!!l.doll);$('prev').disabled=trail.length===0;$('next').textContent=at==='c2_end'?'Завершить главу 2 →':at==='c3_end'?'Завершить главу 3 →':l.end?'Завершить главу →':'Далее →';
+ $('choices').replaceChildren();const choice=!!l.choice;$('choices').classList.toggle('hide',!choice);$('actions').classList.toggle('hide',choice||(!passed[at]&&(!!l.quiz||!!l.activity||!!l.build||!!l.doll)));$('prev').disabled=trail.length===0;$('next').textContent=at==='c2_end'?'Завершить главу 2 →':at==='c3_end'?'Завершить главу 3 →':l.end?'Завершить главу →':'Далее →';
  if(choice){l.choice.forEach(([label,to],i)=>{const b=document.createElement('button');b.className='btn primary';b.textContent=label.replaceAll('{name}',name);b.addEventListener('click',()=>{
  if(chapter(l)===1){if(at===3&&i!==0){showRetry('Вспомни, как кот поздоровался с тобой. Попробуй ещё раз!');return}if(at===19&&i!==0){showRetry('Бабушка поздоровалась с тобой. Как ответить на приветствие?');return}if(at===25&&i!==0){showRetry('Чтобы назвать своё имя, начни со слов «Мынам нимы…».');return}}
  if(l.correct!==undefined&&i!==l.correct){showRetry(l.wrong?.[i]||'Это другое выражение. Попробуй ещё раз!');return}
