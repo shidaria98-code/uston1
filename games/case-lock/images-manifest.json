@@ -1,0 +1,302 @@
+[
+  {
+    "id": "korka-where",
+    "image": "images/case_korka_where.webp",
+    "ru": "Бабушка отдыхает в доме.",
+    "udm": "Песянай коркаын шутэтске.",
+    "status": "included",
+    "sourceFile": "case_korka_where.webp",
+    "sourceSha256": "5071805f9790fd53ab80eb032bb342b5abdc8649b7567ecd7b53f45f18fa0782",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "korka-to",
+    "image": "images/case_korka_to.webp",
+    "ru": "Девочка заходит в дом.",
+    "udm": "Нылаш коркае пыре.",
+    "status": "included",
+    "sourceFile": "case_korka_to.webp",
+    "sourceSha256": "5272738429242f10d5b43bd18f1b85113f513ce801509c02eeb426c38a064a70",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "korka-from",
+    "image": "images/case_korka_from.webp",
+    "ru": "Мальчик выходит из дома.",
+    "udm": "Пияш коркаысь потэ.",
+    "status": "included",
+    "sourceFile": "case_korka_from.webp",
+    "sourceSha256": "49264b4ae01ddf31a2b845475120362cdd57a3b5f773c99f574d752f87545aaf",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "gurt-where",
+    "image": "images/case_gurt_where.webp",
+    "ru": "Дедушка живёт в деревне.",
+    "udm": "Песятае гуртын улэ.",
+    "status": "included",
+    "sourceFile": "case_gurt_where.webp",
+    "sourceSha256": "19586139722536fed01f10b6443cbe3ecc484c807f75ff338aac33b34d9d3c69",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "gurt-to",
+    "image": "images/case_gurt_to.webp",
+    "ru": "Дети едут в деревню.",
+    "udm": "Нылпиос гуртэ мыно.",
+    "status": "included",
+    "sourceFile": "case_gurt_to.webp",
+    "sourceSha256": "d539110e693c1a62cb0d91cbb7943e25d42de248ef02c79b073b650af045499b",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "gurt-from",
+    "image": "images/case_gurt_from.webp",
+    "ru": "Мама возвращается из деревни.",
+    "udm": "Анае гуртысь бертэ.",
+    "status": "included",
+    "sourceFile": "case_gurt_from.webp",
+    "sourceSha256": "7b9ef5b7badeb24da8cc3c151e0c6bb570c7b3397e7ccd3228a518b369c9a87e",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "kar-where",
+    "image": "images/case_kar_where.jpg",
+    "ru": "Моя сестра учится в городе.",
+    "udm": "Сузэре карын дышетске.",
+    "status": "included",
+    "sourceFile": "Девушка в народном костюме за учебой.png",
+    "sourceSha256": "62c43ffceb4753b69f0b0f7c8dd9542f3627eb88404ed5413421bcb966dfba50",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "kar-to",
+    "image": "images/case_kar_to.jpg",
+    "ru": "Папа едет в город.",
+    "udm": "Атае каре мынэ.",
+    "status": "included",
+    "sourceFile": "Путешественник с рюкзаком у города.png",
+    "sourceSha256": "3693f731196c34a813545e46662ec72448471ff2aa3699e916df99f7761202bb",
+    "note": "На исходнике молодой путешественник вместо папы; пространственное отношение соответствует заданию."
+  },
+  {
+    "id": "kar-from",
+    "image": "images/case_kar_from.jpg",
+    "ru": "Бабушка приезжает из города.",
+    "udm": "Песянай карысь вуэ.",
+    "status": "included",
+    "sourceFile": "Бабушка из города в деревню.png",
+    "sourceSha256": "56524570aa99e79423b724d7644fd8c20141e6be0cb6732126ea892a2442f7dc",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "lavka-where",
+    "image": "images/case_lavka_where.jpg",
+    "ru": "Мама в магазине, хлеб покупает.",
+    "udm": "Анае лавкаын, нянь басьтэ.",
+    "status": "included",
+    "sourceFile": "Уютная деревенская лавка с яблоками.png",
+    "sourceSha256": "194bebd1516f8f184bdf830ada8d10bccc53d32562013764ee5eefa6bdf277be",
+    "note": "На исходнике девушка у прилавка с яблоком; русский текст о маме и хлебе сохранён без изменений."
+  },
+  {
+    "id": "lavka-to",
+    "image": "images/case_lavka_to.jpg",
+    "ru": "Девочка заходит в магазин.",
+    "udm": "Нылаш лавкае пыре.",
+    "status": "included",
+    "sourceFile": "Удмуртская девушка у деревенской лавки.png",
+    "sourceSha256": "9717b970f46b036938547b4833581b3a48c3f961c8af1488ae5342bd8fafc7a2",
+    "note": "Героиня показана у входа; направление задаётся текстом задания."
+  },
+  {
+    "id": "lavka-from",
+    "image": "images/case_lavka_from.jpg",
+    "ru": "Папа выходит из магазина.",
+    "udm": "Атае лавкаысь потэ.",
+    "status": "included",
+    "sourceFile": "Мальчик у деревенской лавки.png",
+    "sourceSha256": "09984a5e144914a934958f96ac85e34fa8ab974755324e4641d3a706ba7e1e3c",
+    "note": "На исходнике мальчик вместо папы; выход из лавки соответствует направлению."
+  },
+  {
+    "id": "shur-where",
+    "image": "images/case_shur_where.jpg",
+    "ru": "Дети купаются в реке.",
+    "udm": "Нылпиос шурын пыласько.",
+    "status": "included",
+    "sourceFile": "Удмуртские дети играют в реке.png",
+    "sourceSha256": "151e25ba41afae9f5da08d126fbb74cc42843274eb2eda1fd7144317838c7843",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "shur-to",
+    "image": "images/case_shur_to.jpg",
+    "ru": "Рыбак опускает сеть в реку.",
+    "udm": "Чорыгась вотэсэз шуре лэзе.",
+    "status": "included",
+    "sourceFile": "Рыбак с сетью у деревенской реки.png",
+    "sourceSha256": "237999cb7487451ec897d83c6bbd409002f41344f2a0c62bff4a4075f8ca6fd5",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "shur-from",
+    "image": "images/case_shur_from.jpg",
+    "ru": "Рыбак достаёт сеть из реки.",
+    "udm": "Чорыгась вотэсэз шурысь поттэ.",
+    "status": "included",
+    "sourceFile": "Удмуртский рыбак с богатым уловом.png",
+    "sourceSha256": "8820fd07b3f05f493e37e303549018e1a108f6805f6494d15e4dcfba68e113c2",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "syures-where",
+    "image": "images/case_syures_where.webp",
+    "ru": "Камень лежит на дороге.",
+    "udm": "Из сюрес вылын кылле.",
+    "status": "included",
+    "sourceFile": "case_syures_where.webp",
+    "sourceSha256": "20daaea06e446f14717c90871246525d2864284deee3c2f7f81ea903e23ae06b",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "syures-to",
+    "image": "images/case_syures_to.webp",
+    "ru": "Мяч катится на дорогу.",
+    "udm": "Туп сюрес вылэ погыльске.",
+    "status": "included",
+    "sourceFile": "case_syures_to.webp",
+    "sourceSha256": "9901173b12f1a28066bb77d3556c3085bb3f0af3b1e29ad7eae559f67392cc6e",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "syures-from",
+    "image": "images/case_syures_from.webp",
+    "ru": "Собака уходит с дороги.",
+    "udm": "Пуны сюрес вылысь кошке.",
+    "status": "included",
+    "sourceFile": "case_syures_from.webp",
+    "sourceSha256": "5cf981017226ca99bc178e7a11e95b6cf8183f42c8cb29017037eb350d3422ce",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "inty-where",
+    "image": "images/case_inty_where.jpg",
+    "ru": "Дерево растёт на этом месте.",
+    "udm": "Писпу та интыын будэ.",
+    "status": "included",
+    "sourceFile": "Солнечная берёза у деревенского домика.png",
+    "sourceSha256": "bac5235f298a4412a56278c646c83185a86d48b3de29c817c10da678c1fc6f3a",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "inty-to",
+    "image": "images/case_inty_to.jpg",
+    "ru": "Мальчик кладёт игрушку на это место.",
+    "udm": "Пияш шудонзэ та интые понэ.",
+    "status": "included",
+    "sourceFile": "Мальчик с деревянной лошадкой у избы.png",
+    "sourceSha256": "191302c1584ada97e292790045c5ca5ae0e871fd8a83a0f01ac0479ead34f97e",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "inty-from",
+    "image": "images/case_inty_from.jpg",
+    "ru": "Девочка убирает игрушку с этого места.",
+    "udm": "Нылаш шудонзэ та интыысь утялтэ.",
+    "status": "included",
+    "sourceFile": "Девочка с куклой у сибирской избы.png",
+    "sourceSha256": "0d1272aa5fe6768619134d8c0464e80dbd9eb10843c5cc6302f93eb920fbdb0a",
+    "note": "Героиня берёт куклу со скамьи; используется как сцена уборки игрушки с места."
+  },
+  {
+    "id": "kuala-where",
+    "image": "images/case_kuala_where.jpg",
+    "ru": "Дедушка находится в святилище.",
+    "udm": "Песятай куалаын",
+    "status": "included",
+    "sourceFile": "Удмуртский старец у лесного святилища.png",
+    "sourceSha256": "5901b3e01a38f755f460af3cb904fd3e30d9d4c4693512686a0772545e5aeb5f",
+    "note": "Дедушка стоит в куале у входа. Этот же авторский исходник используется для задания «откуда»."
+  },
+  {
+    "id": "kuala-to",
+    "image": "images/case_kuala_to.jpg",
+    "ru": "Дедушка входит в святилище.",
+    "udm": "Песятай куалае пыре.",
+    "status": "included",
+    "sourceFile": "Удмуртская куала в лесной поляне.png",
+    "sourceSha256": "5168f7ce3543652b820e4dd83b78c59ec1f20f4166181b9323ccf45e57858b54",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "kuala-from",
+    "image": "images/case_kuala_from.jpg",
+    "ru": "Дедушка выходит из святилища.",
+    "udm": "Песятай куалаысь потэ.",
+    "status": "included",
+    "sourceFile": "Удмуртский старец у лесного святилища.png",
+    "sourceSha256": "5901b3e01a38f755f460af3cb904fd3e30d9d4c4693512686a0772545e5aeb5f",
+    "note": "Дедушка у порога куалы. Отдельной явно направленной сцены выхода в папке нет; используется тот же исходник, что для «где»."
+  },
+  {
+    "id": "gur-where",
+    "image": "images/case_gur_where.jpg",
+    "ru": "Хлеб печётся в печке.",
+    "udm": "Нянь пыжиське гурын.",
+    "status": "included",
+    "sourceFile": "Уютная изба с печью и хлебом.png",
+    "sourceSha256": "fad21116be460f65a81452d07f17b047b800e8c0891f4ae07da011cc5e71708b",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "gur-to",
+    "image": "images/case_gur_to.jpg",
+    "ru": "Бабушка ставит хлеб в печку.",
+    "udm": "Песянай нянь гуре пуктэ.",
+    "status": "included",
+    "sourceFile": "Бабушка у праздничной печи.png",
+    "sourceSha256": "beb3efd3601a91bd0ffa0493e97bef91e426b1f12ae3eaa3abac80b7a16892c5",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "gur-from",
+    "image": "images/case_gur_from.jpg",
+    "ru": "Бабушка достаёт хлеб из печки.",
+    "udm": "Песянай гурысь нянь поттэ.",
+    "status": "included",
+    "sourceFile": "Бабушка достаёт хлеб из печи.png",
+    "sourceSha256": "22c472886aa6524ebc69cfb20860a92bb2b44a5bb129e51a761fcfce77b76407",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "puzhym-where",
+    "image": "images/case_puzhym_where.webp",
+    "ru": "Белка сидит на сосне.",
+    "udm": "Коньы пужым вылын пуке.",
+    "status": "included",
+    "sourceFile": "case_puzhym_where.webp",
+    "sourceSha256": "25f5b982b3ed0d062c10463e36260ccabc37c20ca4c9d43f2a438245289970df",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "puzhym-to",
+    "image": "images/case_puzhym_to.webp",
+    "ru": "Белка забирается на сосну.",
+    "udm": "Коньы пужым вылэ тубе.",
+    "status": "included",
+    "sourceFile": "case_puzhym_to.webp",
+    "sourceSha256": "36c1f1defea7c2797049224b9d84d7c48ede85fd961f011bd41ebe8856480e09",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  },
+  {
+    "id": "puzhym-from",
+    "image": "images/case_puzhym_from.webp",
+    "ru": "Шишка падает с сосны.",
+    "udm": "Ӵыжин пужым вылысь усе.",
+    "status": "included",
+    "sourceFile": "case_puzhym_from.webp",
+    "sourceSha256": "80f3d6fcdb168c3833afe9eb457ef0de06c6c01bc921fdc04ae9ec583c751412",
+    "note": "Проверено визуально; сцена соответствует пространственному отношению."
+  }
+]
