@@ -1,0 +1,616 @@
+# Редактор материалов портала Усьтон. Служебные ID защищены.
+media:
+  -
+    name: "uploads"
+    label: "Изображения и аудио"
+    input: "media"
+    output: "/uston1/media"
+content:
+  -
+    name: "my-seem"
+    label: "Мы сеем"
+    type: "file"
+    path: "content/my-seem.json"
+    format: "json"
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      -
+        name: "title"
+        label: "Название игры"
+        type: "string"
+        required: true
+      -
+        name: "subtitle"
+        label: "Подзаголовок"
+        type: "string"
+      -
+        name: "categories"
+        label: "Категории"
+        type: "object"
+        list:
+          min: 5
+          max: 5
+          collapsible:
+            collapsed: true
+            summary: "{fields.ru} / {fields.ud}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "string"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "ru"
+            label: "Категория по-русски"
+            type: "string"
+            required: true
+          -
+            name: "ud"
+            label: "Категория по-удмуртски"
+            type: "string"
+            required: true
+          -
+            name: "words"
+            label: "Слова"
+            type: "object"
+            list:
+              min: 10
+              max: 10
+              collapsible:
+                collapsed: true
+                summary: "{fields.ud} — {fields.ru}"
+            fields:
+              -
+                name: "id"
+                label: "Служебный номер"
+                type: "string"
+                required: true
+                readonly: true
+                hidden: true
+              -
+                name: "ud"
+                label: "Словарная форма на удмуртском"
+                type: "string"
+                required: true
+                description: "Без пробелов и знаков: только буквы игровой клавиатуры."
+              -
+                name: "ru"
+                label: "Русский перевод"
+                type: "string"
+                required: true
+              -
+                name: "hint"
+                label: "Текст платной подсказки"
+                type: "text"
+                description: "Если пусто, используется русский перевод. Правила начисления баллов сохраняются."
+              -
+                name: "note"
+                label: "Дополнительная справка"
+                type: "text"
+                description: "Например, разговорный или диалектный вариант слова."
+              -
+                name: "image"
+                label: "Заменить изображение"
+                type: "image"
+                description: "Необязательно. Пустое поле сохраняет исходную иллюстрацию."
+                options:
+                  media: "uploads"
+                  extensions:
+                    - "jpg"
+                    - "jpeg"
+                    - "png"
+                    - "webp"
+                    - "gif"
+                    - "svg"
+  -
+    name: "kin-ta"
+    label: "Кин та?"
+    type: "file"
+    path: "content/kin-ta.json"
+    format: "json"
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      -
+        name: "subtitle"
+        label: "Подзаголовок"
+        type: "string"
+        required: true
+      -
+        name: "episodes"
+        label: "Описания эпизодов"
+        type: "object"
+        list:
+          min: 6
+          max: 6
+          collapsible:
+            collapsed: true
+            summary: "Эпизод {fields.id}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "number"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "description"
+            label: "Описание персонажа на удмуртском"
+            type: "text"
+            required: true
+            description: "Если меняется смысл описания, замените соответствующую озвучку."
+          -
+            name: "audio"
+            label: "Озвучка описания"
+            type: "file"
+            description: "Необязательно. Проверьте соответствие записи тексту."
+            options:
+              media: "uploads"
+              extensions:
+                - "ogg"
+                - "mp3"
+                - "m4a"
+                - "wav"
+      -
+        name: "people"
+        label: "Имена персонажей"
+        type: "object"
+        list:
+          min: 20
+          max: 20
+          collapsible:
+            collapsed: true
+            summary: "{fields.name}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "number"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "name"
+            label: "Имя на карточке"
+            type: "string"
+            required: true
+          -
+            name: "image"
+            label: "Заменить изображение"
+            type: "image"
+            description: "Необязательно. Пустое поле сохраняет исходную иллюстрацию."
+            options:
+              media: "uploads"
+              extensions:
+                - "jpg"
+                - "jpeg"
+                - "png"
+                - "webp"
+                - "gif"
+                - "svg"
+          -
+            name: "audio"
+            label: "Запись имени"
+            type: "file"
+            description: "Необязательно. Проверьте соответствие записи тексту."
+            options:
+              media: "uploads"
+              extensions:
+                - "ogg"
+                - "mp3"
+                - "m4a"
+                - "wav"
+  -
+    name: "case-lock"
+    label: "Кытын? Кытчы? Кытысь?"
+    type: "file"
+    path: "content/case-lock.json"
+    format: "json"
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      -
+        name: "groups"
+        label: "Слова и задания"
+        type: "object"
+        list:
+          min: 10
+          max: 10
+          collapsible:
+            collapsed: true
+            summary: "{fields.word} — {fields.meaning}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "string"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "word"
+            label: "Начальная форма слова"
+            type: "string"
+            required: true
+            description: "Именно эта форма автоматически попадает в личный словарь."
+          -
+            name: "meaning"
+            label: "Перевод"
+            type: "string"
+            required: true
+          -
+            name: "where"
+            label: "Кытын? — Где?"
+            type: "object"
+            fields:
+              -
+                name: "form"
+                label: "Правильная форма слова"
+                type: "string"
+                required: true
+              -
+                name: "ru"
+                label: "Предложение по-русски"
+                type: "text"
+                required: true
+              -
+                name: "udm"
+                label: "Предложение по-удмуртски"
+                type: "text"
+                required: true
+                description: "Правильная форма должна встретиться в предложении ровно один раз."
+              -
+                name: "explanation"
+                label: "Своё объяснение"
+                type: "text"
+                description: "Необязательно. Если пусто, сохраняется стандартное объяснение игры."
+          -
+            name: "to"
+            label: "Кытчы? — Куда?"
+            type: "object"
+            fields:
+              -
+                name: "form"
+                label: "Правильная форма слова"
+                type: "string"
+                required: true
+              -
+                name: "ru"
+                label: "Предложение по-русски"
+                type: "text"
+                required: true
+              -
+                name: "udm"
+                label: "Предложение по-удмуртски"
+                type: "text"
+                required: true
+                description: "Правильная форма должна встретиться в предложении ровно один раз."
+              -
+                name: "explanation"
+                label: "Своё объяснение"
+                type: "text"
+                description: "Необязательно. Если пусто, сохраняется стандартное объяснение игры."
+          -
+            name: "from"
+            label: "Кытысь? — Откуда?"
+            type: "object"
+            fields:
+              -
+                name: "form"
+                label: "Правильная форма слова"
+                type: "string"
+                required: true
+              -
+                name: "ru"
+                label: "Предложение по-русски"
+                type: "text"
+                required: true
+              -
+                name: "udm"
+                label: "Предложение по-удмуртски"
+                type: "text"
+                required: true
+                description: "Правильная форма должна встретиться в предложении ровно один раз."
+              -
+                name: "explanation"
+                label: "Своё объяснение"
+                type: "text"
+                description: "Необязательно. Если пусто, сохраняется стандартное объяснение игры."
+  -
+    name: "family"
+    label: "Семья"
+    type: "file"
+    path: "content/family.json"
+    format: "json"
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      -
+        name: "people"
+        label: "Персонажи"
+        type: "object"
+        list:
+          min: 16
+          max: 16
+          collapsible:
+            collapsed: true
+            summary: "{fields.name}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "string"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "name"
+            label: "Имя"
+            type: "string"
+            required: true
+          -
+            name: "age"
+            label: "Возраст"
+            type: "number"
+            required: true
+          -
+            name: "description"
+            label: "Описание внешности"
+            type: "text"
+      -
+        name: "stories"
+        label: "Истории и подписи"
+        type: "object"
+        list:
+          min: 20
+          max: 20
+          collapsible:
+            collapsed: true
+            summary: "{fields.title}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "string"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "title"
+            label: "Название на удмуртском"
+            type: "string"
+            required: true
+          -
+            name: "text"
+            label: "Рассказ на удмуртском"
+            type: "text"
+            required: true
+          -
+            name: "ruTitle"
+            label: "Название по-русски"
+            type: "string"
+            required: true
+          -
+            name: "ruText"
+            label: "Рассказ по-русски"
+            type: "text"
+            required: true
+          -
+            name: "roles"
+            label: "Подписи родственников"
+            type: "object"
+            description: "Редактируйте подписи. Состав персонажей и семейные связи остаются прежними."
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.ud} / {fields.ru}"
+            fields:
+              -
+                name: "id"
+                label: "Служебный номер"
+                type: "string"
+                required: true
+                readonly: true
+                hidden: true
+              -
+                name: "ud"
+                label: "Подпись на удмуртском"
+                type: "string"
+                required: true
+              -
+                name: "ru"
+                label: "Подпись по-русски"
+                type: "string"
+                required: true
+  -
+    name: "districts"
+    label: "Открываем Удмуртию — 25 районов"
+    type: "file"
+    path: "content/districts.json"
+    format: "json"
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      -
+        name: "verifiedDate"
+        label: "Дата сверки материалов"
+        type: "string"
+        required: true
+      -
+        name: "regions"
+        label: "Карточки районов"
+        type: "object"
+        list:
+          min: 25
+          max: 25
+          collapsible:
+            collapsed: true
+            summary: "{fields.name}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "number"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "name"
+            label: "Название района"
+            type: "string"
+            required: true
+            readonly: true
+          -
+            name: "location"
+            label: "Расположение и центр"
+            type: "text"
+            description: "Абзацы разделяются пустой строкой. Ссылки на источники: [1], [2]."
+          -
+            name: "history"
+            label: "История"
+            type: "text"
+            description: "Абзацы разделяются пустой строкой. Ссылки на источники: [1], [2]."
+          -
+            name: "nature"
+            label: "Природа"
+            type: "text"
+            description: "Абзацы разделяются пустой строкой. Ссылки на источники: [1], [2]."
+          -
+            name: "culture"
+            label: "Культура"
+            type: "text"
+            description: "Абзацы разделяются пустой строкой. Ссылки на источники: [1], [2]."
+          -
+            name: "visit"
+            label: "Что посмотреть"
+            type: "text"
+            description: "Абзацы разделяются пустой строкой. Ссылки на источники: [1], [2]."
+          -
+            name: "sources"
+            label: "Источники"
+            type: "object"
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.label}"
+            fields:
+              -
+                name: "label"
+                label: "Название источника"
+                type: "string"
+                required: true
+              -
+                name: "url"
+                label: "Ссылка"
+                type: "string"
+                description: "Полный адрес HTTP или HTTPS"
+  -
+    name: "methodology"
+    label: "Методическая основа"
+    type: "file"
+    path: "content/methodology.json"
+    format: "json"
+    operations:
+      create: false
+      delete: false
+      rename: false
+    fields:
+      -
+        name: "title"
+        label: "Заголовок страницы"
+        type: "string"
+        required: true
+      -
+        name: "sections"
+        label: "Разделы страницы"
+        type: "object"
+        list:
+          min: 10
+          max: 10
+          collapsible:
+            collapsed: true
+            summary: "{fields.title}"
+        fields:
+          -
+            name: "id"
+            label: "Служебный номер"
+            type: "string"
+            required: true
+            readonly: true
+            hidden: true
+          -
+            name: "title"
+            label: "Заголовок раздела"
+            type: "string"
+            required: true
+          -
+            name: "paragraphs"
+            label: "Абзацы"
+            type: "text"
+            list: true
+          -
+            name: "blocks"
+            label: "Карточки внутри раздела"
+            type: "object"
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.title}"
+            fields:
+              -
+                name: "title"
+                label: "Заголовок карточки"
+                type: "string"
+                required: true
+              -
+                name: "paragraphs"
+                label: "Абзацы карточки"
+                type: "text"
+                list: true
+          -
+            name: "sources"
+            label: "Список литературы"
+            type: "object"
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.text}"
+            fields:
+              -
+                name: "text"
+                label: "Библиографическое описание"
+                type: "text"
+                required: true
+              -
+                name: "links"
+                label: "Ссылки"
+                type: "object"
+                list:
+                  collapsible:
+                    collapsed: true
+                    summary: "{fields.label}"
+                fields:
+                  -
+                    name: "label"
+                    label: "Подпись ссылки"
+                    type: "string"
+                    required: true
+                  -
+                    name: "url"
+                    label: "Адрес ссылки"
+                    type: "string"
+                    required: true
