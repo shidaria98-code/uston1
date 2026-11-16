@@ -1,4 +1,4 @@
-ame: Publish portal content
+name: Publish portal content
 on:
   push:
     branches: [main]
