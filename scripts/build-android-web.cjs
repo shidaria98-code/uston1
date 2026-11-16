@@ -7,7 +7,7 @@ fs.rmSync(dest, {recursive:true, force:true});
 fs.mkdirSync(dest, {recursive:true});
 // Preserve every tracked web file and its relative path, including data and licenses.
 for (const file of cp.execFileSync('git', ['ls-files', '-z'], {cwd:root}).toString().split('\0').filter(Boolean)) {
-  if (file.startsWith('.') || /^(android|scripts|tests|docs)\//.test(file) || /^(package(-lock)?\.json|capacitor\.config\.json)$/.test(file)) continue;
+  if (file.split('/').some(part => part.startsWith('.')) || /^(android|scripts|tests|docs)\//.test(file) || /^(package(-lock)?\.json|capacitor\.config\.json)$/.test(file)) continue;
   fs.mkdirSync(path.dirname(path.join(dest,file)), {recursive:true});
   fs.copyFileSync(path.join(root,file), path.join(dest,file));
 }
