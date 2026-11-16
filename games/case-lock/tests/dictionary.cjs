@@ -10,7 +10,7 @@ module.exports=function run(root){
  const scores=Object.fromEntries(api.entries.flatMap(w=>[0,1,2].map(l=>[`${l}-${w.index}`,[0,5,10][l]])));
  api.sync(scores);api.sync(scores);let saved=read(key);assert.equal(saved.unlocked.length,10);
  // Existing canonical translations and records are retained; no inflected forms.
- const rows=portal.stats(read,write).dictionary;assert.equal(rows.length,10);assert.equal(new Set(rows.map(w=>norm(w.u))).size,10);assert.equal(rows.some(w=>w.u==='куала'),true);assert.equal(rows.some(w=>/выл|куалаын|коркаысь/.test(w.u)),false);
+ const rows=portal.stats(read,write).dictionary;assert.equal(rows.length,10);assert.equal(new Set(rows.map(w=>norm(w.u))).size,10);assert.deepEqual(new Set(rows.map(w=>norm(w.u))),new Set(api.entries.map(w=>norm(w.u))));
  const prior=memory.get(key);api.sync({});assert.equal(memory.get(key),prior);
  assert.equal(api.idsForScores({'0-0':123,'x-1':10,'0-100':10}).length,0);
  // Portal recovers words from existing game progress even before an event arrives.

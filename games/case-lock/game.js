@@ -1,6 +1,7 @@
 (() => {
 'use strict';
 const groups=window.CASE_GROUPS,KEY='uston.case-lock.v1', questions=['Кытын?','Кытчы?','Кытысь?'],meanings=['Где?','Куда?','Откуда?'], directions=['where','to','from'];
+function escCopy(v){return String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')}
 const $=id=>document.getElementById(id),shuffle=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 const fresh=()=>({version:1,runId:globalThis.crypto?.randomUUID?.()||String(Date.now()),level:0,queue:shuffle(groups.map((_,i)=>i)),position:0,retries:[],attempts:0,selected:[],resolved:false,feedback:'',scores:{},completed:[],history:[],reviewIndex:null});
 let s=fresh(),storageOK=true;
@@ -24,7 +25,7 @@ function save(){const dictOK=window.UstonCaseDictionary?.sync(s.scores);if($('di
 function group(){return groups[s.queue[s.position]];}
 function parts(g,level=s.level){if(['syures','puzhym'].includes(g.id))return [g.word,g.forms[level].split(' ')[1]];return [g.word,g.forms[level].slice(g.word.length)];}
 function compose(a,g){return a.join(['syures','puzhym'].includes(g.id)?' ':'');}
-function explanation(g,level=s.level){return ['syures','puzhym'].includes(g.id)?`${questions[level]} — ${meanings[level]} Основа «${g.word}» остаётся неизменной. Выбираем отдельный послелог «${parts(g,level)[1]}»: выл обозначает верх, поверхность.`:`${questions[level]} — ${meanings[level]} К основе «${g.word}» присоединяем «${parts(g,level)[1]}»: ${g.forms[level]}.`;}
+function explanation(g,level=s.level){if(g.explanations?.[level])return g.explanations[level];return ['syures','puzhym'].includes(g.id)?`${questions[level]} — ${meanings[level]} Основа «${g.word}» остаётся неизменной. Выбираем отдельный послелог «${parts(g,level)[1]}»: выл обозначает верх, поверхность.`:`${questions[level]} — ${meanings[level]} К основе «${g.word}» присоединяем «${parts(g,level)[1]}»: ${g.forms[level]}.`;}
 function button(text,fn,cls=''){const b=document.createElement('button');b.textContent=text;b.className=cls;b.onclick=fn;return b;}
 function openReview(index){s.reviewIndex=index;save();render();$('game').scrollIntoView({block:'nearest'});}
 function backButton(){const b=button('← Назад',()=>openReview(s.history.length-1));b.disabled=s.history.length===0;return b;}
@@ -63,7 +64,7 @@ const g=group(),repeat=s.position>=10;
 $('status').textContent=`Замок ${s.level+1} из 3 · ${repeat?'Повторение ошибок':`Задание ${s.position+1} из 10`} · ${Object.keys(s.scores).length} / 30 пройдено`;
 const board=document.createElement('div');board.className='board';board.innerHTML='<div class="scene"></div><div class="play"></div>';root.append(board);
 const scene=board.firstChild,img=new Image();img.alt=g.ru[s.level];img.onload=()=>scene.replaceChildren(img);img.onerror=()=>{scene.innerHTML='<div class="symbol" aria-hidden="true">◇</div><p>Утверждённая иллюстрация ожидает подключения исходного файла</p>';};img.src=window.CASE_IMAGES?.[`${g.id}-${directions[s.level]}`]||`images/case_${g.id}_${directions[s.level]}.webp`;
-const play=board.lastChild;play.innerHTML=`<div class="eyebrow">${questions[s.level]} · ${meanings[s.level]}</div><h2>${g.ru[s.level]}</h2><div class="label">Собери форму: ${g.word} — ${g.meaning}</div><div class="answer" aria-label="Собранный ответ"></div><div class="label">Основа и ${['syures','puzhym'].includes(g.id)?'послелог':'окончание'}</div><div class="chips"></div><div class="actions"></div>`;
+const play=board.lastChild;play.innerHTML=`<div class="eyebrow">${questions[s.level]} · ${meanings[s.level]}</div><h2>${escCopy(g.ru[s.level])}</h2><div class="label">Собери форму: ${escCopy(g.word)} — ${escCopy(g.meaning)}</div><div class="answer" aria-label="Собранный ответ"></div><div class="label">Основа и ${['syures','puzhym'].includes(g.id)?'послелог':'окончание'}</div><div class="chips"></div><div class="actions"></div>`;
 const sentence=document.createElement('p');sentence.className='sentence';sentence.lang='udm';sentence.setAttribute('aria-label','Удмуртское предложение с пропуском');
 const target=g.forms[s.level],offset=g.udm[s.level].indexOf(target);
 const gap=document.createElement('span');gap.className='sentence-gap';gap.textContent=s.resolved?target:(s.selected.length?compose(s.selected,g):'_____');gap.setAttribute('aria-label',s.selected.length||s.resolved?'Собранная форма':'Пропуск для формы');
@@ -84,7 +85,7 @@ if(correct){s.resolved=true;if(!Object.hasOwn(s.scores,id))s.scores[id]=s.attemp
 else{s.attempts++;if(s.attempts>=2){s.resolved=true;if(!Object.hasOwn(s.scores,id))s.scores[id]=0;s.feedback=`Правильная форма: ${g.forms[s.level]}. ${repeat?'Вспомни её по объяснению.':'Повторим это слово в конце замка.'}`;}else{s.selected=[];s.feedback='Пока не подошло. Проверь вопрос и порядок элементов. Осталась одна попытка.';}
 if(!repeat&&!s.retries.includes(s.queue[s.position])){s.retries.push(s.queue[s.position]);s.queue.push(s.queue[s.position]);}}
 save();report('answer');render();}
-$('help').onclick=()=>$('guide').showModal();$('forms').innerHTML=groups.map(g=>`<tr><th lang="udm">${g.word}<small>${g.meaning}</small></th>${g.forms.map(f=>`<td lang="udm">${f}</td>`).join('')}</tr>`).join('');
+$('help').onclick=()=>$('guide').showModal();$('forms').innerHTML=groups.map(g=>`<tr><th lang="udm">${escCopy(g.word)}<small>${escCopy(g.meaning)}</small></th>${g.forms.map(f=>`<td lang="udm">${escCopy(f)}</td>`).join('')}</tr>`).join('');
 $('reset').onclick=()=>{if(confirm('Сбросить прогресс и баллы «Кытын? Кытчы? Кытысь?»?')){s=fresh();save();report('reset');render();}};
 window.UstonCaseLock={version:1,getProgress:()=>JSON.parse(JSON.stringify({score:total(),maxScore:300,completed:s.completed,finished:s.level===3,runId:s.runId})),storageKey:KEY};render();
 })();
