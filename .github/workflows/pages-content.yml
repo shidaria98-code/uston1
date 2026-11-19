@@ -23,7 +23,7 @@ jobs:
           node-version: '22'
       - name: Validate and compile editable materials
         run: |
-          python -m unittest discover -s tests -p 'test_cms*.py'
+          python -m unittest discover -s tests -p 'test*build.py'
           python tools/build_content.py --publish
       - name: Check scripts and content invariants
         run: |

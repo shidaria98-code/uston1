@@ -7,7 +7,7 @@ class ContentBuildTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.temp=tempfile.TemporaryDirectory(prefix='uston-cms-');cls.root=Path(cls.temp.name)/'site';cls.root.mkdir()
-  files=['index.html','tools/content-contract.json','assets/lexicon-v18.js','assets/case-lock-dictionary.js','games/case-lock/data.js','games/case-lock/dictionary.js','games/case-lock/game.js','games/family-tree/family-tree.html','games/udmurtia/index.html']
+  files=['assets/programs/shared.js','index.html','tools/content-contract.json','assets/lexicon-v18.js','assets/case-lock-dictionary.js','games/case-lock/data.js','games/case-lock/dictionary.js','games/case-lock/game.js','games/family-tree/family-tree.html','games/udmurtia/index.html']
   files += [str(p.relative_to(ROOT))for p in (ROOT/'content').glob('*.json')]
   files += [str(p.relative_to(ROOT))for name in ['my-seem','kin-ta','udmurtia']for p in (ROOT/'assets/programs').glob(name+'-*.js')]
   for name in files:

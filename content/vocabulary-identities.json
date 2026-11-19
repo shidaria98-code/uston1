@@ -1,0 +1,1251 @@
+{
+  "units": [
+    {
+      "id": "lex-bf2a4f3e96151ef9",
+      "form": "мон",
+      "sourceIds": [
+        "guide:mon"
+      ]
+    },
+    {
+      "id": "lex-f22cfc99b644255f",
+      "form": "тон",
+      "sourceIds": [
+        "guide:ton"
+      ]
+    },
+    {
+      "id": "lex-4b7c90b8f6cf6fa5",
+      "form": "со",
+      "sourceIds": [
+        "guide:so"
+      ]
+    },
+    {
+      "id": "lex-89a46a478e1fcd22",
+      "form": "ми",
+      "sourceIds": [
+        "guide:mi"
+      ]
+    },
+    {
+      "id": "lex-d8e2379fc5d110bb",
+      "form": "тӥ",
+      "sourceIds": [
+        "guide:ti"
+      ]
+    },
+    {
+      "id": "lex-41a2a9053978c7df",
+      "form": "соос",
+      "sourceIds": [
+        "guide:soos"
+      ]
+    },
+    {
+      "id": "lex-8b9d6caee36c83d8",
+      "form": "кытын",
+      "sourceIds": [
+        "guide:kytyn"
+      ]
+    },
+    {
+      "id": "lex-d70c30386fd305c3",
+      "form": "кытын коркаед",
+      "sourceIds": [
+        "guide:kytynkorkaed"
+      ]
+    },
+    {
+      "id": "lex-509e9c82a45b6231",
+      "form": "кин та",
+      "sourceIds": [
+        "guide:kinta"
+      ]
+    },
+    {
+      "id": "lex-b474aac5e4fb336a",
+      "form": "шедьты",
+      "sourceIds": [
+        "guide:shedty"
+      ]
+    },
+    {
+      "id": "lex-85b8d854dc5df1e4",
+      "form": "шедьты коркаез",
+      "sourceIds": [
+        "guide:shedtykorka"
+      ]
+    },
+    {
+      "id": "lex-9e69ea1e601e6ff6",
+      "form": "шедьты анаез",
+      "sourceIds": [
+        "guide:shedtyanay"
+      ]
+    },
+    {
+      "id": "lex-509ac0fd0dca1fde",
+      "form": "шедьты апаез",
+      "sourceIds": [
+        "guide:shedtyapay"
+      ]
+    },
+    {
+      "id": "lex-466437b92020c368",
+      "form": "атай",
+      "sourceIds": [
+        "guide:atay",
+        "seem:home:2",
+        "family:father"
+      ]
+    },
+    {
+      "id": "lex-8282ec9d97e13b62",
+      "form": "апай",
+      "sourceIds": [
+        "guide:apay",
+        "family:aunt",
+        "family:eldersister"
+      ]
+    },
+    {
+      "id": "lex-1fe6dbeea6ae1cca",
+      "form": "агай",
+      "sourceIds": [
+        "guide:agay",
+        "family:uncle",
+        "family:elderbrother"
+      ]
+    },
+    {
+      "id": "lex-58130420aa7a4639",
+      "form": "мынам анае",
+      "sourceIds": [
+        "guide:myanay"
+      ]
+    },
+    {
+      "id": "lex-4bd63a64ed6838ad",
+      "form": "тынад анаед",
+      "sourceIds": [
+        "guide:youranay"
+      ]
+    },
+    {
+      "id": "lex-c7f2ec141984dcd8",
+      "form": "мынам апае",
+      "sourceIds": [
+        "guide:myapay"
+      ]
+    },
+    {
+      "id": "lex-8887735ba865b95d",
+      "form": "мынам",
+      "sourceIds": [
+        "guide:mynam"
+      ]
+    },
+    {
+      "id": "lex-2fa75e874010e737",
+      "form": "тынад",
+      "sourceIds": [
+        "guide:tynad"
+      ]
+    },
+    {
+      "id": "lex-846c29386c6ff50f",
+      "form": "мынам коркае",
+      "sourceIds": [
+        "guide:myhouse"
+      ]
+    },
+    {
+      "id": "lex-bc619708ab43d58e",
+      "form": "тынад коркаед",
+      "sourceIds": [
+        "guide:yourhouse"
+      ]
+    },
+    {
+      "id": "lex-0418fe1a0eba0639",
+      "form": "мынам гуртэ",
+      "sourceIds": [
+        "guide:myvillage"
+      ]
+    },
+    {
+      "id": "lex-42ae7bc40a287c3e",
+      "form": "тынад гуртэд",
+      "sourceIds": [
+        "guide:yourvillage"
+      ]
+    },
+    {
+      "id": "lex-7d507a2edd407192",
+      "form": "мар та",
+      "sourceIds": [
+        "guide:marta"
+      ]
+    },
+    {
+      "id": "lex-f63c966102fc8c0b",
+      "form": "та писпу",
+      "sourceIds": [
+        "guide:tapispu"
+      ]
+    },
+    {
+      "id": "lex-93ac34a93db328ca",
+      "form": "шур",
+      "sourceIds": [
+        "guide:shur",
+        "seem:nature:4"
+      ]
+    },
+    {
+      "id": "lex-3a0b82611e277bd4",
+      "form": "сюрес",
+      "sourceIds": [
+        "guide:syures",
+        "seem:world:8"
+      ]
+    },
+    {
+      "id": "lex-8f1a622f6ce9a2a0",
+      "form": "гурт",
+      "sourceIds": [
+        "guide:gurt",
+        "seem:world:3"
+      ]
+    },
+    {
+      "id": "lex-57be64acafc6bc13",
+      "form": "корка",
+      "sourceIds": [
+        "guide:korka",
+        "seem:home:0"
+      ]
+    },
+    {
+      "id": "lex-edeb49ac93ae965f",
+      "form": "писпу",
+      "sourceIds": [
+        "guide:pispu",
+        "seem:plants:0"
+      ]
+    },
+    {
+      "id": "lex-a25f8c8ece87820d",
+      "form": "пу",
+      "sourceIds": [
+        "guide:pu"
+      ]
+    },
+    {
+      "id": "lex-09b278ba590bd840",
+      "form": "песянай",
+      "sourceIds": [
+        "guide:pesyanay",
+        "seem:home:3",
+        "family:grandmother"
+      ]
+    },
+    {
+      "id": "lex-c507f4d62a1fa203",
+      "form": "песятай",
+      "sourceIds": [
+        "guide:pesyatay",
+        "seem:home:4",
+        "family:grandfather"
+      ]
+    },
+    {
+      "id": "lex-656c040c22164131",
+      "form": "анай",
+      "sourceIds": [
+        "guide:anay",
+        "seem:home:1",
+        "family:mother"
+      ]
+    },
+    {
+      "id": "lex-1bd4cd25dc1c3ce5",
+      "form": "Ӟечбур",
+      "sourceIds": [
+        "guide:zhechbur"
+      ]
+    },
+    {
+      "id": "lex-eecd25cb7a1dff59",
+      "form": "Мынам нимы",
+      "sourceIds": [
+        "guide:myname"
+      ]
+    },
+    {
+      "id": "lex-0b9f9fdf486b78c1",
+      "form": "Кызьы тынад нимыд",
+      "sourceIds": [
+        "guide:whatname"
+      ]
+    },
+    {
+      "id": "lex-765f532d7d6f3514",
+      "form": "ӵукна",
+      "sourceIds": [
+        "guide:chukna"
+      ]
+    },
+    {
+      "id": "lex-d6a3ea9357496c45",
+      "form": "Бур ӵукнаен",
+      "sourceIds": [
+        "guide:goodmorning"
+      ]
+    },
+    {
+      "id": "lex-4eee4e94d3c9371a",
+      "form": "ӝыт",
+      "sourceIds": [
+        "guide:zhyt"
+      ]
+    },
+    {
+      "id": "lex-d0d81b7ac7f19f40",
+      "form": "нянь",
+      "sourceIds": [
+        "guide:nyan"
+      ]
+    },
+    {
+      "id": "lex-0d15311a045aad62",
+      "form": "пуньы",
+      "sourceIds": [
+        "guide:puny"
+      ]
+    },
+    {
+      "id": "lex-2f0f7fc6b3141b99",
+      "form": "ӝӧк",
+      "sourceIds": [
+        "guide:zhok",
+        "seem:home:9"
+      ]
+    },
+    {
+      "id": "lex-682e6183f1975ca9",
+      "form": "сяська",
+      "sourceIds": [
+        "guide:syaska",
+        "seem:plants:1"
+      ]
+    },
+    {
+      "id": "lex-52ae8b6219a0c543",
+      "form": "шунды",
+      "sourceIds": [
+        "guide:shundy",
+        "seem:nature:0"
+      ]
+    },
+    {
+      "id": "lex-6504172ec60d77c3",
+      "form": "лейка",
+      "sourceIds": [
+        "guide:leyka"
+      ]
+    },
+    {
+      "id": "lex-d77d014b94c42ef7",
+      "form": "шыкыс",
+      "sourceIds": [
+        "guide:shykys"
+      ]
+    },
+    {
+      "id": "lex-2fe2af1938c56d7b",
+      "form": "дэрем",
+      "sourceIds": [
+        "guide:derem"
+      ]
+    },
+    {
+      "id": "lex-f5af6b23463d9f2d",
+      "form": "йыркышет",
+      "sourceIds": [
+        "guide:yyrkyshet"
+      ]
+    },
+    {
+      "id": "lex-30cf69b74ce96280",
+      "form": "кускерттон",
+      "sourceIds": [
+        "guide:kuskertton"
+      ]
+    },
+    {
+      "id": "lex-fdedee486db5cce1",
+      "form": "чыртывесь",
+      "sourceIds": [
+        "guide:chyrtyves",
+        "memory:7"
+      ]
+    },
+    {
+      "id": "lex-2c8f40bc5d04316b",
+      "form": "Музъем",
+      "sourceIds": [
+        "seem:nature:1"
+      ]
+    },
+    {
+      "id": "lex-ca9c8d428c4b0c8d",
+      "form": "Ву",
+      "sourceIds": [
+        "seem:nature:2"
+      ]
+    },
+    {
+      "id": "lex-6340f0d1a4a316d7",
+      "form": "Нюлэс",
+      "sourceIds": [
+        "seem:nature:3"
+      ]
+    },
+    {
+      "id": "lex-42350f0650a6d718",
+      "form": "Инбам",
+      "sourceIds": [
+        "seem:nature:5"
+      ]
+    },
+    {
+      "id": "lex-323d4f9663a2c050",
+      "form": "Зор",
+      "sourceIds": [
+        "seem:nature:6"
+      ]
+    },
+    {
+      "id": "lex-807dbf74a77fe102",
+      "form": "Лымы",
+      "sourceIds": [
+        "seem:nature:7"
+      ]
+    },
+    {
+      "id": "lex-b1dde2a0c4a7a0eb",
+      "form": "Толэзь",
+      "sourceIds": [
+        "seem:nature:8",
+        "pattern:2"
+      ]
+    },
+    {
+      "id": "lex-04ce5b00880e1c49",
+      "form": "Тӧл",
+      "sourceIds": [
+        "seem:nature:9"
+      ]
+    },
+    {
+      "id": "lex-a8daee51c18c9ecc",
+      "form": "Турын",
+      "sourceIds": [
+        "seem:plants:2"
+      ]
+    },
+    {
+      "id": "lex-b9df909780088c61",
+      "form": "Кызьпу",
+      "sourceIds": [
+        "seem:plants:3"
+      ]
+    },
+    {
+      "id": "lex-1b599f696943355a",
+      "form": "Кидыс",
+      "sourceIds": [
+        "seem:plants:4"
+      ]
+    },
+    {
+      "id": "lex-8f6f2299cdb3b29c",
+      "form": "Куар",
+      "sourceIds": [
+        "seem:plants:5"
+      ]
+    },
+    {
+      "id": "lex-fcc7a007f1b4924d",
+      "form": "Выжы",
+      "sourceIds": [
+        "seem:plants:6"
+      ]
+    },
+    {
+      "id": "lex-348b225467d9b5b3",
+      "form": "Узы",
+      "sourceIds": [
+        "seem:plants:7"
+      ]
+    },
+    {
+      "id": "lex-7eba56eb3888762e",
+      "form": "Губи",
+      "sourceIds": [
+        "seem:plants:8"
+      ]
+    },
+    {
+      "id": "lex-4e92b929004e24e5",
+      "form": "Кыз",
+      "sourceIds": [
+        "seem:plants:9",
+        "pattern:5"
+      ]
+    },
+    {
+      "id": "lex-d32b1821b14051bf",
+      "form": "Тылобурдо",
+      "sourceIds": [
+        "seem:animals:0"
+      ]
+    },
+    {
+      "id": "lex-7881b0273cf20369",
+      "form": "Коӵыш",
+      "sourceIds": [
+        "seem:animals:1"
+      ]
+    },
+    {
+      "id": "lex-75a8cee147298170",
+      "form": "Пуны",
+      "sourceIds": [
+        "seem:animals:2"
+      ]
+    },
+    {
+      "id": "lex-a9842864b228f32b",
+      "form": "Вал",
+      "sourceIds": [
+        "seem:animals:3"
+      ]
+    },
+    {
+      "id": "lex-ee0918310dd84c13",
+      "form": "Скал",
+      "sourceIds": [
+        "seem:animals:4"
+      ]
+    },
+    {
+      "id": "lex-b34875382cdb6bf8",
+      "form": "Лудкеч",
+      "sourceIds": [
+        "seem:animals:5"
+      ]
+    },
+    {
+      "id": "lex-6402438ecb5276fb",
+      "form": "Гондыр",
+      "sourceIds": [
+        "seem:animals:6"
+      ]
+    },
+    {
+      "id": "lex-cf45879f467be25c",
+      "form": "Кион",
+      "sourceIds": [
+        "seem:animals:7"
+      ]
+    },
+    {
+      "id": "lex-e682c580de8a0e0d",
+      "form": "Ӟичы",
+      "sourceIds": [
+        "seem:animals:8"
+      ]
+    },
+    {
+      "id": "lex-a2e11d0c04f2bf0e",
+      "form": "Чорыг",
+      "sourceIds": [
+        "seem:animals:9"
+      ]
+    },
+    {
+      "id": "lex-752ae01bb580e712",
+      "form": "Нылпи",
+      "sourceIds": [
+        "seem:home:5",
+        "family:child"
+      ]
+    },
+    {
+      "id": "lex-dcc632cd253f5ad6",
+      "form": "Семья",
+      "sourceIds": [
+        "seem:home:6",
+        "family:family"
+      ]
+    },
+    {
+      "id": "lex-4ef300bacf4e9508",
+      "form": "Укно",
+      "sourceIds": [
+        "seem:home:7"
+      ]
+    },
+    {
+      "id": "lex-a594999209f20e7b",
+      "form": "Ӧс",
+      "sourceIds": [
+        "seem:home:8"
+      ]
+    },
+    {
+      "id": "lex-d23ad1a4cc813148",
+      "form": "Адями",
+      "sourceIds": [
+        "seem:world:0"
+      ]
+    },
+    {
+      "id": "lex-76cb570a26c1b90d",
+      "form": "Эш",
+      "sourceIds": [
+        "seem:world:1"
+      ]
+    },
+    {
+      "id": "lex-df59a806fa2a34f0",
+      "form": "Кар",
+      "sourceIds": [
+        "seem:world:2",
+        "case-lock:kar"
+      ]
+    },
+    {
+      "id": "lex-bef7737755e94feb",
+      "form": "Кыл",
+      "sourceIds": [
+        "seem:world:4"
+      ]
+    },
+    {
+      "id": "lex-b03fd79fc811003f",
+      "form": "Кырӟан",
+      "sourceIds": [
+        "seem:world:5"
+      ]
+    },
+    {
+      "id": "lex-eceb3e2faa242c9b",
+      "form": "Нунал",
+      "sourceIds": [
+        "seem:world:6"
+      ]
+    },
+    {
+      "id": "lex-77b8783af67632d9",
+      "form": "Уй",
+      "sourceIds": [
+        "seem:world:7"
+      ]
+    },
+    {
+      "id": "lex-bff3f264977cebcd",
+      "form": "Кизили",
+      "sourceIds": [
+        "seem:world:9",
+        "pattern:4"
+      ]
+    },
+    {
+      "id": "lex-c0cea31b940f3325",
+      "form": "Питыри",
+      "sourceIds": [
+        "pattern:0"
+      ]
+    },
+    {
+      "id": "lex-0950b199fc8c60ce",
+      "form": "Питырес",
+      "sourceIds": [
+        "pattern:1"
+      ]
+    },
+    {
+      "id": "lex-3a1df45f822b392c",
+      "form": "Толэзь кукъёс",
+      "sourceIds": [
+        "pattern:3"
+      ]
+    },
+    {
+      "id": "lex-c771ccf63299fa38",
+      "form": "Пужым",
+      "sourceIds": [
+        "pattern:6"
+      ]
+    },
+    {
+      "id": "lex-636e37fadae952dc",
+      "form": "Кыз йыл",
+      "sourceIds": [
+        "pattern:7"
+      ]
+    },
+    {
+      "id": "lex-e325b547d4268d12",
+      "form": "Легезьпу",
+      "sourceIds": [
+        "pattern:8"
+      ]
+    },
+    {
+      "id": "lex-8d90aba0b53c6a5b",
+      "form": "Боры куар",
+      "sourceIds": [
+        "pattern:9"
+      ]
+    },
+    {
+      "id": "lex-cb0f81d057338608",
+      "form": "Кый син",
+      "sourceIds": [
+        "pattern:10"
+      ]
+    },
+    {
+      "id": "lex-0a409c4f4e845f54",
+      "form": "Ӵӧж бурд",
+      "sourceIds": [
+        "pattern:11"
+      ]
+    },
+    {
+      "id": "lex-784ca3be43fe53a9",
+      "form": "Курег пыд",
+      "sourceIds": [
+        "pattern:12"
+      ]
+    },
+    {
+      "id": "lex-0872a6a24b250f79",
+      "form": "Ӟазег пинь",
+      "sourceIds": [
+        "pattern:13"
+      ]
+    },
+    {
+      "id": "lex-a3a0a505d668a817",
+      "form": "Юсь пуз",
+      "sourceIds": [
+        "pattern:14"
+      ]
+    },
+    {
+      "id": "lex-c969e5058fd8348c",
+      "form": "Така сюр",
+      "sourceIds": [
+        "pattern:15"
+      ]
+    },
+    {
+      "id": "lex-355a82c6e0c08a17",
+      "form": "Кыӵкыскон, жильы",
+      "sourceIds": [
+        "pattern:16"
+      ]
+    },
+    {
+      "id": "lex-55f387382bc9b3c1",
+      "form": "Кирос",
+      "sourceIds": [
+        "pattern:17"
+      ]
+    },
+    {
+      "id": "lex-6f0015c99c264f98",
+      "form": "Шакмако",
+      "sourceIds": [
+        "pattern:18"
+      ]
+    },
+    {
+      "id": "lex-15035257f801bfec",
+      "form": "Быськы",
+      "sourceIds": [
+        "pattern:19"
+      ]
+    },
+    {
+      "id": "lex-b0a805f694052dc3",
+      "form": "пи",
+      "sourceIds": [
+        "family:son"
+      ]
+    },
+    {
+      "id": "lex-1ea631599549dd86",
+      "form": "ныл",
+      "sourceIds": [
+        "family:daughter"
+      ]
+    },
+    {
+      "id": "lex-8f3e78393e3b9e1c",
+      "form": "ӵужатай",
+      "sourceIds": [
+        "family:maternalgrandfather"
+      ]
+    },
+    {
+      "id": "lex-46a2b5800f14fcda",
+      "form": "ӵужанай",
+      "sourceIds": [
+        "family:maternalgrandmother"
+      ]
+    },
+    {
+      "id": "lex-347ca0d0bad2c153",
+      "form": "нылпиос / пиналъёс",
+      "sourceIds": [
+        "family:children"
+      ]
+    },
+    {
+      "id": "lex-5c99a24c83d7a256",
+      "form": "пичи ныл",
+      "sourceIds": [
+        "family:girl"
+      ]
+    },
+    {
+      "id": "lex-19058256de8ca486",
+      "form": "пичи пи",
+      "sourceIds": [
+        "family:boy"
+      ]
+    },
+    {
+      "id": "lex-9173ee866a8ab081",
+      "form": "пичи нуны",
+      "sourceIds": [
+        "family:baby"
+      ]
+    },
+    {
+      "id": "lex-39a47c32f1b558ba",
+      "form": "пиосмурт",
+      "sourceIds": [
+        "family:man"
+      ]
+    },
+    {
+      "id": "lex-3d4da14ff26d0496",
+      "form": "кышномурт",
+      "sourceIds": [
+        "family:woman"
+      ]
+    },
+    {
+      "id": "lex-aba0cb7c22baf3d1",
+      "form": "карт",
+      "sourceIds": [
+        "family:husband"
+      ]
+    },
+    {
+      "id": "lex-f04decfbabfbbea0",
+      "form": "кышно",
+      "sourceIds": [
+        "family:wife"
+      ]
+    },
+    {
+      "id": "lex-3b252c9a0b9c5e54",
+      "form": "агаелэн (апаелэн) пиез",
+      "sourceIds": [
+        "family:nephew"
+      ]
+    },
+    {
+      "id": "lex-a9fe0667704d6203",
+      "form": "агаелэн (апаелэн) нылыз",
+      "sourceIds": [
+        "family:niece"
+      ]
+    },
+    {
+      "id": "lex-3fac333d55df6f7f",
+      "form": "пересь песянай",
+      "sourceIds": [
+        "family:greatgrandmother"
+      ]
+    },
+    {
+      "id": "lex-c1208855b49a215b",
+      "form": "пересь песятай",
+      "sourceIds": [
+        "family:greatgrandfather"
+      ]
+    },
+    {
+      "id": "lex-b69735f0ffa1286b",
+      "form": "картлэн анаез",
+      "sourceIds": [
+        "family:motherinlawH"
+      ]
+    },
+    {
+      "id": "lex-9ef28da05405bb05",
+      "form": "кышнолэн анаез",
+      "sourceIds": [
+        "family:motherinlawW"
+      ]
+    },
+    {
+      "id": "lex-6d6b18ac68ecb71a",
+      "form": "егит пи",
+      "sourceIds": [
+        "family:youngman"
+      ]
+    },
+    {
+      "id": "lex-fcc126a2e27bdb81",
+      "form": "егит ныл",
+      "sourceIds": [
+        "family:youngwoman"
+      ]
+    },
+    {
+      "id": "lex-af20763cb1e708bc",
+      "form": "одӥг",
+      "sourceIds": [
+        "number:1"
+      ]
+    },
+    {
+      "id": "lex-c0126a5508a58b8b",
+      "form": "кык",
+      "sourceIds": [
+        "number:2"
+      ]
+    },
+    {
+      "id": "lex-de13cc8bdbdcbe8f",
+      "form": "куинь",
+      "sourceIds": [
+        "number:3"
+      ]
+    },
+    {
+      "id": "lex-ddd77d38e238d8e1",
+      "form": "ньыль",
+      "sourceIds": [
+        "number:4"
+      ]
+    },
+    {
+      "id": "lex-d4682caa400ce4bd",
+      "form": "вить",
+      "sourceIds": [
+        "number:5"
+      ]
+    },
+    {
+      "id": "lex-efcb7518ba62b810",
+      "form": "куать",
+      "sourceIds": [
+        "number:6"
+      ]
+    },
+    {
+      "id": "lex-6f2015850849423a",
+      "form": "сизьым",
+      "sourceIds": [
+        "number:7"
+      ]
+    },
+    {
+      "id": "lex-78855b6ff82e7f0c",
+      "form": "тямыс",
+      "sourceIds": [
+        "number:8"
+      ]
+    },
+    {
+      "id": "lex-ce54c71fce25a7dd",
+      "form": "укмыс",
+      "sourceIds": [
+        "number:9"
+      ]
+    },
+    {
+      "id": "lex-abedaf12b56fde01",
+      "form": "дас",
+      "sourceIds": [
+        "number:10"
+      ]
+    },
+    {
+      "id": "lex-097ff7ec7356b0c1",
+      "form": "дас одӥг",
+      "sourceIds": [
+        "number:11"
+      ]
+    },
+    {
+      "id": "lex-9879644cc739ae9c",
+      "form": "дас кык",
+      "sourceIds": [
+        "number:12"
+      ]
+    },
+    {
+      "id": "lex-fae32c2dcfec73a8",
+      "form": "дас куинь",
+      "sourceIds": [
+        "number:13"
+      ]
+    },
+    {
+      "id": "lex-ef5bd7ec5c2a0847",
+      "form": "дас ньыль",
+      "sourceIds": [
+        "number:14"
+      ]
+    },
+    {
+      "id": "lex-9bcda2cc810bfe2c",
+      "form": "дас вить",
+      "sourceIds": [
+        "number:15"
+      ]
+    },
+    {
+      "id": "lex-9830a54655482e3b",
+      "form": "Перепеч",
+      "sourceIds": [
+        "memory:1",
+        "pelnyan:2"
+      ]
+    },
+    {
+      "id": "lex-cd9aad7c9cc36fc8",
+      "form": "Пельнянь",
+      "sourceIds": [
+        "memory:2",
+        "pelnyan:1"
+      ]
+    },
+    {
+      "id": "lex-22d69fdfd4fb9173",
+      "form": "Табань",
+      "sourceIds": [
+        "memory:3"
+      ]
+    },
+    {
+      "id": "lex-de1bc54944b3d299",
+      "form": "Нылкышно дэрем",
+      "sourceIds": [
+        "memory:4"
+      ]
+    },
+    {
+      "id": "lex-48430c5728c4e8a7",
+      "form": "Воргорон дӥськут",
+      "sourceIds": [
+        "memory:5"
+      ]
+    },
+    {
+      "id": "lex-f8ef5212d88f3d14",
+      "form": "Айшон",
+      "sourceIds": [
+        "memory:6"
+      ]
+    },
+    {
+      "id": "lex-8aa256b9dbf366a9",
+      "form": "Удмурт корка",
+      "sourceIds": [
+        "memory:8"
+      ]
+    },
+    {
+      "id": "lex-a113b3d22c39ad26",
+      "form": "Куиськон станок",
+      "sourceIds": [
+        "memory:9"
+      ]
+    },
+    {
+      "id": "lex-36c51024a3e8f044",
+      "form": "Кубо",
+      "sourceIds": [
+        "memory:10"
+      ]
+    },
+    {
+      "id": "lex-0dcbd0352049e1f4",
+      "form": "Ӵушкон",
+      "sourceIds": [
+        "memory:11"
+      ]
+    },
+    {
+      "id": "lex-ffd80183cb1d037a",
+      "form": "Лянэс",
+      "sourceIds": [
+        "memory:12"
+      ]
+    },
+    {
+      "id": "lex-c09839605be01eea",
+      "form": "Крезь",
+      "sourceIds": [
+        "memory:13"
+      ]
+    },
+    {
+      "id": "lex-2836333e5ca71ee4",
+      "form": "Кубыз",
+      "sourceIds": [
+        "memory:14"
+      ]
+    },
+    {
+      "id": "lex-5a00d29fc914a6e9",
+      "form": "Толэзё",
+      "sourceIds": [
+        "memory:15"
+      ]
+    },
+    {
+      "id": "lex-6e7b0b8c1acea65d",
+      "form": "Тӧдьы юсь",
+      "sourceIds": [
+        "memory:16"
+      ]
+    },
+    {
+      "id": "lex-efc6835aba953856",
+      "form": "Россиен валче",
+      "sourceIds": [
+        "memory:17"
+      ]
+    },
+    {
+      "id": "lex-541dc98784aa4037",
+      "form": "Ӝӧккышет",
+      "sourceIds": [
+        "memory:18"
+      ]
+    },
+    {
+      "id": "lex-efedb0b135679a40",
+      "form": "Сюй мунё",
+      "sourceIds": [
+        "memory:19"
+      ]
+    },
+    {
+      "id": "lex-0c383620883979dd",
+      "form": "Усьтон",
+      "sourceIds": [
+        "memory:20"
+      ]
+    },
+    {
+      "id": "lex-8c35ba56975b7ad3",
+      "form": "вож",
+      "sourceIds": [
+        "kin:вож"
+      ]
+    },
+    {
+      "id": "lex-2e4d189f2ee190d8",
+      "form": "син",
+      "sourceIds": [
+        "kin:син"
+      ]
+    },
+    {
+      "id": "lex-d5959d62912a7e86",
+      "form": "йырси",
+      "sourceIds": [
+        "kin:йырси"
+      ]
+    },
+    {
+      "id": "lex-9b5215cb698b0214",
+      "form": "вакчи",
+      "sourceIds": [
+        "kin:вакчи"
+      ]
+    },
+    {
+      "id": "lex-4d30e5ebd9a005f6",
+      "form": "кузь",
+      "sourceIds": [
+        "kin:кузь"
+      ]
+    },
+    {
+      "id": "lex-1d6e06317bb4ef5a",
+      "form": "курень",
+      "sourceIds": [
+        "kin:курень"
+      ]
+    },
+    {
+      "id": "lex-ef433d2a9748ee3f",
+      "form": "пичи",
+      "sourceIds": [
+        "kin:пичи"
+      ]
+    },
+    {
+      "id": "lex-fe755961aede37d7",
+      "form": "бадӟым",
+      "sourceIds": [
+        "kin:бадӟым"
+      ]
+    },
+    {
+      "id": "lex-3a64df4f3454aa52",
+      "form": "лавка",
+      "sourceIds": [
+        "case-lock:lavka"
+      ]
+    },
+    {
+      "id": "lex-099c898b1fe043d2",
+      "form": "инты",
+      "sourceIds": [
+        "case-lock:inty"
+      ]
+    },
+    {
+      "id": "lex-411d722bfb5a6ea5",
+      "form": "куала",
+      "sourceIds": [
+        "case-lock:kuala"
+      ]
+    },
+    {
+      "id": "lex-21d5eb4ada935498",
+      "form": "гур",
+      "sourceIds": [
+        "case-lock:gur"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "13 modules launch and return, no script errors",
+    "pass": true
+  },
+  {
+    "name": "Same word in three games, both encounter orders, accumulated translations",
+    "pass": true
+  },
+  {
+    "name": "Case/My Seem order has no phantom guide and survives game reset",
+    "pass": true
+  },
+  {
+    "name": "Multimeaning word stays one training card",
+    "pass": true
+  },
+  {
+    "name": "Old/unknown IDs retained and import unions discoveries",
+    "pass": true
+  },
+  {
+    "name": "Trainer alternate recognition/typing; wrong answer; SRS interval and reload",
+    "pass": true
+  },
+  {
+    "name": "Hard five-minute cap; no unanswered penalty",
+    "pass": true
+  },
+  {
+    "name": "Two tabs append without lost vocabulary",
+    "pass": true
+  },
+  {
+    "name": "Backup v2 includes reviews; import duplicate idempotent",
+    "pass": true
+  },
+  {
+    "name": "Game errors feed word priority without changing game scores",
+    "pass": true
+  },
+  {
+    "name": "Storage blocked remains usable and warns",
+    "pass": true
+  },
+  {
+    "name": "Mobile trainer has no horizontal overflow",
+    "pass": true
+  },
+  {
+    "name": "New game, explicit forms, repeated errors and priority",
+    "pass": true
+  },
+  {
+    "name": "Actual My Seem failed round emits lexical error",
+    "pass": true
+  },
+  {
+    "name": "Single-word sessions retain alternating answer mode",
+    "pass": true
+  },
+  {
+    "name": "Session order varies while difficult words keep priority",
+    "pass": true
+  },
+  {
+    "name": "Check button style and picture recall without translation",
+    "pass": true
+  },
+  {
+    "name": "Missing-picture words show translation and request the full word",
+    "pass": true
+  },
+  {
+    "name": "Image task can switch to text without marking error",
+    "pass": true
+  }
+]

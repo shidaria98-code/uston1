@@ -13,7 +13,8 @@
           "ud": "Шунды",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:1",
@@ -21,7 +22,8 @@
           "ud": "Музъем",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:2",
@@ -29,7 +31,8 @@
           "ud": "Ву",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:3",
@@ -37,7 +40,8 @@
           "ud": "Нюлэс",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:4",
@@ -45,7 +49,8 @@
           "ud": "Шур",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:5",
@@ -53,7 +58,8 @@
           "ud": "Инбам",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:6",
@@ -61,7 +67,8 @@
           "ud": "Зор",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:7",
@@ -69,7 +76,8 @@
           "ud": "Лымы",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:8",
@@ -77,7 +85,8 @@
           "ud": "Толэзь",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "nature:9",
@@ -85,7 +94,8 @@
           "ud": "Тӧл",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         }
       ]
     },
@@ -100,7 +110,8 @@
           "ud": "Писпу",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:1",
@@ -108,7 +119,8 @@
           "ud": "Сяська",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:2",
@@ -116,7 +128,8 @@
           "ud": "Турын",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:3",
@@ -124,7 +137,8 @@
           "ud": "Кызьпу",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:4",
@@ -132,7 +146,8 @@
           "ud": "Кидыс",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:5",
@@ -140,7 +155,8 @@
           "ud": "Куар",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:6",
@@ -148,7 +164,8 @@
           "ud": "Выжы",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:7",
@@ -156,7 +173,8 @@
           "ud": "Узы",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:8",
@@ -164,7 +182,8 @@
           "ud": "Губи",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "plants:9",
@@ -172,7 +191,8 @@
           "ud": "Кыз",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         }
       ]
     },
@@ -187,7 +207,8 @@
           "ud": "Тылобурдо",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:1",
@@ -195,7 +216,8 @@
           "ud": "Коӵыш",
           "hint": "",
           "note": "Писэй — разговорный или диалектный вариант слова «кошка».",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:2",
@@ -203,7 +225,8 @@
           "ud": "Пуны",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:3",
@@ -211,7 +234,8 @@
           "ud": "Вал",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:4",
@@ -219,7 +243,8 @@
           "ud": "Скал",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:5",
@@ -227,7 +252,8 @@
           "ud": "Лудкеч",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:6",
@@ -235,7 +261,8 @@
           "ud": "Гондыр",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:7",
@@ -243,7 +270,8 @@
           "ud": "Кион",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:8",
@@ -251,7 +279,8 @@
           "ud": "Ӟичы",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "animals:9",
@@ -259,7 +288,8 @@
           "ud": "Чорыг",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         }
       ]
     },
@@ -274,7 +304,8 @@
           "ud": "Корка",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "home:1",
@@ -282,7 +313,8 @@
           "ud": "Анай",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "home:2",
@@ -290,7 +322,8 @@
           "ud": "Атай",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "home:3",
@@ -298,7 +331,8 @@
           "ud": "Песянай",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "home:4",
@@ -306,7 +340,8 @@
           "ud": "Песятай",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "home:5",
@@ -314,7 +349,8 @@
           "ud": "Нылпи",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "home:6",
@@ -322,7 +358,8 @@
           "ud": "Семья",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "home:7",
@@ -330,7 +367,8 @@
           "ud": "Укно",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "home:8",
@@ -338,7 +376,8 @@
           "ud": "Ӧс",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "home:9",
@@ -346,7 +385,8 @@
           "ud": "Ӝӧк",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         }
       ]
     },
@@ -361,7 +401,8 @@
           "ud": "Адями",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "world:1",
@@ -369,7 +410,8 @@
           "ud": "Эш",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "world:2",
@@ -377,7 +419,8 @@
           "ud": "Кар",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "world:3",
@@ -385,7 +428,8 @@
           "ud": "Гурт",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "world:4",
@@ -393,7 +437,8 @@
           "ud": "Кыл",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "world:5",
@@ -401,7 +446,8 @@
           "ud": "Кырӟан",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "world:6",
@@ -409,7 +455,8 @@
           "ud": "Нунал",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "world:7",
@@ -417,7 +464,8 @@
           "ud": "Уй",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": false
         },
         {
           "id": "world:8",
@@ -425,7 +473,8 @@
           "ud": "Сюрес",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         },
         {
           "id": "world:9",
@@ -433,7 +482,8 @@
           "ud": "Кизили",
           "hint": "",
           "note": "",
-          "image": ""
+          "image": "",
+          "imageRecall": true
         }
       ]
     }
