@@ -107,6 +107,11 @@ content:
                     - "webp"
                     - "gif"
                     - "svg"
+              -
+                name: "imageRecall"
+                label: "Использовать картинку для ввода слова по памяти"
+                type: "boolean"
+                description: "Включайте, если картинка однозначно указывает на это слово без русского перевода."
   -
     name: "kin-ta"
     label: "Кин та?"
@@ -614,3 +619,41 @@ content:
                     label: "Адрес ссылки"
                     type: "string"
                     required: true
+
+  - name: training
+    label: "Повторение слов — настройки"
+    type: file
+    path: content/training.json
+    format: json
+    operations: {create: false, delete: false, rename: false}
+    fields:
+      - {name: title, label: "Заголовок", type: string, required: true}
+      - {name: intro, label: "Описание", type: text, required: true}
+      - {name: minutes, label: "Обычная длительность, минут (3–5)", type: number, required: true}
+      - {name: maxMinutes, label: "Предел сессии, минут (3–5)", type: number, required: true}
+      - {name: maxQuestions, label: "Максимум заданий (2–20)", type: number, required: true}
+      - {name: retryMinutes, label: "Повтор после ошибки, минут", type: number, required: true}
+      - name: intervalDays
+        label: "Интервалы верных повторений, дни"
+        type: number
+        list: true
+  - name: vocabulary-extra
+    label: "Слова новых игр"
+    type: file
+    path: content/vocabulary-extra.json
+    format: json
+    operations: {create: false, delete: false, rename: false}
+    fields:
+      - name: words
+        label: "Словарные формы из новых игр"
+        type: object
+        list: true
+        fields:
+          - {name: id, label: "Постоянный ID слова в игре", type: string, required: true}
+          - {name: game, label: "ID игры", type: string, required: true}
+          - {name: u, label: "Удмуртская словарная форма", type: string, required: true}
+          - {name: ru, label: "Утверждённый перевод", type: string, required: true}
+          - name: forms
+            label: "Допустимые формы ответа"
+            type: string
+            list: true

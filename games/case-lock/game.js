@@ -84,7 +84,7 @@ function checkAnswer(){if(s.resolved||s.selected.length!==2)return;const g=group
 if(correct){s.resolved=true;if(!Object.hasOwn(s.scores,id))s.scores[id]=s.attempts===0?10:5;s.feedback=repeat?'Верно! Форма закреплена.':`Ключ подошёл! +${s.attempts===0?10:5} баллов.`;}
 else{s.attempts++;if(s.attempts>=2){s.resolved=true;if(!Object.hasOwn(s.scores,id))s.scores[id]=0;s.feedback=`Правильная форма: ${g.forms[s.level]}. ${repeat?'Вспомни её по объяснению.':'Повторим это слово в конце замка.'}`;}else{s.selected=[];s.feedback='Пока не подошло. Проверь вопрос и порядок элементов. Осталась одна попытка.';}
 if(!repeat&&!s.retries.includes(s.queue[s.position])){s.retries.push(s.queue[s.position]);s.queue.push(s.queue[s.position]);}}
-save();report('answer');render();}
+window.UstonWords?.result('case-lock',(window.UstonCaseDictionary?.entries||[]).find(w=>w.index===s.queue[s.position])?.id,correct);save();report('answer');render();}
 $('help').onclick=()=>$('guide').showModal();$('forms').innerHTML=groups.map(g=>`<tr><th lang="udm">${escCopy(g.word)}<small>${escCopy(g.meaning)}</small></th>${g.forms.map(f=>`<td lang="udm">${escCopy(f)}</td>`).join('')}</tr>`).join('');
 $('reset').onclick=()=>{if(confirm('Сбросить прогресс и баллы «Кытын? Кытчы? Кытысь?»?')){s=fresh();save();report('reset');render();}};
 window.UstonCaseLock={version:1,getProgress:()=>JSON.parse(JSON.stringify({score:total(),maxScore:300,completed:s.completed,finished:s.level===3,runId:s.runId})),storageKey:KEY};render();

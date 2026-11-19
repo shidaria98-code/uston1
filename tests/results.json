@@ -1,0 +1,34 @@
+[
+  {
+    "name": "13 modules launch/return; awards stable",
+    "passed": true
+  },
+  {
+    "name": "Multan null/malformed chapter positions, legacy answer migration, I-II-III-I/reload",
+    "passed": true
+  },
+  {
+    "name": "Multan blocked storage: launch/answer/chapter/navigation",
+    "passed": true
+  },
+  {
+    "name": "Guide all exercise types: completed revisit/resume has continuation",
+    "passed": true
+  },
+  {
+    "name": "Export/import roundtrip and null removal; transactional rollback on third write",
+    "passed": true
+  },
+  {
+    "name": "Reader bridge rejects foreign parent and wrong protocol/app/origin; same-origin works",
+    "passed": true
+  },
+  {
+    "name": "Legacy v1 backup: all module storage formats survive export/import",
+    "passed": true
+  },
+  {
+    "name": "file:// all 13 launch/return",
+    "passed": true
+  }
+]

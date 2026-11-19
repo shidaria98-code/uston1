@@ -4,11 +4,12 @@
   const familyRounds = new Set(["close","generations","maternal","branches","cousins","inlaws","nephews","three","oldest","brothers","aunt","fatherSon","mothers","maternalSon","teenagers","inlawMarina","inlawAndrey","greatLine","baby","nephewPavel"]);
   const keys = ['uston.family-tree.v1','uston.das-vityashki.v1',
     'uston.beny-bony.options.v1','uston.beny-bony.blitz.best.v1'];
+  const ownKeys = [...keys];
   const mods = ["blitz","layouts","roles","snow","ice","wind","clock","smart","trials","cup"];
   const number = n => Number.isFinite(n) && n >= 0 && n <= 1e10;
   const board = a => Array.isArray(a) && a.length === 16 && new Set(a).size === 16 && a.every(n => Number.isInteger(n) && n >= 0 && n < 16);
   function validate(data, out) {
-    for (const key of keys) {
+    for (const key of ownKeys) {
       if (!Object.hasOwn(data,key)) continue;
       const v=data[key];
       if(v===null) continue;

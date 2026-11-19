@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Compile editable JSON into the existing static portal. No third-party dependencies."""
 from pathlib import Path
-import argparse,copy,html,json,os,re,sys,tempfile,hashlib,shutil
+import argparse,copy,html,json,os,re,sys,tempfile,hashlib,shutil,unicodedata
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
+def lexkey(value):return ' '.join(unicodedata.normalize('NFC',value).lower().split())
 class ContentError(ValueError):pass
 def need(ok,message):
  if not ok:raise ContentError(message)
@@ -167,6 +168,7 @@ def compile_all(data,c):
    w=words[id];compiled.append([w['ru'],w['ud'],w.get('hint',''),w.get('note','')]);image=asset(w.get('image',''),id,{'.png','.jpg','.jpeg','.webp','.gif','.svg'});art[w['ru']]={'src':image}if image else c['seemArt'][id]
   categories.append({'id':cid,'ru':category['ru'],'ud':category['ud'],'words':compiled})
  p.assignment('const categories=',categories);p.assignment('const WORD_ART=',art)
+ training_atlas=read_assignment(p.source,'const WORD_ATLAS=');training_shared=read_assignment((ROOT/'assets/programs/shared.js').read_text(encoding='utf-8'),'window.UDM_SHARED=')
  # Only presentation text is changed; game IDs, storage keys and scoring stay untouched.
  if 'function wordHint()'not in p.source:
   p.replace('function loadWord(i){',"function wordHint(){return active.words[idx][2]||('👩 По-русски: «'+active.words[idx][0]+'».')}\nfunction loadWord(i){")
@@ -251,7 +253,65 @@ def compile_all(data,c):
    entry['aliases'].insert(0,entry['id'])
   elif entry['id']in byid and byid[entry['id']]['game']=='case-lock':byid[entry['id']].update(u=g['word'],ru=g['meaning'])
   entries.append(entry)
+ # Persistent lexical IDs are separate from game indices and editable spelling.
+ identities=load('content/vocabulary-identities.json')['units'];canonical={};byform={}
+ for unit in identities:
+  need(isinstance(unit,dict)and isinstance(unit.get('id'),str)and isinstance(unit.get('sourceIds'),list),'Неверный реестр постоянных ID')
+  for source in unit['sourceIds']:
+   need(source not in canonical,'Повтор source ID в реестре');canonical[source]=unit['id']
+  byform[lexkey(unit['form'])]=unit['id']
+ for w in bank:w['canonicalId']=canonical.get(w['id'])or byform.get(lexkey(w['u']))or'lex-'+hashlib.sha256(lexkey(w['u']).encode()).hexdigest()[:16]
  output[ROOT/'assets/lexicon-v18.js']='/* Compiled from content/*.json. Edit with Pages CMS. */\nwindow.UstonLexicon='+js(bank)+';\n'
+ training_art={};image_recall={'seem:'+category['id']+':'+str(i):next(word for word in category['words']if word['id']==source_id).get('imageRecall',True) for category in seem['categories']for i,source_id in enumerate(c['seemIds'][category['id']])}
+ for w in bank:
+  if w.get('kind')!='seem':continue
+  picture=copy.deepcopy(art.get(w['ru'],{}))
+  if 'src'in picture:
+   match=re.fullmatch(r'__UDM_ASSET_(\d+)__',picture['src'])
+   if match:picture['src']=training_shared[int(match.group(1))]
+  if picture:
+   need(image_recall[w['id']]is None or type(image_recall[w['id']])is bool,'Режим картинки должен быть включён или выключен');picture['recall']=image_recall[w['id']]is True;training_art[w['canonicalId']]=picture
+ output[ROOT/'assets/training-art.js']='/* Reuses approved My Seem illustrations; no answer labels. */\nwindow.UstonTrainingArt='+js({'byUnit':training_art,'atlas':training_atlas})+';\n'
+
+ training=load('content/training.json')
+ for key,lo,hi in [('minutes',3,5),('maxMinutes',3,5),('maxQuestions',2,20),('retryMinutes',1,1440)]:need(type(training.get(key))is int and lo<=training[key]<=hi,'Тренировка: неверное '+key)
+ need(training['minutes']<=training['maxMinutes'],'Длительность тренировки превышает предел')
+ need(isinstance(training.get('intervalDays'),list)and 1<=len(training['intervalDays'])<=12 and all(type(n)is int and 1<=n<=365 for n in training['intervalDays'])and training['intervalDays']==sorted(set(training['intervalDays'])),'Интервалы: нужны возрастающие целые дни')
+ text(training.get('title'),'Заголовок тренировки',True,200);text(training.get('intro'),'Введение тренировки',True,2000)
+ extra=load('content/vocabulary-extra.json');need(isinstance(extra.get('words'),list),'Нужен список дополнительных слов')
+ # New games own their vocabulary. No separate pre-population of a global dictionary.
+ for source in sorted((ROOT/'content').rglob('*.json')):
+  if source.name in ['vocabulary-extra.json','vocabulary-identities.json']:continue
+  declared=json.loads(source.read_text(encoding='utf-8'))
+  if not isinstance(declared,dict)or'gameId'not in declared:continue
+  game=declared['gameId'];text(game,'ID игры',True,100)
+  blocks=[('vocabulary',declared.get('vocabulary',[]))]
+  for question in declared.get('questions',[]):
+   need(isinstance(question,dict)and isinstance(question.get('id'),str),'Вопросу нужен постоянный ID')
+   words=question.get('vocabulary',[]);need(isinstance(words,list)and len(words)<=2,'В вопросе допускается до двух слов')
+   blocks.append((question['id'],words))
+  for item,words in blocks:
+   need(isinstance(words,list),'Нужен список vocabulary')
+   for index,word in enumerate(words):
+    need(isinstance(word,dict),'Неверная словарная единица игры')
+    extra['words'].append({**word,'id':word.get('id',game+':'+item+':'+hashlib.sha256(lexkey(word.get('u','')).encode()).hexdigest()[:16]),'game':game})
+ extra_ids={}
+ for w in extra['words']:
+  need(isinstance(w,dict),'Некорректная словарная запись')
+  for key in ['id','u','ru','game']:text(w.get(key),'Словарь: '+key,True,300)
+  need(w['id']not in byid and(w['id']not in extra_ids or extra_ids[w['id']]==(w['game'],lexkey(w['u']))),'Игровой ID используется для разных слов');extra_ids[w['id']]=(w['game'],lexkey(w['u']))
+  need(isinstance(w.get('forms',[]),list)and all(isinstance(f,str)and len(f)<=300 for f in w.get('forms',[])),'Неверные словоформы')
+ output[ROOT/'assets/training-config.js']='window.UstonTrainingConfig='+js(training)+';\n'
+ for w in extra['words']:w['canonicalId']=canonical.get(w['id'])or byform.get(lexkey(w['u']))or next((x['canonicalId']for x in bank if lexkey(x['u'])==lexkey(w['u'])),None)or'lex-'+hashlib.sha256(lexkey(w['u']).encode()).hexdigest()[:16]
+ for w in extra['words']:
+  if w['id']not in canonical:
+   existing=next((u for u in identities if u['id']==w['canonicalId']),None)
+   if existing:existing['sourceIds'].append(w['id'])
+   else:identities.append({'id':w['canonicalId'],'form':w['u'],'sourceIds':[w['id']]})
+   canonical[w['id']]=w['canonicalId']
+ output[ROOT/'content/vocabulary-identities.json']=json.dumps({'units':identities},ensure_ascii=False,indent=2)+'\n'
+ output[ROOT/'assets/vocabulary-extra.js']='window.UstonVocabularyExtra='+js(extra['words'])+';\n'
+
  for name in ['assets/case-lock-dictionary.js','games/case-lock/dictionary.js']:
   f=ROOT/name;output[f]=assign(f.read_text(encoding='utf-8'),'const entries=',entries)
  # District field names are editor-friendly; the rendered shape stays compatible with the map.
@@ -312,7 +372,7 @@ def main(argv=None):
     if (ROOT/name).is_dir():shutil.copytree(ROOT/name,destination/name,ignore=shutil.ignore_patterns('__pycache__','*.pyc','tests'))
    for name in ['index.html','.nojekyll']:
     if (ROOT/name).is_file():shutil.copyfile(ROOT/name,destination/name)
-  print(('Проверено'if args.check else'Собрано')+': 6 разделов CMS; '+str(len(changed))+' файлов '+('требуют обновления'if args.check else'обновлено')+'.')
+  print(('Проверено'if args.check else'Собрано')+': 8 разделов CMS; '+str(len(changed))+' файлов '+('требуют обновления'if args.check else'обновлено')+'.')
   return 0
  except (ContentError,KeyError,TypeError,AttributeError)as e:
   print('Ошибка в материалах CMS: '+str(e),file=sys.stderr);return 1
