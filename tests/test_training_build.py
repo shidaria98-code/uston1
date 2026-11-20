@@ -10,7 +10,7 @@ class TrainingBuild(unittest.TestCase):
   try:
    fixture.write_text(json.dumps({'gameId':'history-quiz','questions':[{'id':f'q{i}','vocabulary':[{'u':'Кион','ru':'Волк'},{'u':'Пример нового слова','ru':'Тестовый перевод'}]}for i in range(20)]},ensure_ascii=False))
    output=self.compile();extra=json.loads(output[ROOT/'assets/vocabulary-extra.js'].split('=',1)[1].rstrip(';\n'));bank=json.loads(output[ROOT/'assets/lexicon-v18.js'].split('window.UstonLexicon=',1)[1].rstrip(';\n'));wolf=next(w for w in bank if w['id']=='seem:animals:7')
-   self.assertEqual(len(extra),40);self.assertEqual(len({w['canonicalId']for w in extra}),2);self.assertTrue(all(w['canonicalId']==wolf['canonicalId']for w in extra if w['u']=='Кион'))
+   extra=[w for w in extra if w['game']=='history-quiz'];self.assertEqual(len(extra),40);self.assertEqual(len({w['canonicalId']for w in extra}),2);self.assertTrue(all(w['canonicalId']==wolf['canonicalId']for w in extra if w['u']=='Кион'))
    fixture.write_text(json.dumps({'gameId':'history-quiz','questions':[{'id':'q0','vocabulary':[{'u':'а','ru':'а'}]*3}]}))
    with self.assertRaises(b.ContentError):self.compile()
   finally:fixture.unlink(missing_ok=True)

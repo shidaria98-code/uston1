@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style>
+/* STYLES */
+</style>
+</head>
+<body>
+<main>
+<button id="portal-return" data-copy="returnHub" hidden></button>
+<header><p class="brand" data-copy="brand"></p><h1 data-copy="title"></h1><p class="subtitle" data-copy="subtitle"></p></header>
+<nav data-label="modes">
+<button data-mode="study" aria-pressed="true" data-copy="study"></button>
+<button data-mode="practice" aria-pressed="false" data-copy="practice"></button>
+<button data-mode="test" aria-pressed="false" data-copy="test"></button>
+</nav>
+<details class="guide">
+<summary data-copy="guide"></summary>
+<div class="guide-body"><ol><li data-copy="guideStudy"></li><li data-copy="guidePractice"></li><li data-copy="guideTest"></li></ol></div>
+</details>
+<section id="wheel-view" class="layout" data-label="wheel">
+<div class="stage">
+<div class="wheel" id="wheel">
+<div id="outer" class="ring outer"></div><div id="inner" class="ring inner"></div>
+<img class="art pointer" data-art="pointer_main" alt="">
+<img class="art ornament" data-art="pointer_ornament" alt="">
+<div class="hub"><img id="lock" class="art lock" data-art="lock_closed" alt=""></div>
+</div>
+</div>
+<div class="panel">
+<details id="verb-picker" class="verb-picker">
+<summary><span data-copy="verb"></span><strong id="current-verb" lang="udm"></strong></summary>
+<div id="verb-list" class="verb-list" role="group" data-label="verbList"></div>
+</details>
+<p id="meaning" class="meaning"></p>
+<p id="instructions"></p>
+<div class="controls" role="group" data-label="rotate">
+<div><button data-ring="inner" data-step="-1">↶</button><span data-copy="pronouns"></span><button data-ring="inner" data-step="1">↷</button></div>
+<div><button data-ring="outer" data-step="-1">↶</button><span data-copy="forms"></span><button data-ring="outer" data-step="1">↷</button></div>
+</div>
+<div id="gaps"></div>
+<div id="practice-actions" hidden><button id="check-gaps" class="primary" data-copy="check"></button> <button id="new-gaps" data-copy="newGaps"></button></div>
+<p id="wheel-status" class="feedback" role="status"></p>
+</div>
+</section>
+<section id="test-view" class="panel test" data-label="test" hidden>
+<h2 data-copy="test"></h2><div id="test-body"></div>
+</section>
+<details class="save-tools">
+<summary data-copy="saveTools"></summary>
+<button id="export-save" data-copy="exportSave"></button>
+<button id="import-save" data-copy="importSave"></button>
+<input type="file" id="save-file" accept=".json,application/json" hidden>
+</details>
+<p id="save-status" class="feedback" role="status"></p>
+</main>
+<script type="application/json" id="data">/* DATA */</script>
+<script>
+const art = /* ART */;
+/* CORE */
+/* BRIDGE */
+/* APP */
+</script>
+</body>
+</html>
