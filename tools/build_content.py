@@ -284,8 +284,10 @@ def compile_all(data,c):
   if source.name in ['vocabulary-extra.json','vocabulary-identities.json']:continue
   declared=json.loads(source.read_text(encoding='utf-8'))
   if not isinstance(declared,dict)or'gameId'not in declared:continue
-  game=declared['gameId'];text(game,'ID игры',True,100)
+  game=declared.get('portalGameId',declared['gameId']);text(game,'ID игры',True,100)
   blocks=[('vocabulary',declared.get('vocabulary',[]))]
+  if isinstance(declared.get('lexemes'),list):
+   blocks.append(('lexemes',[{'id':game+':'+entry['id'],'u':entry['lemma'],'ru':entry['ru']}for entry in declared['lexemes']if entry.get('status')=='approved'and entry.get('ru')and entry.get('dictionary',True)]))
   for question in declared.get('questions',[]):
    need(isinstance(question,dict)and isinstance(question.get('id'),str),'Вопросу нужен постоянный ID')
    words=question.get('vocabulary',[]);need(isinstance(words,list)and len(words)<=2,'В вопросе допускается до двух слов')
@@ -343,6 +345,9 @@ def compile_all(data,c):
    rendered+='</ol>'
   rendered+='</article>'
  rendered+='</section>\n';f=ROOT/'index.html';source=f.read_text(encoding='utf-8');a=source.index('<section id="page-methods"');b=source.index('<section id="page-profile"',a);output[f]=source[:a]+rendered+source[b:]
+ import importlib.util
+ spec=importlib.util.spec_from_file_location('uston_conjugation_content',Path(__file__).with_name('conjugation_content.py'));module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+ output.update(module.compile_game(ROOT,need,text,asset,js))
  manifest_path=ROOT/'MANIFEST_v18.json'
  if manifest_path.exists():
   manifest=load('MANIFEST_v18.json');manifest['release']='v18-cms-20261116';manifest['base_commit']=c['baseCommit'];files={}
@@ -372,7 +377,7 @@ def main(argv=None):
     if (ROOT/name).is_dir():shutil.copytree(ROOT/name,destination/name,ignore=shutil.ignore_patterns('__pycache__','*.pyc','tests'))
    for name in ['index.html','.nojekyll']:
     if (ROOT/name).is_file():shutil.copyfile(ROOT/name,destination/name)
-  print(('Проверено'if args.check else'Собрано')+': 8 разделов CMS; '+str(len(changed))+' файлов '+('требуют обновления'if args.check else'обновлено')+'.')
+  print(('Проверено'if args.check else'Собрано')+': 9 разделов CMS; '+str(len(changed))+' файлов '+('требуют обновления'if args.check else'обновлено')+'.')
   return 0
  except (ContentError,KeyError,TypeError,AttributeError)as e:
   print('Ошибка в материалах CMS: '+str(e),file=sys.stderr);return 1

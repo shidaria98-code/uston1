@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Initial seven words only; infinitive, six pronouns, no hidden bank",
+    "pass": true
+  },
+  {
+    "name": "Picker opens visible verbs, not hidden middle; scrolling and repeated visits dedupe",
+    "pass": true
+  },
+  {
+    "name": "All 20 study and practice locks, wrong/correct attempts, unchanged portal score",
+    "pass": true
+  },
+  {
+    "name": "All 20 final questions, wrong-answer reveal, lemma coverage, final results",
+    "pass": true
+  },
+  {
+    "name": "New final attempt picks ten unique questions and four unique options",
+    "pass": true
+  },
+  {
+    "name": "Reload retains active answers, rings, IDs, profile and mode",
+    "pass": true
+  },
+  {
+    "name": "Same pronoun in either order and three games has one card",
+    "pass": true
+  },
+  {
+    "name": "Portal export/import roundtrip keeps game and dictionary, repeats idempotently",
+    "pass": true
+  },
+  {
+    "name": "Old standalone v1 save and portal v1 backup migrate without opening hidden words",
+    "pass": true
+  },
+  {
+    "name": "Standalone import replaces this game only and retained shared words survive",
+    "pass": true
+  },
+  {
+    "name": "Storage failure retains outbox, shared session vocabulary and manual export",
+    "pass": true
+  },
+  {
+    "name": "Foreign/wrong protocol messages do not mutate saves or vocabulary",
+    "pass": true
+  },
+  {
+    "name": "Mobile widths, long forms, all modes and keyboard remain inside page",
+    "pass": true
+  },
+  {
+    "name": "CMS edited title, infinitive and personal form appear in the actual page",
+    "pass": true
+  },
+  {
+    "name": "File portal hydrates imported legacy snapshot and keeps current answers",
+    "pass": true
+  },
+  {
+    "name": "Unknown future tasks and events stay archived and unacknowledged",
+    "pass": true
+  },
+  {
+    "name": "Game-only transfer restores words even when all old events were acknowledged",
+    "pass": true
+  },
+  {
+    "name": "Instructions and new practice attempts preserve completed points",
+    "pass": true
+  },
+  {
+    "name": "Malformed standalone import leaves the current round intact",
+    "pass": true
+  }
+]

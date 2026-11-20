@@ -4,42 +4,48 @@
       "id": "lex-bf2a4f3e96151ef9",
       "form": "мон",
       "sourceIds": [
-        "guide:mon"
+        "guide:mon",
+        "conjugation-lock:pronoun-p1s"
       ]
     },
     {
       "id": "lex-f22cfc99b644255f",
       "form": "тон",
       "sourceIds": [
-        "guide:ton"
+        "guide:ton",
+        "conjugation-lock:pronoun-p2s"
       ]
     },
     {
       "id": "lex-4b7c90b8f6cf6fa5",
       "form": "со",
       "sourceIds": [
-        "guide:so"
+        "guide:so",
+        "conjugation-lock:pronoun-p3s"
       ]
     },
     {
       "id": "lex-89a46a478e1fcd22",
       "form": "ми",
       "sourceIds": [
-        "guide:mi"
+        "guide:mi",
+        "conjugation-lock:pronoun-p1p"
       ]
     },
     {
       "id": "lex-d8e2379fc5d110bb",
       "form": "тӥ",
       "sourceIds": [
-        "guide:ti"
+        "guide:ti",
+        "conjugation-lock:pronoun-p2p"
       ]
     },
     {
       "id": "lex-41a2a9053978c7df",
       "form": "соос",
       "sourceIds": [
-        "guide:soos"
+        "guide:soos",
+        "conjugation-lock:pronoun-p3p"
       ]
     },
     {
@@ -97,7 +103,8 @@
       "sourceIds": [
         "guide:atay",
         "seem:home:2",
-        "family:father"
+        "family:father",
+        "conjugation-lock:word-атай"
       ]
     },
     {
@@ -248,7 +255,8 @@
       "sourceIds": [
         "guide:pesyanay",
         "seem:home:3",
-        "family:grandmother"
+        "family:grandmother",
+        "conjugation-lock:word-песянай"
       ]
     },
     {
@@ -266,14 +274,16 @@
       "sourceIds": [
         "guide:anay",
         "seem:home:1",
-        "family:mother"
+        "family:mother",
+        "conjugation-lock:word-анай"
       ]
     },
     {
       "id": "lex-1bd4cd25dc1c3ce5",
       "form": "Ӟечбур",
       "sourceIds": [
-        "guide:zhechbur"
+        "guide:zhechbur",
+        "conjugation-lock:word-ӟечбур"
       ]
     },
     {
@@ -581,7 +591,8 @@
       "form": "Нылпи",
       "sourceIds": [
         "seem:home:5",
-        "family:child"
+        "family:child",
+        "conjugation-lock:word-нылпи"
       ]
     },
     {
@@ -603,7 +614,8 @@
       "id": "lex-a594999209f20e7b",
       "form": "Ӧс",
       "sourceIds": [
-        "seem:home:8"
+        "seem:home:8",
+        "conjugation-lock:word-ӧс"
       ]
     },
     {
@@ -617,7 +629,8 @@
       "id": "lex-76cb570a26c1b90d",
       "form": "Эш",
       "sourceIds": [
-        "seem:world:1"
+        "seem:world:1",
+        "conjugation-lock:word-эш"
       ]
     },
     {
@@ -1245,6 +1258,321 @@
       "form": "гур",
       "sourceIds": [
         "case-lock:gur"
+      ]
+    },
+    {
+      "id": "lex-7c12d62172447979",
+      "form": "вераны",
+      "sourceIds": [
+        "conjugation-lock:verb-вераны"
+      ]
+    },
+    {
+      "id": "lex-2e3fa035005bbaf4",
+      "form": "ужаны",
+      "sourceIds": [
+        "conjugation-lock:verb-ужаны"
+      ]
+    },
+    {
+      "id": "lex-dc9b229d28d927df",
+      "form": "малпаны",
+      "sourceIds": [
+        "conjugation-lock:verb-малпаны"
+      ]
+    },
+    {
+      "id": "lex-c0d708b6933ca8e0",
+      "form": "юаны",
+      "sourceIds": [
+        "conjugation-lock:verb-юаны"
+      ]
+    },
+    {
+      "id": "lex-988c8f728b1b934b",
+      "form": "келяны",
+      "sourceIds": [
+        "conjugation-lock:verb-келяны"
+      ]
+    },
+    {
+      "id": "lex-4c322a49b6b521e9",
+      "form": "гожъяны",
+      "sourceIds": [
+        "conjugation-lock:verb-гожъяны"
+      ]
+    },
+    {
+      "id": "lex-37e500c6b1a7d621",
+      "form": "кырӟаны",
+      "sourceIds": [
+        "conjugation-lock:verb-кырӟаны"
+      ]
+    },
+    {
+      "id": "lex-e915aee2631c99d9",
+      "form": "возьманы",
+      "sourceIds": [
+        "conjugation-lock:verb-возьманы"
+      ]
+    },
+    {
+      "id": "lex-266a3c89225f6f70",
+      "form": "бичаны",
+      "sourceIds": [
+        "conjugation-lock:verb-бичаны"
+      ]
+    },
+    {
+      "id": "lex-88a0f44ca31b155f",
+      "form": "валаны",
+      "sourceIds": [
+        "conjugation-lock:verb-валаны"
+      ]
+    },
+    {
+      "id": "lex-c007a3557d930525",
+      "form": "дасяны",
+      "sourceIds": [
+        "conjugation-lock:verb-дасяны"
+      ]
+    },
+    {
+      "id": "lex-dc34ec5ec401640d",
+      "form": "шоканы",
+      "sourceIds": [
+        "conjugation-lock:verb-шоканы"
+      ]
+    },
+    {
+      "id": "lex-e9ed90138b62cdc5",
+      "form": "пытсаны",
+      "sourceIds": [
+        "conjugation-lock:verb-пытсаны"
+      ]
+    },
+    {
+      "id": "lex-ce635fb5942c50c1",
+      "form": "чиданы",
+      "sourceIds": [
+        "conjugation-lock:verb-чиданы"
+      ]
+    },
+    {
+      "id": "lex-a0cda29e964a0cf2",
+      "form": "ватсаны",
+      "sourceIds": [
+        "conjugation-lock:verb-ватсаны"
+      ]
+    },
+    {
+      "id": "lex-f9b36318f10d7c0b",
+      "form": "интыяны",
+      "sourceIds": [
+        "conjugation-lock:verb-интыяны"
+      ]
+    },
+    {
+      "id": "lex-0e910c9374de0d84",
+      "form": "возьматъяны",
+      "sourceIds": [
+        "conjugation-lock:verb-возьматъяны"
+      ]
+    },
+    {
+      "id": "lex-53105a5b866b51ee",
+      "form": "быдэсъяны",
+      "sourceIds": [
+        "conjugation-lock:verb-быдэсъяны"
+      ]
+    },
+    {
+      "id": "lex-963740ff13dccc2c",
+      "form": "ушъяны",
+      "sourceIds": [
+        "conjugation-lock:verb-ушъяны"
+      ]
+    },
+    {
+      "id": "lex-c7ec0770ff15b0d5",
+      "form": "дӥсяны",
+      "sourceIds": [
+        "conjugation-lock:verb-дӥсяны"
+      ]
+    },
+    {
+      "id": "lex-9a5e1719011675a2",
+      "form": "та",
+      "sourceIds": [
+        "conjugation-lock:word-та"
+      ]
+    },
+    {
+      "id": "lex-f399e8caebdfc855",
+      "form": "школа",
+      "sourceIds": [
+        "conjugation-lock:word-школа"
+      ]
+    },
+    {
+      "id": "lex-c0a2449bf1f2c46e",
+      "form": "улыны",
+      "sourceIds": [
+        "conjugation-lock:word-улыны"
+      ]
+    },
+    {
+      "id": "lex-776e99eb02058d1b",
+      "form": "туж",
+      "sourceIds": [
+        "conjugation-lock:word-туж"
+      ]
+    },
+    {
+      "id": "lex-be807f76ff13254d",
+      "form": "умой",
+      "sourceIds": [
+        "conjugation-lock:word-умой"
+      ]
+    },
+    {
+      "id": "lex-b068673399fb9ff5",
+      "form": "дышетӥсь",
+      "sourceIds": [
+        "conjugation-lock:word-дышетӥсь"
+      ]
+    },
+    {
+      "id": "lex-54dc8ec0eb0540d5",
+      "form": "дышетскись",
+      "sourceIds": [
+        "conjugation-lock:word-дышетскись"
+      ]
+    },
+    {
+      "id": "lex-0b84ec57bdb63434",
+      "form": "гожтэт",
+      "sourceIds": [
+        "conjugation-lock:word-гожтэт"
+      ]
+    },
+    {
+      "id": "lex-e452f8c53a5858b3",
+      "form": "автобус",
+      "sourceIds": [
+        "conjugation-lock:word-автобус"
+      ]
+    },
+    {
+      "id": "lex-401b9e72a5d81ca6",
+      "form": "рюкзак",
+      "sourceIds": [
+        "conjugation-lock:word-рюкзак"
+      ]
+    },
+    {
+      "id": "lex-9b75341123933806",
+      "form": "юан",
+      "sourceIds": [
+        "conjugation-lock:word-юан"
+      ]
+    },
+    {
+      "id": "lex-d8ed779480eb82f3",
+      "form": "концерт",
+      "sourceIds": [
+        "conjugation-lock:word-концерт"
+      ]
+    },
+    {
+      "id": "lex-e21ab29fdddf7ef8",
+      "form": "бызьыны",
+      "sourceIds": [
+        "conjugation-lock:word-бызьыны"
+      ]
+    },
+    {
+      "id": "lex-d44782d7aecf22b0",
+      "form": "бере",
+      "sourceIds": [
+        "conjugation-lock:word-бере"
+      ]
+    },
+    {
+      "id": "lex-04ee28a9330b3b27",
+      "form": "секыт",
+      "sourceIds": [
+        "conjugation-lock:word-секыт"
+      ]
+    },
+    {
+      "id": "lex-c9955152b12c5cc1",
+      "form": "кезьыт",
+      "sourceIds": [
+        "conjugation-lock:word-кезьыт"
+      ]
+    },
+    {
+      "id": "lex-20ea9ce7fbb84930",
+      "form": "валэктон",
+      "sourceIds": [
+        "conjugation-lock:word-валэктон"
+      ]
+    },
+    {
+      "id": "lex-b5c3fcf5673a3563",
+      "form": "пост",
+      "sourceIds": [
+        "conjugation-lock:word-пост"
+      ]
+    },
+    {
+      "id": "lex-ec58e05a25f97201",
+      "form": "котькуд",
+      "sourceIds": [
+        "conjugation-lock:word-котькуд"
+      ]
+    },
+    {
+      "id": "lex-a460e7a2c20a7993",
+      "form": "урок",
+      "sourceIds": [
+        "conjugation-lock:word-урок"
+      ]
+    },
+    {
+      "id": "lex-a609036b4a15726d",
+      "form": "суред",
+      "sourceIds": [
+        "conjugation-lock:word-суред"
+      ]
+    },
+    {
+      "id": "lex-8b08da34bb2c3d72",
+      "form": "задание",
+      "sourceIds": [
+        "conjugation-lock:word-задание"
+      ]
+    },
+    {
+      "id": "lex-983348a5c61e880f",
+      "form": "пинал",
+      "sourceIds": [
+        "conjugation-lock:word-пинал"
+      ]
+    },
+    {
+      "id": "lex-9ad3ddcebf1c49ac",
+      "form": "ульча",
+      "sourceIds": [
+        "conjugation-lock:word-ульча"
+      ]
+    },
+    {
+      "id": "lex-c360ddd7d858251c",
+      "form": "куртка",
+      "sourceIds": [
+        "conjugation-lock:word-куртка"
       ]
     }
   ]

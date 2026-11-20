@@ -9,6 +9,7 @@ class ContentBuildTests(unittest.TestCase):
   cls.temp=tempfile.TemporaryDirectory(prefix='uston-cms-');cls.root=Path(cls.temp.name)/'site';cls.root.mkdir()
   files=['assets/programs/shared.js','index.html','tools/content-contract.json','assets/lexicon-v18.js','assets/case-lock-dictionary.js','games/case-lock/data.js','games/case-lock/dictionary.js','games/case-lock/game.js','games/family-tree/family-tree.html','games/udmurtia/index.html']
   files += [str(p.relative_to(ROOT))for p in (ROOT/'content').glob('*.json')]
+  files += ['tools/conjugation-contract.json']+[str(p.relative_to(ROOT))for p in (ROOT/'games/conjugation-lock').rglob('*')if p.is_file()]
   files += [str(p.relative_to(ROOT))for name in ['my-seem','kin-ta','udmurtia']for p in (ROOT/'assets/programs').glob(name+'-*.js')]
   for name in files:
    dest=cls.root/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/name,dest)

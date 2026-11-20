@@ -1,0 +1,416 @@
+{
+  "gameId": "uston.conjugation-lock",
+  "portalGameId": "conjugation-lock",
+  "schemaVersion": 1,
+  "pronouns": [
+    "p1s",
+    "p2s",
+    "p3s",
+    "p1p",
+    "p2p",
+    "p3p"
+  ],
+  "verbs": {
+    "verb-вераны": {
+      "studyId": "verb-вераны-study",
+      "practiceId": "verb-вераны-practice",
+      "forms": {
+        "verb-вераны-p1s": "p1s",
+        "verb-вераны-p2s": "p2s",
+        "verb-вераны-p3s": "p3s",
+        "verb-вераны-p1p": "p1p",
+        "verb-вераны-p2p": "p2p",
+        "verb-вераны-p3p": "p3p"
+      }
+    },
+    "verb-ужаны": {
+      "studyId": "verb-ужаны-study",
+      "practiceId": "verb-ужаны-practice",
+      "forms": {
+        "verb-ужаны-p1s": "p1s",
+        "verb-ужаны-p2s": "p2s",
+        "verb-ужаны-p3s": "p3s",
+        "verb-ужаны-p1p": "p1p",
+        "verb-ужаны-p2p": "p2p",
+        "verb-ужаны-p3p": "p3p"
+      }
+    },
+    "verb-малпаны": {
+      "studyId": "verb-малпаны-study",
+      "practiceId": "verb-малпаны-practice",
+      "forms": {
+        "verb-малпаны-p1s": "p1s",
+        "verb-малпаны-p2s": "p2s",
+        "verb-малпаны-p3s": "p3s",
+        "verb-малпаны-p1p": "p1p",
+        "verb-малпаны-p2p": "p2p",
+        "verb-малпаны-p3p": "p3p"
+      }
+    },
+    "verb-юаны": {
+      "studyId": "verb-юаны-study",
+      "practiceId": "verb-юаны-practice",
+      "forms": {
+        "verb-юаны-p1s": "p1s",
+        "verb-юаны-p2s": "p2s",
+        "verb-юаны-p3s": "p3s",
+        "verb-юаны-p1p": "p1p",
+        "verb-юаны-p2p": "p2p",
+        "verb-юаны-p3p": "p3p"
+      }
+    },
+    "verb-келяны": {
+      "studyId": "verb-келяны-study",
+      "practiceId": "verb-келяны-practice",
+      "forms": {
+        "verb-келяны-p1s": "p1s",
+        "verb-келяны-p2s": "p2s",
+        "verb-келяны-p3s": "p3s",
+        "verb-келяны-p1p": "p1p",
+        "verb-келяны-p2p": "p2p",
+        "verb-келяны-p3p": "p3p"
+      }
+    },
+    "verb-гожъяны": {
+      "studyId": "verb-гожъяны-study",
+      "practiceId": "verb-гожъяны-practice",
+      "forms": {
+        "verb-гожъяны-p1s": "p1s",
+        "verb-гожъяны-p2s": "p2s",
+        "verb-гожъяны-p3s": "p3s",
+        "verb-гожъяны-p1p": "p1p",
+        "verb-гожъяны-p2p": "p2p",
+        "verb-гожъяны-p3p": "p3p"
+      }
+    },
+    "verb-кырӟаны": {
+      "studyId": "verb-кырӟаны-study",
+      "practiceId": "verb-кырӟаны-practice",
+      "forms": {
+        "verb-кырӟаны-p1s": "p1s",
+        "verb-кырӟаны-p2s": "p2s",
+        "verb-кырӟаны-p3s": "p3s",
+        "verb-кырӟаны-p1p": "p1p",
+        "verb-кырӟаны-p2p": "p2p",
+        "verb-кырӟаны-p3p": "p3p"
+      }
+    },
+    "verb-возьманы": {
+      "studyId": "verb-возьманы-study",
+      "practiceId": "verb-возьманы-practice",
+      "forms": {
+        "verb-возьманы-p1s": "p1s",
+        "verb-возьманы-p2s": "p2s",
+        "verb-возьманы-p3s": "p3s",
+        "verb-возьманы-p1p": "p1p",
+        "verb-возьманы-p2p": "p2p",
+        "verb-возьманы-p3p": "p3p"
+      }
+    },
+    "verb-бичаны": {
+      "studyId": "verb-бичаны-study",
+      "practiceId": "verb-бичаны-practice",
+      "forms": {
+        "verb-бичаны-p1s": "p1s",
+        "verb-бичаны-p2s": "p2s",
+        "verb-бичаны-p3s": "p3s",
+        "verb-бичаны-p1p": "p1p",
+        "verb-бичаны-p2p": "p2p",
+        "verb-бичаны-p3p": "p3p"
+      }
+    },
+    "verb-валаны": {
+      "studyId": "verb-валаны-study",
+      "practiceId": "verb-валаны-practice",
+      "forms": {
+        "verb-валаны-p1s": "p1s",
+        "verb-валаны-p2s": "p2s",
+        "verb-валаны-p3s": "p3s",
+        "verb-валаны-p1p": "p1p",
+        "verb-валаны-p2p": "p2p",
+        "verb-валаны-p3p": "p3p"
+      }
+    },
+    "verb-дасяны": {
+      "studyId": "verb-дасяны-study",
+      "practiceId": "verb-дасяны-practice",
+      "forms": {
+        "verb-дасяны-p1s": "p1s",
+        "verb-дасяны-p2s": "p2s",
+        "verb-дасяны-p3s": "p3s",
+        "verb-дасяны-p1p": "p1p",
+        "verb-дасяны-p2p": "p2p",
+        "verb-дасяны-p3p": "p3p"
+      }
+    },
+    "verb-шоканы": {
+      "studyId": "verb-шоканы-study",
+      "practiceId": "verb-шоканы-practice",
+      "forms": {
+        "verb-шоканы-p1s": "p1s",
+        "verb-шоканы-p2s": "p2s",
+        "verb-шоканы-p3s": "p3s",
+        "verb-шоканы-p1p": "p1p",
+        "verb-шоканы-p2p": "p2p",
+        "verb-шоканы-p3p": "p3p"
+      }
+    },
+    "verb-пытсаны": {
+      "studyId": "verb-пытсаны-study",
+      "practiceId": "verb-пытсаны-practice",
+      "forms": {
+        "verb-пытсаны-p1s": "p1s",
+        "verb-пытсаны-p2s": "p2s",
+        "verb-пытсаны-p3s": "p3s",
+        "verb-пытсаны-p1p": "p1p",
+        "verb-пытсаны-p2p": "p2p",
+        "verb-пытсаны-p3p": "p3p"
+      }
+    },
+    "verb-чиданы": {
+      "studyId": "verb-чиданы-study",
+      "practiceId": "verb-чиданы-practice",
+      "forms": {
+        "verb-чиданы-p1s": "p1s",
+        "verb-чиданы-p2s": "p2s",
+        "verb-чиданы-p3s": "p3s",
+        "verb-чиданы-p1p": "p1p",
+        "verb-чиданы-p2p": "p2p",
+        "verb-чиданы-p3p": "p3p"
+      }
+    },
+    "verb-ватсаны": {
+      "studyId": "verb-ватсаны-study",
+      "practiceId": "verb-ватсаны-practice",
+      "forms": {
+        "verb-ватсаны-p1s": "p1s",
+        "verb-ватсаны-p2s": "p2s",
+        "verb-ватсаны-p3s": "p3s",
+        "verb-ватсаны-p1p": "p1p",
+        "verb-ватсаны-p2p": "p2p",
+        "verb-ватсаны-p3p": "p3p"
+      }
+    },
+    "verb-интыяны": {
+      "studyId": "verb-интыяны-study",
+      "practiceId": "verb-интыяны-practice",
+      "forms": {
+        "verb-интыяны-p1s": "p1s",
+        "verb-интыяны-p2s": "p2s",
+        "verb-интыяны-p3s": "p3s",
+        "verb-интыяны-p1p": "p1p",
+        "verb-интыяны-p2p": "p2p",
+        "verb-интыяны-p3p": "p3p"
+      }
+    },
+    "verb-возьматъяны": {
+      "studyId": "verb-возьматъяны-study",
+      "practiceId": "verb-возьматъяны-practice",
+      "forms": {
+        "verb-возьматъяны-p1s": "p1s",
+        "verb-возьматъяны-p2s": "p2s",
+        "verb-возьматъяны-p3s": "p3s",
+        "verb-возьматъяны-p1p": "p1p",
+        "verb-возьматъяны-p2p": "p2p",
+        "verb-возьматъяны-p3p": "p3p"
+      }
+    },
+    "verb-быдэсъяны": {
+      "studyId": "verb-быдэсъяны-study",
+      "practiceId": "verb-быдэсъяны-practice",
+      "forms": {
+        "verb-быдэсъяны-p1s": "p1s",
+        "verb-быдэсъяны-p2s": "p2s",
+        "verb-быдэсъяны-p3s": "p3s",
+        "verb-быдэсъяны-p1p": "p1p",
+        "verb-быдэсъяны-p2p": "p2p",
+        "verb-быдэсъяны-p3p": "p3p"
+      }
+    },
+    "verb-ушъяны": {
+      "studyId": "verb-ушъяны-study",
+      "practiceId": "verb-ушъяны-practice",
+      "forms": {
+        "verb-ушъяны-p1s": "p1s",
+        "verb-ушъяны-p2s": "p2s",
+        "verb-ушъяны-p3s": "p3s",
+        "verb-ушъяны-p1p": "p1p",
+        "verb-ушъяны-p2p": "p2p",
+        "verb-ушъяны-p3p": "p3p"
+      }
+    },
+    "verb-дӥсяны": {
+      "studyId": "verb-дӥсяны-study",
+      "practiceId": "verb-дӥсяны-practice",
+      "forms": {
+        "verb-дӥсяны-p1s": "p1s",
+        "verb-дӥсяны-p2s": "p2s",
+        "verb-дӥсяны-p3s": "p3s",
+        "verb-дӥсяны-p1p": "p1p",
+        "verb-дӥсяны-p2p": "p2p",
+        "verb-дӥсяны-p3p": "p3p"
+      }
+    }
+  },
+  "sentences": [
+    "sentence-вераны",
+    "sentence-ужаны",
+    "sentence-малпаны",
+    "sentence-юаны",
+    "sentence-келяны",
+    "sentence-гожъяны",
+    "sentence-кырӟаны",
+    "sentence-возьманы",
+    "sentence-бичаны",
+    "sentence-валаны",
+    "sentence-дасяны",
+    "sentence-шоканы",
+    "sentence-пытсаны",
+    "sentence-чиданы",
+    "sentence-ватсаны",
+    "sentence-интыяны",
+    "sentence-возьматъяны",
+    "sentence-быдэсъяны",
+    "sentence-ушъяны",
+    "sentence-дӥсяны"
+  ],
+  "lexemes": [
+    "pronoun-p1s",
+    "pronoun-p2s",
+    "pronoun-p3s",
+    "pronoun-p1p",
+    "pronoun-p2p",
+    "pronoun-p3p",
+    "verb-вераны",
+    "verb-ужаны",
+    "verb-малпаны",
+    "verb-юаны",
+    "verb-келяны",
+    "verb-гожъяны",
+    "verb-кырӟаны",
+    "verb-возьманы",
+    "verb-бичаны",
+    "verb-валаны",
+    "verb-дасяны",
+    "verb-шоканы",
+    "verb-пытсаны",
+    "verb-чиданы",
+    "verb-ватсаны",
+    "verb-интыяны",
+    "verb-возьматъяны",
+    "verb-быдэсъяны",
+    "verb-ушъяны",
+    "verb-дӥсяны",
+    "word-эш",
+    "word-атай",
+    "word-анай",
+    "word-песянай",
+    "word-нылпи",
+    "word-ӧс",
+    "word-ӟечбур",
+    "word-школа",
+    "word-улыны",
+    "word-туж",
+    "word-умой",
+    "word-дышетӥсь",
+    "word-дышетскись",
+    "word-гожтэт",
+    "word-автобус",
+    "word-рюкзак",
+    "word-юан",
+    "word-концерт",
+    "word-бызьыны",
+    "word-бере",
+    "word-секыт",
+    "word-кезьыт",
+    "word-валэктон",
+    "word-пост",
+    "word-котькуд",
+    "word-урок",
+    "word-суред",
+    "word-задание",
+    "word-пинал",
+    "word-ульча",
+    "word-куртка",
+    "name-удмурти",
+    "name-контакт",
+    "word-та"
+  ],
+  "copy": {
+    "title": [],
+    "brand": [],
+    "subtitle": [],
+    "modes": [],
+    "study": [],
+    "practice": [],
+    "test": [],
+    "guide": [],
+    "guideStudy": [],
+    "guidePractice": [],
+    "guideTest": [],
+    "wheel": [],
+    "verb": [],
+    "verbList": [],
+    "rotate": [],
+    "pronouns": [],
+    "forms": [],
+    "counterclockwise": [],
+    "clockwise": [],
+    "check": [],
+    "newGaps": [],
+    "choose": [],
+    "hiddenForm": [],
+    "review": [],
+    "practicePending": [],
+    "studyInstruction": [],
+    "practiceInstruction": [],
+    "aligned": [
+      "pair"
+    ],
+    "pointer": [
+      "pair"
+    ],
+    "wrongGaps": [
+      "correct",
+      "total"
+    ],
+    "practiceAligned": [],
+    "practiceSolved": [],
+    "testPending": [],
+    "draftCount": [
+      "total"
+    ],
+    "result": [
+      "correct",
+      "total"
+    ],
+    "restart": [],
+    "progress": [
+      "current",
+      "total"
+    ],
+    "showResult": [],
+    "next": [],
+    "correct": [],
+    "wrong": [
+      "answer"
+    ],
+    "storageError": [],
+    "saveTools": [],
+    "exportSave": [],
+    "importSave": [],
+    "imported": [],
+    "importError": [],
+    "returnHub": [],
+    "portalDescription": []
+  },
+  "media": [
+    "lock_closed",
+    "lock_open",
+    "pointer_main",
+    "pointer_ornament",
+    "sector_blank",
+    "sector_question"
+  ],
+  "finalTestId": "final-test"
+}
