@@ -9,6 +9,7 @@ class ConjugationBuild(unittest.TestCase):
   self.temp=tempfile.TemporaryDirectory(prefix='conjugation-cms-');self.root=Path(self.temp.name)
   for name in ['games/conjugation-lock','content','tools']:
    shutil.copytree(ROOT/name,self.root/name,ignore=shutil.ignore_patterns('__pycache__'))
+  (self.root/'assets').mkdir();shutil.copyfile(ROOT/'assets/conjugation-cover.png',self.root/'assets/conjugation-cover.png')
   self.previous=b.ROOT;b.ROOT=self.root
   self.source=self.root/'content/conjugation-lock.json';self.data=json.loads(self.source.read_text())
  def tearDown(self):b.ROOT=self.previous;self.temp.cleanup()

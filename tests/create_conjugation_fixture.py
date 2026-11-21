@@ -8,7 +8,7 @@ with tempfile.TemporaryDirectory(prefix='conjugation-preview-')as directory:
  root=Path(directory);shutil.copytree(ROOT/'games/conjugation-lock',root/'games/conjugation-lock')
  (root/'content').mkdir();(root/'tools').mkdir();shutil.copyfile(ROOT/'tools/conjugation-contract.json',root/'tools/conjugation-contract.json')
  data=json.loads((ROOT/'content/conjugation-lock.json').read_text())
- for path in data['media'].values():
+ for path in list(data['media'].values())+[data['portalCover']]:
   if not path.startswith(('https://','games/conjugation-lock/')):
    local=path.removeprefix('/uston1/');target=root/local;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/local,target)
  data['copy']['title']='Проверка CMS';data['verbs'][0]['forms'][0]['occurrence']['text']='ПРОВЕРКА ФОРМЫ';data['lexemes'][6]['lemma']='ПРОВЕРКА ИНФИНИТИВА'

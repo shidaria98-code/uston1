@@ -10,7 +10,6 @@
 </head>
 <body>
 <main>
-<button id="portal-return" data-copy="returnHub" hidden></button>
 <header><p class="brand" data-copy="brand"></p><h1 data-copy="title"></h1><p class="subtitle" data-copy="subtitle"></p></header>
 <nav data-label="modes">
 <button data-mode="study" aria-pressed="true" data-copy="study"></button>
@@ -32,7 +31,7 @@
 </div>
 <div class="panel">
 <details id="verb-picker" class="verb-picker">
-<summary><span data-copy="verb"></span><strong id="current-verb" lang="udm"></strong></summary>
+<summary><span data-copy="verb"></span><strong id="current-verb" lang="udm" aria-live="polite"></strong></summary>
 <div id="verb-list" class="verb-list" role="group" data-label="verbList"></div>
 </details>
 <p id="meaning" class="meaning"></p>
@@ -42,19 +41,14 @@
 <div><button data-ring="outer" data-step="-1">↶</button><span data-copy="forms"></span><button data-ring="outer" data-step="1">↷</button></div>
 </div>
 <div id="gaps"></div>
-<div id="practice-actions" hidden><button id="check-gaps" class="primary" data-copy="check"></button> <button id="new-gaps" data-copy="newGaps"></button></div>
+<div id="practice-actions" hidden><button id="check-gaps" class="primary" data-copy="check"></button> <button id="new-gaps" data-copy="newGaps"></button> <button id="next-verb" data-copy="nextVerb"></button></div>
 <p id="wheel-status" class="feedback" role="status"></p>
 </div>
 </section>
 <section id="test-view" class="panel test" data-label="test" hidden>
 <h2 data-copy="test"></h2><div id="test-body"></div>
 </section>
-<details class="save-tools">
-<summary data-copy="saveTools"></summary>
-<button id="export-save" data-copy="exportSave"></button>
-<button id="import-save" data-copy="importSave"></button>
-<input type="file" id="save-file" accept=".json,application/json" hidden>
-</details>
+
 <p id="save-status" class="feedback" role="status"></p>
 </main>
 <script type="application/json" id="data">/* DATA */</script>

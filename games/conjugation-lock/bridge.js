@@ -10,6 +10,6 @@
  window.ConjugationPortal={embedded,notify,loadSnapshot,attachPicker};
  if(!embedded)return;
  window.addEventListener('message',event=>{if(event.source!==parent||event.origin!==origin||event.data?.version!==1)return;const message=event.data;if(message.type==='uston:conjugation-hydrate'&&message.gameId==='conjugation-lock'&&resolveHydration){clearTimeout(hydrationTimer);const resolve=resolveHydration;resolveHydration=null;resolve(prepare(message.snapshot));return;}if(message.type==='uston:conjugation-ack'&&Array.isArray(message.ids)&&message.ids.every(id=>typeof id==='string'))window.conjugationLock?.acknowledge(message.ids);});
- const back=document.getElementById('portal-return');back.hidden=false;back.onclick=()=>{notify();parent.postMessage({type:'udm-return-to-hub',version:1,gameId:'conjugation-lock'},target);};
+
  timer=setInterval(notify,1000);window.addEventListener('pagehide',()=>{notify();clearInterval(timer);});
 })();

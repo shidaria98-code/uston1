@@ -5,6 +5,7 @@ def compile_game(root, need, text, asset, js):
  data=json.loads((root/'content/conjugation-lock.json').read_text(encoding='utf-8'))
  contract=json.loads((root/'tools/conjugation-contract.json').read_text(encoding='utf-8'))
  for key in ['gameId','portalGameId','schemaVersion','finalTestId']:need(data.get(key)==contract[key],f'Замок спряжения: нельзя менять {key}')
+ if data.get('portalCover'):data['portalCover']=asset(data['portalCover'],'Обложка игры в каталоге',{'.png','.jpg','.jpeg','.webp','.svg'})
  text(data.get('contentVersion'),'Версия материалов',True,100)
  need(type(data.get('testLimit'))is int and 1<=data['testLimit']<=20,'Число вопросов: от 1 до 20')
  def indexed(items,label):
