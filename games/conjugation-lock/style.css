@@ -1,15 +1,15 @@
-:root{color-scheme:light;--paper:#f9f5ea;--ink:#292b23;--green:#284539;--light:#e5ebd9;--line:#ded7c5;--amber:#9f4729;font-family:system-ui,sans-serif;color:var(--ink);background:#f0ebdf}
+:root{color-scheme:light;--paper:#f9f5ea;--ink:#292b23;--green:#284539;--light:#e5ebd9;--line:#ded7c5;--amber:#9f4729;font-family:'Conjugation Nunito',system-ui,sans-serif;color:var(--ink);background:#f0ebdf}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{margin:0;background:radial-gradient(ellipse at top,#fcf8ed,transparent 75%);min-height:100vh}
-main{max-width:1120px;margin:auto;padding:32px clamp(14px,4vw,44px) 40px}
+main{max-width:1020px;margin:auto;padding:14px clamp(14px,3vw,30px) 22px}
 header{text-align:center}
 .brand{font-weight:750;color:var(--green);margin:0 0 8px}
-h1{font:700 clamp(2.2rem,6vw,4.3rem)/1.05 Georgia,serif;margin:0;color:#243b30}
-.subtitle{margin:10px 0 20px;color:#60594c}
+h1{font:700 clamp(2rem,4vw,2.8rem)/1.05 Georgia,serif;margin:0;color:#243b30}
+.subtitle{margin:6px 0 10px;color:#60594c}
 nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;max-width:540px;margin:0 auto 12px;padding:4px;background:#e9e2d1;border:1px solid #d9cfb7;border-radius:14px}
 nav button{border-color:transparent;background:transparent;line-height:1.2;min-width:0;padding:.55em .24em;font-size:clamp(.78rem,3vw,1rem)}
-.guide{max-width:540px;margin:0 auto 18px}
+.guide{max-width:540px;margin:0 auto 8px}
 .guide summary{width:max-content;margin:auto;padding:7px 15px;color:var(--green);border:1px solid #c8bda4;border-radius:9px;background:#fffaf0}
 .guide-body{margin-top:10px;border:1px solid var(--line);border-radius:14px;background:#fffdf6;padding:18px;line-height:1.5}
 .guide-body ol{padding-left:1.4em}
@@ -25,9 +25,9 @@ button{cursor:pointer;font-weight:650}
 button[aria-pressed=true],button.primary,button.primary:hover,button[aria-pressed=true]:hover{background:var(--green);border-color:var(--green);color:#fff}
 button:disabled{cursor:default;opacity:.62}
 :focus-visible{outline:3px solid #b45629;outline-offset:3px}
-.layout{display:grid;grid-template-columns:minmax(0,1.43fr) minmax(300px,1fr);gap:clamp(18px,4vw,46px);align-items:center}
+.layout{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(300px,1fr);gap:clamp(16px,3vw,30px);align-items:center}
 .stage{padding:18px 0;min-width:0}
-.wheel{position:relative;aspect-ratio:1;max-width:540px;margin:auto;isolation:isolate;border-radius:50%;container-type:inline-size;background:radial-gradient(circle,#f7e6b6 16%,#e9d4a4 17% 30%,#97683a 30.5% 31%,#e5d4a2 32% 65%,#ad8252 66% 67%,#e7c585 68% 69%,#765639 70% 71%);box-shadow:0 12px 28px #47321629}
+.wheel{position:relative;aspect-ratio:1;width:100%;max-width:min(480px,calc(100svh - 285px));margin:auto;isolation:isolate;border-radius:50%;container-type:inline-size;background:radial-gradient(circle,#f7e6b6 16%,#e9d4a4 17% 30%,#97683a 30.5% 31%,#e5d4a2 32% 65%,#ad8252 66% 67%,#e7c585 68% 69%,#765639 70% 71%);box-shadow:0 12px 28px #47321629}
 .ring{position:absolute;inset:0;border-radius:50%;transform:rotate(var(--spin,0deg));transition:transform .26s ease;pointer-events:none}
 .outer{background:radial-gradient(circle,transparent 43%,#263b30 43.5% 44.5%,#3b5542 45% 65%,#a37a49 65.5% 66.5%,transparent 67%)}
 .inner{background:radial-gradient(circle,transparent 18%,#735737 18.5% 19.5%,transparent 20% 42.5%,#ac824e 43% 43.5%,transparent 44%)}
@@ -46,9 +46,9 @@ button:disabled{cursor:default;opacity:.62}
 .hub{position:absolute;inset:37%;border-radius:50%;background:radial-gradient(circle,#fff2cf,#d2ab6a);border:1px solid #ab7e48;pointer-events:none}
 .lock{height:78%;width:auto;left:50%;top:50%;transform:translate(-50%,-57%)}
 .lock[data-art=lock_open]{transform:translate(-46%,-57%)}
-.panel{border:1px solid var(--line);background:#fffdf6;border-radius:17px;padding:clamp(15px,3vw,25px);box-shadow:0 8px 25px #4b40230c}
+.panel{border:1px solid var(--line);background:#fffdf6;border-radius:17px;padding:clamp(14px,2vw,18px);box-shadow:0 8px 25px #4b40230c}
 label{display:block;font-weight:750;margin-bottom:5px}
-.gap select{width:100%}
+.gap select{width:100%;font-family:'Conjugation Nunito',Georgia,serif;font-size:1.05rem;font-weight:700;color:var(--green);opacity:1}
 .verb-picker{border:1px solid #cbbd9e;border-radius:12px;background:#f5eedf}
 .verb-picker summary{display:grid;grid-template-columns:1fr auto;align-items:center;gap:3px 12px;min-height:48px;padding:9px 12px;list-style:none}
 .verb-picker summary::-webkit-details-marker{display:none}
@@ -78,11 +78,36 @@ li{margin:8px 0}
 .prompt{font-size:1.2rem;font-weight:700;line-height:1.5}
 @media(max-width:760px){main{padding-top:23px}.layout{grid-template-columns:minmax(0,1fr)}.wheel{max-width:480px}.stage{padding:9px 0}.panel{width:100%;max-width:540px;margin:auto}}
 @media(prefers-reduced-motion:reduce){.ring,.tile span{transition:none}}
-.save-tools{margin:24px auto 0;max-width:540px;color:var(--green)}
-.save-tools summary{margin-bottom:8px}
-.save-tools button{margin:0 5px 5px 0}
-
-#portal-return{margin-bottom:16px}.verb-list button span{font-size:.875rem}
+.verb-list button span{font-size:.875rem}
 
 /* Rotated square ring bounds must not create horizontal page scrolling. */
 .stage{overflow:hidden;padding-block:18px}.outer .tile span{max-width:16cqw;position:relative;top:-3.5cqw;white-space:normal;overflow-wrap:anywhere;hyphens:none;line-height:1.1;text-align:center}
+
+/* Compact desktop layout follows the iframe height, with ordinary scrolling for short windows. */
+.embedded .brand{display:none}
+#practice-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+#practice-actions button{font-size:.94rem}
+#next-verb{flex-basis:100%;color:var(--green);border-color:#819983;background:#eef2e5}
+#instructions{font-size:.95rem;margin:10px 0}
+.feedback{font-size:.94rem;line-height:1.35}
+@media(min-width:900px){
+ .controls{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin:10px 0}
+ .controls div{grid-template-columns:38px minmax(0,1fr) 38px;gap:3px;font-size:.78rem;padding:3px}
+ .controls button{min-height:44px}
+ .controls span{overflow-wrap:anywhere}
+}
+@media(max-width:760px){
+ .wheel{max-width:440px}
+ main{padding-top:14px}
+ .stage{padding-block:14px}
+}
+@media(min-width:761px) and (max-height:650px){
+ h1{font-size:2rem}.subtitle{font-size:.875rem;margin:4px 0 8px}
+ .guide summary{padding:5px 12px}.panel{padding:12px}
+}
+
+@media(min-width:761px){
+ .embedded header{display:flex;align-items:baseline;justify-content:center;gap:14px;margin-bottom:8px}
+ .embedded h1{font-size:2rem}.embedded .subtitle{margin:0;font-size:.9rem}
+ .stage{padding-block:12px}
+}

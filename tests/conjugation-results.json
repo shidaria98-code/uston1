@@ -74,5 +74,9 @@
   {
     "name": "Malformed standalone import leaves the current round intact",
     "pass": true
+  },
+  {
+    "name": "Compact portal UI, bundled font and next verb retain answers and score",
+    "pass": true
   }
 ]

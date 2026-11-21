@@ -3,6 +3,12 @@
   const data = JSON.parse(document.querySelector('#data').textContent);
   const initialSnapshot=window.ConjugationPortal?.embedded?await window.ConjugationPortal.loadSnapshot():null;
   const { copy, pronouns, verbs, sentences } = data;
+  // Reuse the portal's bundled font, including Udmurt characters; no network font.
+  try {
+    const source=window.parent?.UDM_SHARED?.[1];
+    if(source&&window.FontFace&&document.fonts){const font=new FontFace('Conjugation Nunito','url('+source+')',{weight:'200 1000'});document.fonts.add(font);font.load().catch(()=>{});}
+    document.body.classList.toggle('embedded',window.parent!==window);
+  } catch {}
   const get = id => document.getElementById(id);
   const format = (key, values = {}) => copy[key].replace(/\{(\w+)\}/g, (_, name) => values[name]);
   const makeId = () => Array.from(crypto.getRandomValues(new Uint8Array(16)), byte =>
@@ -321,36 +327,19 @@
     resetRound();
     render();
   });
+  get('next-verb').addEventListener('click', () => {
+    const index=verbs.findIndex(entry=>entry.id===state().verbId);
+    state().verbId=verbs[(index+1)%verbs.length].id;
+    picker.open=false;
+    render();
+    get('next-verb').focus();
+  });
   get('check-gaps').addEventListener('click', () => {
     if(!round().checked)game.answer(verb().occurrence.lexemeId,round().missing.every(id=>round().answers[id]===verb().forms.find(f=>f.personId===id).id),currentTask(),'practice');
     round().checked = true;
     render();
-    (get('check-gaps').disabled ? get('new-gaps') : get('check-gaps')).focus();
+    (get('check-gaps').disabled ? get('next-verb') : get('check-gaps')).focus();
   });
-  get('export-save').addEventListener('click', () => {
-    const url = URL.createObjectURL(new Blob([game.exportSave()], { type: 'application/json' }));
-    const link = element('a');
-    link.href = url;
-    link.download = data.gameId + '.save.json';
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-  });
-  get('import-save').addEventListener('click', () => get('save-file').click());
-  get('save-file').addEventListener('change', async event => {
-    const input = event.target;
-    const [file] = input.files;
-    if (!file) return;
-    try {
-      if(file.size>2000000)throw Error('Save too large');
-      game.restore(await file.text());
-      render();
-      if (!get('save-status').textContent) get('save-status').textContent = copy.imported;
-    } catch {
-      get('save-status').textContent = copy.importError;
-    }
-    input.value = '';
-  });
-
   window.conjugationLock = Object.freeze({
     observeLexeme(id){const entry=game.lexemeById.get(id);if(entry){game.unlock({text:entry.lemma,lexemeId:id,unlock:'wheel-view'},'picker:'+id);persist();}},
     pendingEvents: game.pendingEvents,
