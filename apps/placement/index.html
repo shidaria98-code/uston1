@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проверь, что уже понимаешь · Усьтон</title>
+<style>
+*{box-sizing:border-box}body{font:1rem/1.5 system-ui,sans-serif;color:#392e2c;background:#f5eee5;margin:0}main{max-width:760px;margin:auto;padding:22px}h1{line-height:1.15}button,audio{margin:7px 0}button{font:inherit;color:inherit;background:#fffdf8;border:1px solid #cbb6a4;border-radius:10px;padding:10px;cursor:pointer}button[aria-pressed=true]{outline:3px solid #346044;background:#e8efe2}button:disabled{opacity:.55;cursor:default}a{color:#28573b}#options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}#options img{display:block;width:100%;height:auto}#options span{display:block}#result a{display:block;margin:8px 0}[hidden]{display:none!important}
+</style>
+<main>
+<a href="../../index.html#games">← К занятиям</a>
+<h1>Проверь, что уже понимаешь</h1>
+<p>Послушай слово или фразу и выбери картинку. Будет до девяти заданий. После четвёртой ошибки покажем рекомендацию. Запись можно слушать повторно.</p>
+<section id="question" aria-labelledby="position">
+<h2 id="position" tabindex="-1"></h2>
+<audio id="prompt" controls preload="metadata" aria-label="Удмуртская запись"></audio>
+<p id="sound-error" hidden>Запись не загрузилась. Можно перезагрузить страницу или вернуться к занятиям.</p>
+<div id="options" role="group" aria-label="Варианты ответа"></div>
+<button id="next" disabled>Подтвердить ответ</button>
+</section>
+<section id="result" hidden aria-labelledby="result-title">
+<h2 id="result-title" tabindex="-1">Твой следующий шаг</h2>
+<p id="summary"></p>
+<a id="recommendation"></a>
+<details><summary>Посмотреть ответы</summary><ol id="answers"></ol></details>
+<a href="../../index.html#games">Выбрать другое занятие</a>
+<button type="button" id="retry">Пройти заново</button>
+</section>
+</main>
+<script>
+const items = [
+  ['Шунды','солнце',['Солнце','Месяц','Облако']],
+  ['Ву','вода',['Вода','Молоко','Сок']],
+  ['Писпу','дерево',['Дерево','Цветок','Трава']],
+  ['Мыныны','идти',['Мальчик идёт','Мальчик сидит','Мальчик спит']],
+  ['Ӝӧк','стол',['Стол','Стул','Кровать']],
+  ['Песянай','бабушка',['Бабушка','Девочка','Дедушка']],
+  ['Туп ӝӧк вылын','Мяч на столе',['Мяч на столе','Мяч под столом','Мяч у стола']],
+  ['Нылаш ву юэ','Девочка пьёт воду',['Девочка пьёт воду','Девочка ест яблоко','Девочка моет посуду']],
+  ['Нылашлы улмо кулэ','Девочке нужно яблоко',['Яблоко','Вода','Мяч']]
+];
+const byId = id => document.getElementById(id);
+const question = byId('question'), result = byId('result'), prompt = byId('prompt'), next = byId('next');
+let position = 0, selected = null, answered = [];
+function showQuestion(focus) {
+  selected = null;
+  next.disabled = true;
+  byId('sound-error').hidden = true;
+  const number = String(position + 1).padStart(2, '0');
+  byId('position').textContent = 'Задание ' + (position + 1) + ' из ' + items.length;
+  prompt.src = 'media/' + number + '.m4a';
+  const options = byId('options');
+  options.replaceChildren();
+  const order = [0,1,2];
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  for (const index of order) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.setAttribute('aria-pressed','false');
+    const image = document.createElement('img');
+    image.alt = items[position][2][index];
+    image.src = 'media/L' + number + '_' + 'ABC'[index] + '.png.jpg';
+    button.append(image);
+    button.onclick = () => {
+      selected = index;
+      for (const option of options.children) option.setAttribute('aria-pressed', String(option === button));
+      next.disabled = Boolean(prompt.error);
+    };
+    options.append(button);
+  }
+  if (focus) byId('position').focus();
+}
+function finish() {
+  prompt.pause();
+  question.hidden = true;
+  result.hidden = false;
+  const words = answered.slice(0,6).filter(Boolean).length;
+  const phrases = answered.slice(6).filter(Boolean).length;
+  const correct = words + phrases;
+  byId('summary').textContent = 'Верных ответов: ' + correct + ' из ' + answered.length +
+    '. Слова и отдельные действия: ' + words + ' из ' + Math.min(6,answered.length) +
+    (answered.length > 6 ? '. Фразы: ' + phrases + ' из ' + (answered.length - 6) : '') + '.';
+  const recommendation = byId('recommendation');
+  const destination = words < 4 ? ['#start-learning','Начать с первых реплик и слов']
+    : phrases < 2 ? ['#guide','Послушать короткие реплики в самоучителе']
+    : ['#case-lock','Потренироваться различать место и направление'];
+  recommendation.href = '../../index.html' + destination[0];
+  recommendation.textContent = destination[1];
+  byId('answers').replaceChildren(...answered.map((right,index) => {
+    const line = document.createElement('li');
+    line.textContent = items[index][0] + ' — ' + items[index][1] + (right ? ' ✓' : ' · стоит повторить');
+    return line;
+  }));
+  byId('result-title').focus();
+}
+prompt.onerror = () => {
+  byId('sound-error').hidden = false;
+  next.disabled = true;
+};
+next.onclick = () => {
+  if (selected === null || next.disabled) return;
+  answered.push(selected === 0);
+  position++;
+  if (position === items.length || answered.filter(right => !right).length > 3) finish();
+  else showQuestion(true);
+};
+byId('retry').onclick = () => {
+  position = 0;
+  answered = [];
+  question.hidden = false;
+  result.hidden = true;
+  showQuestion(true);
+};
+showQuestion(false);
+</script>
+</html>
