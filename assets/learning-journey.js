@@ -155,6 +155,9 @@
     }
   });
 
+  window.addEventListener('uston:welcome-entered', () => {
+    if (!state.tourSeen) openTour();
+  });
   render();
   if (startLearningFromLink) chooseBeginner();
   else if (!state.tourSeen && currentPage === 'games' && !activeGame && document.getElementById('portal-welcome').hidden) openTour();
