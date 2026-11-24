@@ -1,6 +1,6 @@
 [
   {
-    "name": "14 modules launch/return; awards stable",
+    "name": "15 modules launch/return; awards stable",
     "passed": true
   },
   {
@@ -28,7 +28,7 @@
     "passed": true
   },
   {
-    "name": "file:// all 14 launch/return",
+    "name": "file:// all 15 launch/return",
     "passed": true
   }
 ]
