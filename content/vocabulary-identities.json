@@ -325,7 +325,8 @@
       "id": "lex-d0d81b7ac7f19f40",
       "form": "нянь",
       "sourceIds": [
-        "guide:nyan"
+        "guide:nyan",
+        "cheskyt:cafe-02"
       ]
     },
     {
@@ -413,7 +414,8 @@
       "id": "lex-ca9c8d428c4b0c8d",
       "form": "Ву",
       "sourceIds": [
-        "seem:nature:2"
+        "seem:nature:2",
+        "cheskyt:cafe-01"
       ]
     },
     {
@@ -477,7 +479,8 @@
       "id": "lex-1b599f696943355a",
       "form": "Кидыс",
       "sourceIds": [
-        "seem:plants:4"
+        "seem:plants:4",
+        "cheskyt:cafe-19"
       ]
     },
     {
@@ -505,7 +508,8 @@
       "id": "lex-7eba56eb3888762e",
       "form": "Губи",
       "sourceIds": [
-        "seem:plants:8"
+        "seem:plants:8",
+        "cheskyt:cafe-13"
       ]
     },
     {
@@ -583,7 +587,8 @@
       "id": "lex-a2e11d0c04f2bf0e",
       "form": "Чорыг",
       "sourceIds": [
-        "seem:animals:9"
+        "seem:animals:9",
+        "cheskyt:cafe-07"
       ]
     },
     {
@@ -940,105 +945,120 @@
       "id": "lex-af20763cb1e708bc",
       "form": "одӥг",
       "sourceIds": [
-        "number:1"
+        "number:1",
+        "cheskyt:number-1"
       ]
     },
     {
       "id": "lex-c0126a5508a58b8b",
       "form": "кык",
       "sourceIds": [
-        "number:2"
+        "number:2",
+        "cheskyt:number-2"
       ]
     },
     {
       "id": "lex-de13cc8bdbdcbe8f",
       "form": "куинь",
       "sourceIds": [
-        "number:3"
+        "number:3",
+        "cheskyt:number-3"
       ]
     },
     {
       "id": "lex-ddd77d38e238d8e1",
       "form": "ньыль",
       "sourceIds": [
-        "number:4"
+        "number:4",
+        "cheskyt:number-4"
       ]
     },
     {
       "id": "lex-d4682caa400ce4bd",
       "form": "вить",
       "sourceIds": [
-        "number:5"
+        "number:5",
+        "cheskyt:number-5"
       ]
     },
     {
       "id": "lex-efcb7518ba62b810",
       "form": "куать",
       "sourceIds": [
-        "number:6"
+        "number:6",
+        "cheskyt:number-6"
       ]
     },
     {
       "id": "lex-6f2015850849423a",
       "form": "сизьым",
       "sourceIds": [
-        "number:7"
+        "number:7",
+        "cheskyt:number-7"
       ]
     },
     {
       "id": "lex-78855b6ff82e7f0c",
       "form": "тямыс",
       "sourceIds": [
-        "number:8"
+        "number:8",
+        "cheskyt:number-8"
       ]
     },
     {
       "id": "lex-ce54c71fce25a7dd",
       "form": "укмыс",
       "sourceIds": [
-        "number:9"
+        "number:9",
+        "cheskyt:number-9"
       ]
     },
     {
       "id": "lex-abedaf12b56fde01",
       "form": "дас",
       "sourceIds": [
-        "number:10"
+        "number:10",
+        "cheskyt:number-10"
       ]
     },
     {
       "id": "lex-097ff7ec7356b0c1",
       "form": "дас одӥг",
       "sourceIds": [
-        "number:11"
+        "number:11",
+        "cheskyt:number-11"
       ]
     },
     {
       "id": "lex-9879644cc739ae9c",
       "form": "дас кык",
       "sourceIds": [
-        "number:12"
+        "number:12",
+        "cheskyt:number-12"
       ]
     },
     {
       "id": "lex-fae32c2dcfec73a8",
       "form": "дас куинь",
       "sourceIds": [
-        "number:13"
+        "number:13",
+        "cheskyt:number-13"
       ]
     },
     {
       "id": "lex-ef5bd7ec5c2a0847",
       "form": "дас ньыль",
       "sourceIds": [
-        "number:14"
+        "number:14",
+        "cheskyt:number-14"
       ]
     },
     {
       "id": "lex-9bcda2cc810bfe2c",
       "form": "дас вить",
       "sourceIds": [
-        "number:15"
+        "number:15",
+        "cheskyt:number-15"
       ]
     },
     {
@@ -1573,6 +1593,111 @@
       "form": "куртка",
       "sourceIds": [
         "conjugation-lock:word-куртка"
+      ]
+    },
+    {
+      "id": "lex-1b8d7f046c85e65f",
+      "form": "Йӧл",
+      "sourceIds": [
+        "cheskyt:cafe-03"
+      ]
+    },
+    {
+      "id": "lex-fa5875aec935e234",
+      "form": "Вӧй",
+      "sourceIds": [
+        "cheskyt:cafe-04"
+      ]
+    },
+    {
+      "id": "lex-784a8859a142a21b",
+      "form": "Курегпуз",
+      "sourceIds": [
+        "cheskyt:cafe-05"
+      ]
+    },
+    {
+      "id": "lex-80ca0c45df15b4a8",
+      "form": "Сӥль",
+      "sourceIds": [
+        "cheskyt:cafe-06"
+      ]
+    },
+    {
+      "id": "lex-94c1b9d789b5eacf",
+      "form": "Пызь",
+      "sourceIds": [
+        "cheskyt:cafe-08"
+      ]
+    },
+    {
+      "id": "lex-2f8c45da9c3a35a4",
+      "form": "Сылал",
+      "sourceIds": [
+        "cheskyt:cafe-09"
+      ]
+    },
+    {
+      "id": "lex-cea448c2e8cf6c16",
+      "form": "Улмо",
+      "sourceIds": [
+        "cheskyt:cafe-10"
+      ]
+    },
+    {
+      "id": "lex-f62a9edc41948258",
+      "form": "Чечы",
+      "sourceIds": [
+        "cheskyt:cafe-11"
+      ]
+    },
+    {
+      "id": "lex-8be4ec65c582e7b4",
+      "form": "эмезь",
+      "sourceIds": [
+        "cheskyt:cafe-12"
+      ]
+    },
+    {
+      "id": "lex-137f13f259154bc9",
+      "form": "Сугон",
+      "sourceIds": [
+        "cheskyt:cafe-14"
+      ]
+    },
+    {
+      "id": "lex-4c837a2bfcac3342",
+      "form": "Ӵужкушман",
+      "sourceIds": [
+        "cheskyt:cafe-15"
+      ]
+    },
+    {
+      "id": "lex-1825309b123346e0",
+      "form": "сяртчы",
+      "sourceIds": [
+        "cheskyt:cafe-16"
+      ]
+    },
+    {
+      "id": "lex-f4c5764c88d9fb88",
+      "form": "Кияр",
+      "sourceIds": [
+        "cheskyt:cafe-17"
+      ]
+    },
+    {
+      "id": "lex-1b9580cae22e1915",
+      "form": "Кӧжы",
+      "sourceIds": [
+        "cheskyt:cafe-18"
+      ]
+    },
+    {
+      "id": "lex-315b83e4ef6431e2",
+      "form": "Ӟег нянь",
+      "sourceIds": [
+        "cheskyt:cafe-20"
       ]
     }
   ]

@@ -159,6 +159,22 @@ def validate(data,contract):
    for link in src.get('links',[]):text(link.get('label'),f'{id} — подпись ссылки');url(link.get('url'),f'{id} — адрес источника')
  return True
 
+def compile_cheskyt():
+ data={name:load('content/cheskyt/'+name+'.json')for name in ['lexicon','dialogue','game','numbers']}
+ entries=data['lexicon']['entries']
+ products=[entry for entry in entries if entry['category']=='ingredient']
+ prices=data['game']['prices']
+ need({entry['id'] for entry in products}==set(prices)and len(products)==20,
+      'Ческыт: цены должны быть заданы для всех 20 продуктов')
+ need(all(type(price)is int and 1<=price<=3 for price in prices.values()),'Ческыт: цены от 1 до 3')
+ numbers=data['numbers']
+ need(len(numbers['words'])==len(numbers['ru'])==16,'Ческыт: нужны числительные от 1 до 15')
+ words=[{'id':'cheskyt:'+entry['id'],'u':entry['udm'],'ru':entry['ru'],'game':'cheskyt'}for entry in products]
+ words.extend({'id':f'cheskyt:number-{i}','u':numbers['words'][i],'ru':numbers['ru'][i],'game':'cheskyt'}for i in range(1,16))
+ template=(ROOT/'content/cheskyt/page.html').read_text(encoding='utf-8')
+ need(template.count('__DATA__')==1,'Ческыт: в шаблоне ожидается один блок данных')
+ return words,template.replace('__DATA__',js(data))
+
 def compile_all(data,c):
  output={};seem=data['my-seem'];p=Packed('my-seem');categories=[];art={}
  bycat={x['id']:x for x in seem['categories']}
@@ -279,6 +295,9 @@ def compile_all(data,c):
  need(isinstance(training.get('intervalDays'),list)and 1<=len(training['intervalDays'])<=12 and all(type(n)is int and 1<=n<=365 for n in training['intervalDays'])and training['intervalDays']==sorted(set(training['intervalDays'])),'Интервалы: нужны возрастающие целые дни')
  text(training.get('title'),'Заголовок тренировки',True,200);text(training.get('intro'),'Введение тренировки',True,2000)
  extra=load('content/vocabulary-extra.json');need(isinstance(extra.get('words'),list),'Нужен список дополнительных слов')
+ cheskyt_words,cheskyt_page=compile_cheskyt()
+ extra['words'].extend(cheskyt_words)
+ output[ROOT/'games/cheskyt/index.html']=cheskyt_page
  # New games own their vocabulary. No separate pre-population of a global dictionary.
  for source in sorted((ROOT/'content').rglob('*.json')):
   if source.name in ['vocabulary-extra.json','vocabulary-identities.json']:continue

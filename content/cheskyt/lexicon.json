@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "cafe-01",
+      "category": "ingredient",
+      "ru": "Вода",
+      "udm": "Ву",
+      "status": "draft",
+      "sourceNote": "Из материалов портала",
+      "icon": "💧",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-02",
+      "category": "ingredient",
+      "ru": "Хлеб",
+      "udm": "Нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🍞",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-03",
+      "category": "ingredient",
+      "ru": "Молоко",
+      "udm": "Йӧл",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🥛",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-04",
+      "category": "ingredient",
+      "ru": "Масло",
+      "udm": "Вӧй",
+      "status": "reviewed",
+      "sourceNote": "Исправлено автором для магазина «Ческыт».",
+      "icon": "🧈",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-05",
+      "category": "ingredient",
+      "ru": "Яйцо",
+      "udm": "Курегпуз",
+      "status": "reviewed",
+      "sourceNote": "Исправлено автором для магазина «Ческыт».",
+      "icon": "🥚",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-06",
+      "category": "ingredient",
+      "ru": "Мясо",
+      "udm": "Сӥль",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🥩",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-07",
+      "category": "ingredient",
+      "ru": "Рыба",
+      "udm": "Чорыг",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🐟",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-08",
+      "category": "ingredient",
+      "ru": "Мука",
+      "udm": "Пызь",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🌾",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-09",
+      "category": "ingredient",
+      "ru": "Соль",
+      "udm": "Сылал",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🧂",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-10",
+      "category": "ingredient",
+      "ru": "Яблоко",
+      "udm": "Улмо",
+      "status": "draft",
+      "sourceNote": "Из материалов портала",
+      "icon": "🍎",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-11",
+      "category": "ingredient",
+      "ru": "Мёд",
+      "udm": "Чечы",
+      "status": "draft",
+      "sourceNote": "Исправлено тобой; словарь",
+      "icon": "🍯",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-12",
+      "category": "ingredient",
+      "ru": "Малина",
+      "udm": "эмезь",
+      "status": "reviewed",
+      "sourceNote": "Исправлено автором для магазина «Ческыт».",
+      "icon": "🫐",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-13",
+      "category": "ingredient",
+      "ru": "Гриб",
+      "udm": "Губи",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🍄",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-14",
+      "category": "ingredient",
+      "ru": "Лук",
+      "udm": "Сугон",
+      "status": "reviewed",
+      "sourceNote": "Исправлено автором для магазина «Ческыт».",
+      "icon": "🧅",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-15",
+      "category": "ingredient",
+      "ru": "Морковь",
+      "udm": "Ӵужкушман",
+      "status": "reviewed",
+      "sourceNote": "Исправлено автором для магазина «Ческыт».",
+      "icon": "🥕",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-16",
+      "category": "ingredient",
+      "ru": "Репа",
+      "udm": "сяртчы",
+      "status": "reviewed",
+      "sourceNote": "Исправлено автором для магазина «Ческыт».",
+      "icon": "🌱",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-17",
+      "category": "ingredient",
+      "ru": "Огурец",
+      "udm": "Кияр",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🥒",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-18",
+      "category": "ingredient",
+      "ru": "Горох",
+      "udm": "Кӧжы",
+      "status": "draft",
+      "sourceNote": "Требует проверки",
+      "icon": "🫛",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-19",
+      "category": "ingredient",
+      "ru": "Семена",
+      "udm": "Кидыс",
+      "status": "draft",
+      "sourceNote": "Из материалов портала",
+      "icon": "🌻",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-20",
+      "category": "ingredient",
+      "ru": "Ржаной хлеб",
+      "udm": "Ӟег нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🍞",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-21",
+      "category": "dish",
+      "ru": "Пельмени",
+      "udm": "Пельнянь",
+      "status": "draft",
+      "sourceNote": "Из материалов портала",
+      "icon": "🥟",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-22",
+      "category": "dish",
+      "ru": "Перепечи",
+      "udm": "Перепеч",
+      "status": "draft",
+      "sourceNote": "Из материалов портала",
+      "icon": "🥧",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-23",
+      "category": "dish",
+      "ru": "Табани",
+      "udm": "Табань",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🥞",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-24",
+      "category": "dish",
+      "ru": "Суп",
+      "udm": "Шыд",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🍲",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-25",
+      "category": "dish",
+      "ru": "Каша",
+      "udm": "Жук",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "icon": "🥣",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-26",
+      "category": "dish",
+      "ru": "Мясной пирог",
+      "udm": "Сӥльын нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🥧",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-27",
+      "category": "dish",
+      "ru": "Рыбный пирог",
+      "udm": "Чорыген нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🥧",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-28",
+      "category": "dish",
+      "ru": "Грибной пирог",
+      "udm": "Губиен нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🥧",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-29",
+      "category": "dish",
+      "ru": "Хлеб с мёдом",
+      "udm": "Чечыен нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🍞",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-30",
+      "category": "dish",
+      "ru": "Хлеб с водой",
+      "udm": "Вуэн нянь",
+      "status": "draft",
+      "sourceNote": "Словарь",
+      "icon": "🍞",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-31",
+      "category": "verb",
+      "ru": "Есть",
+      "udm": "Сиёны",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-32",
+      "category": "verb",
+      "ru": "Пить",
+      "udm": "Юыны",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-33",
+      "category": "verb",
+      "ru": "Покупать",
+      "udm": "Басьыны",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-34",
+      "category": "verb",
+      "ru": "Продавать",
+      "udm": "Вузаны",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-35",
+      "category": "verb",
+      "ru": "Выбирать",
+      "udm": "Бырйыны",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-36",
+      "category": "verb",
+      "ru": "Положить",
+      "udm": "Пуктыны",
+      "status": "draft",
+      "sourceNote": "Уточнить контекст",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-37",
+      "category": "verb",
+      "ru": "Дать",
+      "udm": "Сётыны",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-38",
+      "category": "verb",
+      "ru": "Готовить",
+      "udm": "Дасьтыны",
+      "status": "draft",
+      "sourceNote": "Уточнить контекст",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-39",
+      "category": "descriptor",
+      "ru": "Один",
+      "udm": "Одӥг",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-40",
+      "category": "descriptor",
+      "ru": "Два",
+      "udm": "Кык",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-41",
+      "category": "descriptor",
+      "ru": "Три",
+      "udm": "Куинь",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-42",
+      "category": "descriptor",
+      "ru": "Большой",
+      "udm": "Бадӟым",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-43",
+      "category": "descriptor",
+      "ru": "Маленький",
+      "udm": "Пичи",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-44",
+      "category": "descriptor",
+      "ru": "Горячий",
+      "udm": "Пӧсь",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-45",
+      "category": "descriptor",
+      "ru": "Холодный",
+      "udm": "Кезьыт",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-46",
+      "category": "phrase",
+      "ru": "Здравствуйте!",
+      "udm": "Ӟечбуресь!",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-47",
+      "category": "phrase",
+      "ru": "Спасибо!",
+      "udm": "Тау!",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-48",
+      "category": "phrase",
+      "ru": "Что вам нужно?",
+      "udm": "Мар кулэ тӥледлы?",
+      "status": "draft",
+      "sourceNote": "Проверить конструкцию",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-49",
+      "category": "phrase",
+      "ru": "Мне нужна вода",
+      "udm": "Монлы ву кулэ",
+      "status": "draft",
+      "sourceNote": "Проверить конструкцию",
+      "dictionaryId": null
+    },
+    {
+      "id": "cafe-50",
+      "category": "phrase",
+      "ru": "До свидания!",
+      "udm": "Ӟеч луэ!",
+      "status": "draft",
+      "sourceNote": "Предварительно",
+      "dictionaryId": null
+    }
+  ]
+}

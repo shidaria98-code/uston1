@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ческыт — «Усьтон»</title>
+<link rel="stylesheet" href="style.css">
+<script type="application/json" id="offline-data">__DATA__</script>
+<script defer src="game.js"></script>
+</head>
+<body>
+<main>
+  <header><div class="brand"><small><span data-ui="brand" lang="udm">Усьтон · продуктовый магазин</span></small><h1>Ческыт</h1></div>
+    <div class="stats"><span id="level"></span><strong id="score"></strong></div></header>
+  <section class="counter" data-ui-label="shoppingList" aria-label="Список покупателя">
+    <div class="customer">
+      <div class="shop-scene" aria-hidden="true">
+        <div class="shop-door"></div>
+        <div id="walker"><div class="foot-shadow"></div><img id="face" alt=""></div>
+        <div class="shop-counter"></div>
+      </div>
+      <strong id="customer"></strong>
+    </div>
+    <div class="order">
+      <div class="order-head"><strong id="ticket"></strong><span id="clock"></span></div>
+      <ul id="order" lang="udm"></ul>
+    </div>
+  </section>
+  <section class="pantry" id="pantry" aria-labelledby="shelf-heading">
+    <div class="shelf-head"><h2 id="shelf-heading"><span data-ui="shelf" lang="udm">Полка товаров</span></h2><label><input id="labels" type="checkbox"> Показать названия</label></div>
+    <div id="shelf"></div>
+  </section>
+  <section class="checkout" id="checkout" aria-labelledby="checkout-heading" hidden>
+    <h2 id="checkout-heading"><span data-ui="checkout" lang="udm">Касса</span></h2>
+    <div class="register">
+      <div class="receipt" id="receipt"></div>
+      <div class="cash-machine">
+        <div class="cash-display"><span id="cash-prompt"><span data-ui="chooseTotal" lang="udm">Выберите сумму</span></span><strong id="cash-value" lang="udm"></strong></div>
+        <div id="cash-keys" role="group" aria-labelledby="cash-prompt" lang="udm"></div>
+      </div>
+    </div>
+  </section>
+  <section class="service" data-ui-label="basket" aria-label="Корзина">
+    <div class="tray" id="basket"><strong><span data-ui="basket" lang="udm">Корзина</span></strong><div id="tray" data-ui-label="selectedGoods" aria-label="Выбранные товары"></div></div>
+    <div class="actions"><button id="clear" type="button"><span data-ui="clear" lang="udm">Очистить</span></button><button id="serve" type="button"><span data-ui="toCheckout" lang="udm">К кассе</span></button></div>
+    <div id="feedback" role="status"></div>
+  </section>
+  <footer>
+    <span id="draft"></span>
+    <div class="settings"><label><input id="sound" type="checkbox" checked><span data-ui="sound" lang="udm">Звук</span></label><label><input id="relaxed" type="checkbox"><span data-ui="untimed" lang="udm">Без таймера</span></label></div>
+  </footer>
+</main>
+</body>
+</html>

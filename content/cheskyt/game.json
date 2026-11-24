@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "prices": {
+    "cafe-01":1, "cafe-02":2, "cafe-03":3, "cafe-04":3, "cafe-05":1,
+    "cafe-06":3, "cafe-07":3, "cafe-08":2, "cafe-09":1, "cafe-10":2,
+    "cafe-11":3, "cafe-12":2, "cafe-13":2, "cafe-14":1, "cafe-15":2,
+    "cafe-16":2, "cafe-17":2, "cafe-18":3, "cafe-19":1, "cafe-20":3
+  },
+  "levels": [
+    {"items":1,"shelf":5,"quantity":1,"seconds":0},
+    {"items":2,"shelf":6,"quantity":2,"seconds":0},
+    {"items":2,"shelf":8,"quantity":1,"seconds":0},
+    {"items":3,"shelf":9,"quantity":2,"seconds":0},
+    {"items":3,"shelf":10,"quantity":2,"seconds":0},
+    {"items":3,"shelf":10,"quantity":2,"seconds":55},
+    {"items":4,"shelf":12,"quantity":2,"seconds":50},
+    {"items":4,"shelf":12,"quantity":2,"seconds":48},
+    {"items":5,"shelf":14,"quantity":2,"seconds":45},
+    {"items":5,"shelf":15,"quantity":2,"seconds":42}
+  ]
+}
