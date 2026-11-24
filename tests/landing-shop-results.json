@@ -1,0 +1,42 @@
+[
+  {
+    "name": "First visit root opens welcome, tour and catalogue without a game",
+    "pass": true
+  },
+  {
+    "name": "First visit #conjugation-lock opens welcome, tour and catalogue without a game",
+    "pass": true
+  },
+  {
+    "name": "First visit #cheskyt opens welcome, tour and catalogue without a game",
+    "pass": true
+  },
+  {
+    "name": "First visit #guide opens welcome, tour and catalogue without a game",
+    "pass": true
+  },
+  {
+    "name": "First visit #map opens welcome, tour and catalogue without a game",
+    "pass": true
+  },
+  {
+    "name": "Saved conjugation-lock is resumed only by explicit button",
+    "pass": true
+  },
+  {
+    "name": "Saved cheskyt is resumed only by explicit button",
+    "pass": true
+  },
+  {
+    "name": "Saved kin-ta is resumed only by explicit button",
+    "pass": true
+  },
+  {
+    "name": "Shop card has image and shared start label; launch works on phone",
+    "pass": true
+  },
+  {
+    "name": "Information-page links keep their destination",
+    "pass": true
+  }
+]

@@ -20,6 +20,7 @@ jobs:
           CHROMIUM_PATH="$(node -e 'process.stdout.write(require("playwright").chromium.executablePath())')" node tests/mvp-regression.cjs
           CHROMIUM_PATH="$(node -e 'process.stdout.write(require("playwright").chromium.executablePath())')" USTON_TEST_URL=http://127.0.0.1:8771/ node tests/dictionary-training.cjs
           CHROMIUM_PATH="$(node -e 'process.stdout.write(require("playwright").chromium.executablePath())')" USTON_TEST_URL=http://127.0.0.1:8771/ node tests/conjugation-integration.cjs
+          CHROMIUM_PATH="$(node -e 'process.stdout.write(require("playwright").chromium.executablePath())')" USTON_TEST_URL=http://127.0.0.1:8771/ node tests/landing-shop.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -28,3 +29,4 @@ jobs:
             tests/results.json
             tests/dictionary-training-results.json
             tests/conjugation-results.json
+            tests/landing-shop-results.json
