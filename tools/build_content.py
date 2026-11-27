@@ -137,7 +137,7 @@ def validate(data,contract):
    q=g.get(key);need(isinstance(q,dict),f'{id}/{label}: нет задания');form=text(q.get('form'),f'{id}/{label} — форма');text(q.get('ru'),f'{id}/{label} — русское предложение');sentence=text(q.get('udm'),f'{id}/{label} — удмуртское предложение');text(q.get('explanation',''),f'{id}/{label} — объяснение',False)
    need(form.startswith(word),f'{id}/{label}: форма должна начинаться с основы «{word}»')
    need(sentence.count(form)==1,f'{id}/{label}: в удмуртском предложении форма «{form}» должна встретиться ровно один раз')
-   if id in ['syures','puzhym']:need(len(form.split())==2 and form.split()[0]==word,f'{id}/{label}: требуется основа и отдельный послелог')
+   if id=='syures' or (id=='puzhym' and key=='where'):need(len(form.split())==2 and form.split()[0]==word,f'{id}/{label}: требуется основа и отдельный послелог')
    else:need(' 'not in form and len(form)>len(word),f'{id}/{label}: требуется основа с окончанием')
  districts=data['districts'];text(districts.get('verifiedDate'),'Районы — дата сверки');regions=records(districts.get('regions'),[int(x)for x in contract['districtNames']],'Районы')
  for id,r in regions.items():

@@ -19,6 +19,13 @@ class ContentBuildTests(unittest.TestCase):
  def tearDownClass(cls):build.ROOT=ROOT;cls.temp.cleanup()
  def setUp(self):self.data=copy.deepcopy(self.original)
  def compile(self):build.normalize(self.data);build.validate(self.data,self.contract);return build.compile_all(self.data,self.contract)
+ def test_case_synthetic_endings_survive_compilation(self):
+  output=self.compile();groups=build.read_assignment(output[self.root/'games/case-lock/data.js'],'window.CASE_GROUPS = ')
+  pine=next(g for g in groups if g['id']=='puzhym')
+  self.assertEqual(pine['forms'],['пужым вылын','пужыме','пужымысь'])
+  g=next(g for g in self.data['case-lock']['groups']if g['id']=='puzhym')
+  g['to']['form']=g['word'];g['to']['udm']='Коньы пужым тубе.'
+  with self.assertRaises(build.ContentError):self.compile()
  def test_reordered_lists_preserve_progress_slots(self):
   self.data['my-seem']['categories'].reverse()
   for c in self.data['my-seem']['categories']:c['words'].reverse()
