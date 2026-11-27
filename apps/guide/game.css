@@ -36,3 +36,7 @@ body[data-scene=C02-S05] .panel>.badge{display:none}body[data-scene=C02-S05] .pa
 @media(max-width:600px){#panel .grid{grid-template-columns:repeat(2,minmax(0,1fr))}#panel .grid .card{min-width:0;overflow-wrap:anywhere}.travel-comparison{flex-direction:column}.travel-comparison img{height:70px}}
 /* Keep return-to-portal reachable in the embedded game. */
 @media(max-width:480px){header nav{grid-template-columns:repeat(5,minmax(0,1fr))}header nav button{font-size:.875rem;padding:7px 2px}}
+
+/* Public player header: vocabulary and collected work only. */
+header nav [hidden]{display:none!important}header nav{display:flex;justify-content:flex-end;gap:8px}header nav button{font-size:1rem}
+@media(max-width:480px){header nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}header nav button{font-size:.875rem;padding:8px}}
