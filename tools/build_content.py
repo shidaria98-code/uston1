@@ -367,6 +367,9 @@ def compile_all(data,c):
  import importlib.util
  spec=importlib.util.spec_from_file_location('uston_conjugation_content',Path(__file__).with_name('conjugation_content.py'));module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
  output.update(module.compile_game(ROOT,need,text,asset,js))
+
+ spec=importlib.util.spec_from_file_location('uston_guide_content',Path(__file__).with_name('guide_content.py'));guide_module=importlib.util.module_from_spec(spec);spec.loader.exec_module(guide_module)
+ output.update(guide_module.compile_guide(ROOT,need,js))
  manifest_path=ROOT/'MANIFEST_v18.json'
  if manifest_path.exists():
   manifest=load('MANIFEST_v18.json');manifest['release']='v18-cms-20261116';manifest['base_commit']=c['baseCommit'];files={}
@@ -385,6 +388,7 @@ def main(argv=None):
   changed=[(path,value)for path,value in output.items()if not path.exists()or path.read_text(encoding='utf-8')!=value]
   if not args.check:
    for path,value in changed:
+    path.parent.mkdir(parents=True,exist_ok=True)
     with tempfile.NamedTemporaryFile('w',encoding='utf-8',dir=path.parent,delete=False)as tmp:tmp.write(value);temp=tmp.name
     os.replace(temp,path)
   if args.publish and not args.check:

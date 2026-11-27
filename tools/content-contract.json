@@ -861,7 +861,7 @@
     {
       "id": "guide:mynam",
       "u": "мынам",
-      "ru": "мой / моя / моё",
+      "ru": "мой / моя / моё / мои",
       "game": "guide",
       "kind": "guide",
       "ref": "mynam"
@@ -869,7 +869,7 @@
     {
       "id": "guide:tynad",
       "u": "тынад",
-      "ru": "твой / твоя / твоё",
+      "ru": "твой / твоя / твоё / твои",
       "game": "guide",
       "kind": "guide",
       "ref": "tynad"
@@ -1084,7 +1084,7 @@
     },
     {
       "id": "guide:leyka",
-      "u": "лейка",
+      "u": "вукиськан",
       "ru": "лейка",
       "game": "guide",
       "kind": "guide",
@@ -1101,7 +1101,7 @@
     {
       "id": "guide:derem",
       "u": "дэрем",
-      "ru": "платье / рубашка",
+      "ru": "платье",
       "game": "guide",
       "kind": "guide",
       "ref": "derem"

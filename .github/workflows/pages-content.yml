@@ -29,6 +29,8 @@ jobs:
         run: |
           node tests/cms-content.cjs
           node tests/november-content.cjs
+          node tests/guide-route.cjs
+          node tests/guide-portal.cjs
           (cd games/conjugation-lock && node --test test.js)
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
