@@ -23,9 +23,10 @@ const total=()=>Object.values(s.scores).reduce((a,b)=>a+b,0);
 function report(type){const detail={schemaVersion:1,gameId:'case-lock',runId:s.runId,eventId:`${s.runId}:${s.level}:${s.position}:${type}`,type,score:total(),maxScore:300,completedLevels:s.completed.slice(),words:groups.filter((g,i)=>[0,1,2].some(l=>Object.hasOwn(s.scores,`${l}-${i}`))).map(g=>({udm:g.word,ru:g.meaning})),finished:s.level===3};window.dispatchEvent(new CustomEvent('uston:case-lock',{detail}));if(window.parent!==window&&location.origin!=='null')window.parent.postMessage({type:'uston:game-progress',payload:detail},location.origin);}
 function save(){const dictOK=window.UstonCaseDictionary?.sync(s.scores);if($('dictionary-status'))$('dictionary-status').textContent=dictOK===false?'Не удалось обновить словарь. Попробуем снова при следующем ходе.':'Слова из выполненных заданий автоматически попадают в словарь портала в начальной форме.';try{localStorage.setItem(KEY,JSON.stringify(s));storageOK=true;}catch{storageOK=false;}$('storage').textContent=storageOK?'Прогресс сохраняется в этом браузере.':'Не удалось прочитать или сохранить прогресс. Игра доступна; сохранение может быть недоступно.';}
 function group(){return groups[s.queue[s.position]];}
-function parts(g,level=s.level){if(['syures','puzhym'].includes(g.id))return [g.word,g.forms[level].split(' ')[1]];return [g.word,g.forms[level].slice(g.word.length)];}
-function compose(a,g){return a.join(['syures','puzhym'].includes(g.id)?' ':'');}
-function explanation(g,level=s.level){if(g.explanations?.[level])return g.explanations[level];return ['syures','puzhym'].includes(g.id)?`${questions[level]} — ${meanings[level]} Основа «${g.word}» остаётся неизменной. Выбираем отдельный послелог «${parts(g,level)[1]}»: выл обозначает верх, поверхность.`:`${questions[level]} — ${meanings[level]} К основе «${g.word}» присоединяем «${parts(g,level)[1]}»: ${g.forms[level]}.`;}
+function usesPostposition(g,level=s.level){return g.forms[level].includes(' ');}
+function parts(g,level=s.level){if(usesPostposition(g,level))return [g.word,g.forms[level].split(' ')[1]];return [g.word,g.forms[level].slice(g.word.length)];}
+function compose(a,g){return a.join(usesPostposition(g)?' ':'');}
+function explanation(g,level=s.level){if(g.explanations?.[level])return g.explanations[level];return usesPostposition(g)?`${questions[level]} — ${meanings[level]} Основа «${g.word}» остаётся неизменной. Выбираем отдельный послелог «${parts(g,level)[1]}»: выл обозначает верх, поверхность.`:`${questions[level]} — ${meanings[level]} К основе «${g.word}» присоединяем «${parts(g,level)[1]}»: ${g.forms[level]}.`;}
 function button(text,fn,cls=''){const b=document.createElement('button');b.textContent=text;b.className=cls;b.onclick=fn;return b;}
 function openReview(index){s.reviewIndex=index;save();render();$('game').scrollIntoView({block:'nearest'});}
 function backButton(){const b=button('← Назад',()=>openReview(s.history.length-1));b.disabled=s.history.length===0;return b;}
@@ -64,14 +65,14 @@ const g=group(),repeat=s.position>=10;
 $('status').textContent=`Замок ${s.level+1} из 3 · ${repeat?'Повторение ошибок':`Задание ${s.position+1} из 10`} · ${Object.keys(s.scores).length} / 30 пройдено`;
 const board=document.createElement('div');board.className='board';board.innerHTML='<div class="scene"></div><div class="play"></div>';root.append(board);
 const scene=board.firstChild,img=new Image();img.alt=g.ru[s.level];img.onload=()=>scene.replaceChildren(img);img.onerror=()=>{scene.innerHTML='<div class="symbol" aria-hidden="true">◇</div><p>Утверждённая иллюстрация ожидает подключения исходного файла</p>';};img.src=window.CASE_IMAGES?.[`${g.id}-${directions[s.level]}`]||`images/case_${g.id}_${directions[s.level]}.webp`;
-const play=board.lastChild;play.innerHTML=`<div class="eyebrow">${questions[s.level]} · ${meanings[s.level]}</div><h2>${escCopy(g.ru[s.level])}</h2><div class="label">Собери форму: ${escCopy(g.word)} — ${escCopy(g.meaning)}</div><div class="answer" aria-label="Собранный ответ"></div><div class="label">Основа и ${['syures','puzhym'].includes(g.id)?'послелог':'окончание'}</div><div class="chips"></div><div class="actions"></div>`;
+const play=board.lastChild;play.innerHTML=`<div class="eyebrow">${questions[s.level]} · ${meanings[s.level]}</div><h2>${escCopy(g.ru[s.level])}</h2><div class="label">Собери форму: ${escCopy(g.word)} — ${escCopy(g.meaning)}</div><div class="answer" aria-label="Собранный ответ"></div><div class="label">Основа и ${usesPostposition(g)?'послелог':'окончание'}</div><div class="chips"></div><div class="actions"></div>`;
 const sentence=document.createElement('p');sentence.className='sentence';sentence.lang='udm';sentence.setAttribute('aria-label','Удмуртское предложение с пропуском');
 const target=g.forms[s.level],offset=g.udm[s.level].indexOf(target);
 const gap=document.createElement('span');gap.className='sentence-gap';gap.textContent=s.resolved?target:(s.selected.length?compose(s.selected,g):'_____');gap.setAttribute('aria-label',s.selected.length||s.resolved?'Собранная форма':'Пропуск для формы');
 sentence.append(document.createTextNode(g.udm[s.level].slice(0,offset)),gap,document.createTextNode(g.udm[s.level].slice(offset+target.length)));
 play.querySelector('h2').after(sentence);
 const answer=play.querySelector('.answer');if(!s.selected.length)answer.innerHTML='<span>Выбирай элементы по порядку</span>';else s.selected.forEach((x,i)=>{const b=button(x,()=>{s.selected.splice(i,1);save();render();});b.disabled=s.resolved;answer.append(b);});
-const options=[g.word,...g.forms.map(f=>['syures','puzhym'].includes(g.id)?f.split(' ')[1]:f.slice(g.word.length))];
+const options=[g.word,...g.forms.map((_,level)=>parts(g,level)[1])];
 // Deterministic arrangement preserves focus and choice positions after each click.
 const order=[options[2],options[0],options[3],options[1]];
 order.forEach(x=>{const b=button(x,()=>{s.selected.push(x);save();render();});b.disabled=s.resolved||s.selected.length>=2;play.querySelector('.chips').append(b);});

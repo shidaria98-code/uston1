@@ -4,7 +4,7 @@
   "files": {
     ".DS_Store": "c71f71a52ceb27e1f126959b323bc72c5e735e52be4f53378a12a8e9c899db5d",
     ".gitattributes": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
-    ".github/workflows/mvp-regression.yml": "326990f8245bc03cb8329cbf10f783969fde915f6f802f9b53f7727f317741b3",
+    ".github/workflows/mvp-regression.yml": "826328104e65c962b42a38627cda34f6e629ffcea42350d86af43073e23e2d3e",
     ".github/workflows/pages-content.yml": "23bd81399d76fa4b54043e34e4cb54da12206bc4a3b1ed42eefca2f09220d100",
     ".gitignore": "a0a5cbddb2a42811d81c617b372ec36309833906eba0619bbec3d745e57fa9b3",
     ".pages.yml": "1db3b1aff43d75c9ddd69ca716f962ff6fa6a730184b43cddfcf6b00b3f849cb",
@@ -789,7 +789,7 @@
     "games/case-lock/VERIFICATION.md": "a241ccfdf8d97f558245cb0cac0ee221b134a9d5184b50c2208bc54d34a028ae",
     "games/case-lock/data.js": "58a5f2e9ea219f05527c55011c4dec6f247fcdff822c85db1b911960a2c925cb",
     "games/case-lock/dictionary.js": "29ca0e42f2e02c11ddf19150550a197b3446576eb7da8a295bc3843af2cc6e83",
-    "games/case-lock/game.js": "00993101a4eebdbca09e30b66a40ff0ef853fa2ae7054430b9def2507fcd4322",
+    "games/case-lock/game.js": "5cd0ff1abc3a63daf8057d040a7e8f7f23ec7cccf97e6df5e5bb00a11223ef6d",
     "games/case-lock/images/case_gur_from.jpg": "ee4064d82cee1a7a968ad1a5f47889ab353a9708dbd4baa008db956a414687f8",
     "games/case-lock/images/case_gur_to.jpg": "fd13882aacbf258eaa5d77d5ddbd8664cade6e9c0e888b67be8dcc0eab7709b7",
     "games/case-lock/images/case_gur_where.jpg": "1668babc94366219477f21af0ac0ed2905eb68f53742f2561af60ca8acb42e1e",
@@ -917,7 +917,8 @@
     "tools/conjugation_content.py": "65a05091a040b1e2f1b31e4ce09a9681bcdb947b2f7bdc931f1175279e5bb3fc",
     "tools/content-contract.json": "f827855ff3ca119be0541b7f4368a85c9e95104dbc49008bc21fba0ba34beb43",
     "tools/guide_content.py": "e2127f32b26f6f033c5e95c3bc3bebf1c1d4f7594edeab5e6d72ba94994870f1",
-    "training-demo.html": "3ca56682467055496f54bafd1b2553d0838bf1276b5fc38d9e0d8f2964ff716f"
+    "training-demo.html": "3ca56682467055496f54bafd1b2553d0838bf1276b5fc38d9e0d8f2964ff716f",
+    "tests/case-forms.cjs": "63ae935d87ee20663c46993ed8b0135bfd29c94989699542a8def28d92d4adfd"
   },
   "base_commit": "b8a4f0e59e65cddf9fe2c01728d498070070d02a"
 }
