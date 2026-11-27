@@ -8,13 +8,13 @@
       "ru": "здравствуй / здравствуйте",
       "game": "guide",
       "canonicalId": "lex-1bd4cd25dc1c3ce5",
-      "forms": [],
       "sourceIds": [
         "LEX2-zhechbur"
       ],
       "aliases": [
         "guide:zhechbur"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-myname",
@@ -22,13 +22,13 @@
       "ru": "меня зовут…",
       "game": "guide",
       "canonicalId": "lex-eecd25cb7a1dff59",
-      "forms": [],
       "sourceIds": [
         "LEX2-myname"
       ],
       "aliases": [
         "guide:myname"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-whatname",
@@ -36,13 +36,13 @@
       "ru": "как тебя зовут?",
       "game": "guide",
       "canonicalId": "lex-0b9f9fdf486b78c1",
-      "forms": [],
       "sourceIds": [
         "LEX2-whatname"
       ],
       "aliases": [
         "guide:whatname"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-mon",
@@ -50,13 +50,13 @@
       "ru": "я",
       "game": "guide",
       "canonicalId": "lex-bf2a4f3e96151ef9",
-      "forms": [],
       "sourceIds": [
         "LEX2-mon"
       ],
       "aliases": [
         "guide:mon"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-ton",
@@ -64,13 +64,13 @@
       "ru": "ты",
       "game": "guide",
       "canonicalId": "lex-f22cfc99b644255f",
-      "forms": [],
       "sourceIds": [
         "LEX2-ton"
       ],
       "aliases": [
         "guide:ton"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-gurt",
@@ -78,15 +78,15 @@
       "ru": "деревня",
       "game": "guide",
       "canonicalId": "lex-8f1a622f6ce9a2a0",
-      "forms": [
-        "гуртэ",
-        "гуртысь"
-      ],
       "sourceIds": [
         "LEX2-gurt"
       ],
       "aliases": [
         "seem:world:3"
+      ],
+      "observedForms": [
+        "гуртэ",
+        "гуртысь"
       ]
     },
     {
@@ -95,7 +95,13 @@
       "ru": "дом",
       "game": "guide",
       "canonicalId": "lex-57be64acafc6bc13",
-      "forms": [
+      "sourceIds": [
+        "LEX2-korka"
+      ],
+      "aliases": [
+        "seem:home:0"
+      ],
+      "observedForms": [
         "коркае",
         "коркаед",
         "коркаез",
@@ -103,12 +109,6 @@
         "коркады",
         "корказы",
         "коркаысь"
-      ],
-      "sourceIds": [
-        "LEX2-korka"
-      ],
-      "aliases": [
-        "seem:home:0"
       ]
     },
     {
@@ -117,13 +117,13 @@
       "ru": "дерево (растение)",
       "game": "guide",
       "canonicalId": "lex-edeb49ac93ae965f",
-      "forms": [],
       "sourceIds": [
         "LEX2-pispu"
       ],
       "aliases": [
         "seem:plants:0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-pu",
@@ -131,13 +131,13 @@
       "ru": "древесина",
       "game": "guide",
       "canonicalId": "lex-a25f8c8ece87820d",
-      "forms": [],
       "sourceIds": [
         "LEX2-pu"
       ],
       "aliases": [
         "guide:pu"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-pesyanay",
@@ -145,13 +145,13 @@
       "ru": "бабушка",
       "game": "guide",
       "canonicalId": "lex-09b278ba590bd840",
-      "forms": [],
       "sourceIds": [
         "LEX2-pesyanay"
       ],
       "aliases": [
         "family:grandmother"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-pesyatay",
@@ -159,13 +159,13 @@
       "ru": "дедушка",
       "game": "guide",
       "canonicalId": "lex-c507f4d62a1fa203",
-      "forms": [],
       "sourceIds": [
         "LEX2-pesyatay"
       ],
       "aliases": [
         "family:grandfather"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-chukna",
@@ -173,13 +173,13 @@
       "ru": "утро",
       "game": "guide",
       "canonicalId": "lex-765f532d7d6f3514",
-      "forms": [],
       "sourceIds": [
         "LEX2-chukna"
       ],
       "aliases": [
         "guide:chukna"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-goodmorning",
@@ -187,13 +187,13 @@
       "ru": "доброе утро",
       "game": "guide",
       "canonicalId": "lex-d6a3ea9357496c45",
-      "forms": [],
       "sourceIds": [
         "LEX2-goodmorning"
       ],
       "aliases": [
         "guide:goodmorning"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-nyan",
@@ -201,13 +201,13 @@
       "ru": "хлеб",
       "game": "guide",
       "canonicalId": "lex-d0d81b7ac7f19f40",
-      "forms": [],
       "sourceIds": [
         "LEX2-nyan"
       ],
       "aliases": [
         "guide:nyan"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-butter",
@@ -215,10 +215,10 @@
       "ru": "масло",
       "game": "guide",
       "canonicalId": "lex-fa5875aec935e234",
-      "forms": [],
       "sourceIds": [
         "LEX2-butter"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-zhok",
@@ -226,13 +226,13 @@
       "ru": "стол",
       "game": "guide",
       "canonicalId": "lex-2f0f7fc6b3141b99",
-      "forms": [],
       "sourceIds": [
         "LEX2-zhok"
       ],
       "aliases": [
         "seem:home:9"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-shundy",
@@ -240,13 +240,13 @@
       "ru": "солнце",
       "game": "guide",
       "canonicalId": "lex-52ae8b6219a0c543",
-      "forms": [],
       "sourceIds": [
         "LEX2-shundy"
       ],
       "aliases": [
         "seem:nature:0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-syaska",
@@ -254,14 +254,14 @@
       "ru": "цветок",
       "game": "guide",
       "canonicalId": "lex-682e6183f1975ca9",
-      "forms": [
-        "сяськаос"
-      ],
       "sourceIds": [
         "LEX2-syaska"
       ],
       "aliases": [
         "seem:plants:1"
+      ],
+      "observedForms": [
+        "сяськаос"
       ]
     },
     {
@@ -270,13 +270,13 @@
       "ru": "лейка",
       "game": "guide",
       "canonicalId": "lex-6504172ec60d77c3",
-      "forms": [],
       "sourceIds": [
         "LEX2-watering"
       ],
       "aliases": [
         "guide:leyka"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-thanks",
@@ -284,10 +284,10 @@
       "ru": "спасибо",
       "game": "guide",
       "canonicalId": "lex-395908d48a9bf4d9",
-      "forms": [],
       "sourceIds": [
         "LEX2-thanks"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-bouquet",
@@ -295,10 +295,10 @@
       "ru": "букет цветов",
       "game": "guide",
       "canonicalId": "lex-230ef529f92ad2bb",
-      "forms": [],
       "sourceIds": [
         "LEX2-bouquet"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-bundle",
@@ -306,11 +306,11 @@
       "ru": "букет / связка",
       "game": "guide",
       "canonicalId": "lex-2caf93eb74a82568",
-      "forms": [
-        "керттэтъёс"
-      ],
       "sourceIds": [
         "LEX2-bundle"
+      ],
+      "observedForms": [
+        "керттэтъёс"
       ]
     },
     {
@@ -319,14 +319,14 @@
       "ru": "платье",
       "game": "guide",
       "canonicalId": "lex-2fe2af1938c56d7b",
-      "forms": [
-        "дэремъёс"
-      ],
       "sourceIds": [
         "LEX2-derem"
       ],
       "aliases": [
         "guide:derem"
+      ],
+      "observedForms": [
+        "дэремъёс"
       ]
     },
     {
@@ -335,14 +335,14 @@
       "ru": "головной платок",
       "game": "guide",
       "canonicalId": "lex-f5af6b23463d9f2d",
-      "forms": [
-        "йыркышетъёс"
-      ],
       "sourceIds": [
         "LEX2-yyrkyshet"
       ],
       "aliases": [
         "guide:yyrkyshet"
+      ],
+      "observedForms": [
+        "йыркышетъёс"
       ]
     },
     {
@@ -351,13 +351,13 @@
       "ru": "пояс",
       "game": "guide",
       "canonicalId": "lex-30cf69b74ce96280",
-      "forms": [],
       "sourceIds": [
         "LEX2-kuskertton"
       ],
       "aliases": [
         "guide:kuskertton"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-chyrtyves",
@@ -365,13 +365,13 @@
       "ru": "монисто",
       "game": "guide",
       "canonicalId": "lex-fdedee486db5cce1",
-      "forms": [],
       "sourceIds": [
         "LEX2-chyrtyves"
       ],
       "aliases": [
         "memory:7"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-red",
@@ -379,10 +379,10 @@
       "ru": "красный",
       "game": "guide",
       "canonicalId": "lex-f1a3450720bd89dc",
-      "forms": [],
       "sourceIds": [
         "LEX2-red"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-blue",
@@ -390,10 +390,10 @@
       "ru": "синий",
       "game": "guide",
       "canonicalId": "lex-465d48f0411f0ef1",
-      "forms": [],
       "sourceIds": [
         "LEX2-blue"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-green",
@@ -401,13 +401,13 @@
       "ru": "зелёный",
       "game": "guide",
       "canonicalId": "lex-8c35ba56975b7ad3",
-      "forms": [],
       "sourceIds": [
         "LEX2-green"
       ],
       "aliases": [
         "kin:вож"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-water",
@@ -415,13 +415,13 @@
       "ru": "вода",
       "game": "guide",
       "canonicalId": "lex-ca9c8d428c4b0c8d",
-      "forms": [],
       "sourceIds": [
         "LEX2-water"
       ],
       "aliases": [
         "seem:nature:2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-so",
@@ -429,13 +429,13 @@
       "ru": "он / она",
       "game": "guide",
       "canonicalId": "lex-4b7c90b8f6cf6fa5",
-      "forms": [],
       "sourceIds": [
         "LEX2-so"
       ],
       "aliases": [
         "guide:so"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-mi",
@@ -443,13 +443,13 @@
       "ru": "мы",
       "game": "guide",
       "canonicalId": "lex-89a46a478e1fcd22",
-      "forms": [],
       "sourceIds": [
         "LEX2-mi"
       ],
       "aliases": [
         "guide:mi"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-ti",
@@ -457,13 +457,13 @@
       "ru": "вы",
       "game": "guide",
       "canonicalId": "lex-d8e2379fc5d110bb",
-      "forms": [],
       "sourceIds": [
         "LEX2-ti"
       ],
       "aliases": [
         "guide:ti"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-soos",
@@ -471,13 +471,13 @@
       "ru": "они",
       "game": "guide",
       "canonicalId": "lex-41a2a9053978c7df",
-      "forms": [],
       "sourceIds": [
         "LEX2-soos"
       ],
       "aliases": [
         "guide:soos"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-photo",
@@ -485,11 +485,11 @@
       "ru": "фотография",
       "game": "guide",
       "canonicalId": "lex-cf9e296ddd38f001",
-      "forms": [
-        "туспуктэмез"
-      ],
       "sourceIds": [
         "LEX2-photo"
+      ],
+      "observedForms": [
+        "туспуктэмез"
       ]
     },
     {
@@ -498,13 +498,13 @@
       "ru": "что это?",
       "game": "guide",
       "canonicalId": "lex-7d507a2edd407192",
-      "forms": [],
       "sourceIds": [
         "LEX2-marta"
       ],
       "aliases": [
         "guide:marta"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-shur",
@@ -512,13 +512,13 @@
       "ru": "река",
       "game": "guide",
       "canonicalId": "lex-93ac34a93db328ca",
-      "forms": [],
       "sourceIds": [
         "LEX2-shur"
       ],
       "aliases": [
         "seem:nature:4"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-syures",
@@ -526,13 +526,13 @@
       "ru": "дорога",
       "game": "guide",
       "canonicalId": "lex-3a0b82611e277bd4",
-      "forms": [],
       "sourceIds": [
         "LEX2-syures"
       ],
       "aliases": [
         "seem:world:8"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-kytyn",
@@ -540,13 +540,13 @@
       "ru": "где?",
       "game": "guide",
       "canonicalId": "lex-8b9d6caee36c83d8",
-      "forms": [],
       "sourceIds": [
         "LEX2-kytyn"
       ],
       "aliases": [
         "guide:kytyn"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-kinta",
@@ -554,13 +554,13 @@
       "ru": "кто это?",
       "game": "guide",
       "canonicalId": "lex-509e9c82a45b6231",
-      "forms": [],
       "sourceIds": [
         "LEX2-kinta"
       ],
       "aliases": [
         "guide:kinta"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-anay",
@@ -568,14 +568,14 @@
       "ru": "мама",
       "game": "guide",
       "canonicalId": "lex-656c040c22164131",
-      "forms": [
-        "анайлэн"
-      ],
       "sourceIds": [
         "LEX2-anay"
       ],
       "aliases": [
         "family:mother"
+      ],
+      "observedForms": [
+        "анайлэн"
       ]
     },
     {
@@ -584,13 +584,13 @@
       "ru": "папа",
       "game": "guide",
       "canonicalId": "lex-466437b92020c368",
-      "forms": [],
       "sourceIds": [
         "LEX2-atay"
       ],
       "aliases": [
         "family:father"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-apay",
@@ -598,13 +598,13 @@
       "ru": "старшая сестра",
       "game": "guide",
       "canonicalId": "lex-8282ec9d97e13b62",
-      "forms": [],
       "sourceIds": [
         "LEX2-apay"
       ],
       "aliases": [
         "family:eldersister"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-agay",
@@ -612,13 +612,13 @@
       "ru": "старший брат",
       "game": "guide",
       "canonicalId": "lex-1fe6dbeea6ae1cca",
-      "forms": [],
       "sourceIds": [
         "LEX2-agay"
       ],
       "aliases": [
         "family:elderbrother"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-album",
@@ -626,10 +626,10 @@
       "ru": "альбом",
       "game": "guide",
       "canonicalId": "lex-f3e4721d6b4fee4d",
-      "forms": [],
       "sourceIds": [
         "LEX2-album"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-there",
@@ -637,10 +637,10 @@
       "ru": "там",
       "game": "guide",
       "canonicalId": "lex-a2ab366168f2673c",
-      "forms": [],
       "sourceIds": [
         "LEX2-there"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-here",
@@ -648,10 +648,10 @@
       "ru": "тут",
       "game": "guide",
       "canonicalId": "lex-de3e9470cb820858",
-      "forms": [],
       "sourceIds": [
         "LEX2-here"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-exist",
@@ -659,10 +659,10 @@
       "ru": "есть / имеется",
       "game": "guide",
       "canonicalId": "lex-363b56c1f314ba79",
-      "forms": [],
       "sourceIds": [
         "LEX2-exist"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-window",
@@ -670,13 +670,13 @@
       "ru": "окно",
       "game": "guide",
       "canonicalId": "lex-4ef300bacf4e9508",
-      "forms": [],
       "sourceIds": [
         "LEX2-window"
       ],
       "aliases": [
         "seem:home:7"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-door",
@@ -684,13 +684,13 @@
       "ru": "дверь",
       "game": "guide",
       "canonicalId": "lex-a594999209f20e7b",
-      "forms": [],
       "sourceIds": [
         "LEX2-door"
       ],
       "aliases": [
         "seem:home:8"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num1",
@@ -698,13 +698,13 @@
       "ru": "1",
       "game": "guide",
       "canonicalId": "lex-af20763cb1e708bc",
-      "forms": [],
       "sourceIds": [
         "LEX2-num1"
       ],
       "aliases": [
         "number:1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num2",
@@ -712,13 +712,13 @@
       "ru": "2",
       "game": "guide",
       "canonicalId": "lex-c0126a5508a58b8b",
-      "forms": [],
       "sourceIds": [
         "LEX2-num2"
       ],
       "aliases": [
         "number:2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num3",
@@ -726,13 +726,13 @@
       "ru": "3",
       "game": "guide",
       "canonicalId": "lex-de13cc8bdbdcbe8f",
-      "forms": [],
       "sourceIds": [
         "LEX2-num3"
       ],
       "aliases": [
         "number:3"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num4",
@@ -740,13 +740,13 @@
       "ru": "4",
       "game": "guide",
       "canonicalId": "lex-ddd77d38e238d8e1",
-      "forms": [],
       "sourceIds": [
         "LEX2-num4"
       ],
       "aliases": [
         "number:4"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num5",
@@ -754,13 +754,13 @@
       "ru": "5",
       "game": "guide",
       "canonicalId": "lex-d4682caa400ce4bd",
-      "forms": [],
       "sourceIds": [
         "LEX2-num5"
       ],
       "aliases": [
         "number:5"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-do",
@@ -768,7 +768,10 @@
       "ru": "делать",
       "game": "guide",
       "canonicalId": "lex-41357122eb97ed90",
-      "forms": [
+      "sourceIds": [
+        "LEX2-do"
+      ],
+      "observedForms": [
         "карисько",
         "кариськод",
         "каре",
@@ -781,9 +784,6 @@
         "лэсьтӥм",
         "лэсьтӥды",
         "лэсьтӥзы"
-      ],
-      "sourceIds": [
-        "LEX2-do"
       ]
     },
     {
@@ -792,16 +792,16 @@
       "ru": "ходить",
       "game": "guide",
       "canonicalId": "lex-8b014c3755173cbf",
-      "forms": [
+      "sourceIds": [
+        "LEX2-walk"
+      ],
+      "observedForms": [
         "ветлӥсько",
         "ветлӥськод",
         "ветлэ",
         "ветлӥськом",
         "ветлӥськоды",
         "ветло"
-      ],
-      "sourceIds": [
-        "LEX2-walk"
       ]
     },
     {
@@ -810,7 +810,10 @@
       "ru": "смотреть",
       "game": "guide",
       "canonicalId": "lex-8e26d5ad5d502fb7",
-      "forms": [
+      "sourceIds": [
+        "LEX2-look"
+      ],
+      "observedForms": [
         "учкисько",
         "учкиськод",
         "учке",
@@ -823,9 +826,6 @@
         "учким",
         "учкиды",
         "учкизы"
-      ],
-      "sourceIds": [
-        "LEX2-look"
       ]
     },
     {
@@ -834,16 +834,16 @@
       "ru": "искать",
       "game": "guide",
       "canonicalId": "lex-458d5e8ef6a4e153",
-      "forms": [
+      "sourceIds": [
+        "LEX2-search"
+      ],
+      "observedForms": [
         "утчасько",
         "утчаськод",
         "утча",
         "утчаськом",
         "утчаськоды",
         "утчало"
-      ],
-      "sourceIds": [
-        "LEX2-search"
       ]
     },
     {
@@ -852,7 +852,10 @@
       "ru": "говорить / сказать",
       "game": "guide",
       "canonicalId": "lex-7c12d62172447979",
-      "forms": [
+      "sourceIds": [
+        "LEX2-speak"
+      ],
+      "observedForms": [
         "верасько",
         "вераськод",
         "вера",
@@ -865,9 +868,6 @@
         "верамы",
         "верады",
         "веразы"
-      ],
-      "sourceIds": [
-        "LEX2-speak"
       ]
     },
     {
@@ -876,16 +876,16 @@
       "ru": "поливать",
       "game": "guide",
       "canonicalId": "lex-a57b2e374b93535e",
-      "forms": [
+      "sourceIds": [
+        "LEX2-waterverb"
+      ],
+      "observedForms": [
         "киськасько",
         "киськаськод",
         "киська",
         "киськаськом",
         "киськаськоды",
         "киськало"
-      ],
-      "sourceIds": [
-        "LEX2-waterverb"
       ]
     },
     {
@@ -894,15 +894,15 @@
       "ru": "сажать",
       "game": "guide",
       "canonicalId": "lex-9b1312f48255ed54",
-      "forms": [
+      "sourceIds": [
+        "LEX2-plant"
+      ],
+      "observedForms": [
         "мерттӥсько",
         "мерттӥськод",
         "мерттэ",
         "мерттӥськоды",
         "мертто"
-      ],
-      "sourceIds": [
-        "LEX2-plant"
       ]
     },
     {
@@ -911,7 +911,10 @@
       "ru": "помогать",
       "game": "guide",
       "canonicalId": "lex-9db8dba0da896a9e",
-      "forms": [
+      "sourceIds": [
+        "LEX2-help"
+      ],
+      "observedForms": [
         "юрттӥсько",
         "юрттӥськод",
         "юрттэ",
@@ -924,9 +927,6 @@
         "юрттӥм",
         "юрттӥды",
         "юрттӥзы"
-      ],
-      "sourceIds": [
-        "LEX2-help"
       ]
     },
     {
@@ -935,10 +935,10 @@
       "ru": "куда?",
       "game": "guide",
       "canonicalId": "lex-9704bc1b28e18971",
-      "forms": [],
       "sourceIds": [
         "LEX2-where_to"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-where_from",
@@ -946,10 +946,10 @@
       "ru": "откуда?",
       "game": "guide",
       "canonicalId": "lex-b1c90ea9401b9da8",
-      "forms": [],
       "sourceIds": [
         "LEX2-where_from"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-go",
@@ -957,7 +957,10 @@
       "ru": "идти",
       "game": "guide",
       "canonicalId": "lex-0a4640e475ee628d",
-      "forms": [
+      "sourceIds": [
+        "LEX2-go"
+      ],
+      "observedForms": [
         "мынӥсько",
         "мынӥськод",
         "мынэ",
@@ -970,9 +973,6 @@
         "мынӥм",
         "мынӥды",
         "мынӥзы"
-      ],
-      "sourceIds": [
-        "LEX2-go"
       ]
     },
     {
@@ -981,10 +981,10 @@
       "ru": "бегать",
       "game": "guide",
       "canonicalId": "lex-01eefa193e7e12f1",
-      "forms": [],
       "sourceIds": [
         "LEX2-run"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-hurry",
@@ -992,16 +992,16 @@
       "ru": "спешить",
       "game": "guide",
       "canonicalId": "lex-64d430e7aa846ff0",
-      "forms": [
+      "sourceIds": [
+        "LEX2-hurry"
+      ],
+      "observedForms": [
         "дыртӥсько",
         "дыртӥськод",
         "дырттэ",
         "дыртӥськом",
         "дыртӥськоды",
         "дыртто"
-      ],
-      "sourceIds": [
-        "LEX2-hurry"
       ]
     },
     {
@@ -1010,16 +1010,16 @@
       "ru": "приезжать",
       "game": "guide",
       "canonicalId": "lex-43054ffd36593f87",
-      "forms": [
+      "sourceIds": [
+        "LEX2-arrive"
+      ],
+      "observedForms": [
         "лыктӥсько",
         "лыктӥськод",
         "лыктэ",
         "лыктӥськом",
         "лыктӥськоды",
         "лыкто"
-      ],
-      "sourceIds": [
-        "LEX2-arrive"
       ]
     },
     {
@@ -1028,16 +1028,16 @@
       "ru": "подниматься",
       "game": "guide",
       "canonicalId": "lex-0f589bd82d65399c",
-      "forms": [
+      "sourceIds": [
+        "LEX2-up"
+      ],
+      "observedForms": [
         "тубисько",
         "тубиськод",
         "тубе",
         "тубиськом",
         "тубиськоды",
         "тубо"
-      ],
-      "sourceIds": [
-        "LEX2-up"
       ]
     },
     {
@@ -1046,16 +1046,16 @@
       "ru": "спускаться",
       "game": "guide",
       "canonicalId": "lex-ec7533e218b80fd2",
-      "forms": [
+      "sourceIds": [
+        "LEX2-down"
+      ],
+      "observedForms": [
         "васькисько",
         "васькиськод",
         "ваське",
         "васькиськом",
         "васькиськоды",
         "васько"
-      ],
-      "sourceIds": [
-        "LEX2-down"
       ]
     },
     {
@@ -1064,13 +1064,13 @@
       "ru": "кошка / кот",
       "game": "guide",
       "canonicalId": "lex-7881b0273cf20369",
-      "forms": [],
       "sourceIds": [
         "LEX2-cat"
       ],
       "aliases": [
         "seem:animals:1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-dog",
@@ -1078,13 +1078,13 @@
       "ru": "собака",
       "game": "guide",
       "canonicalId": "lex-75a8cee147298170",
-      "forms": [],
       "sourceIds": [
         "LEX2-dog"
       ],
       "aliases": [
         "seem:animals:2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-horse",
@@ -1092,13 +1092,13 @@
       "ru": "лошадь",
       "game": "guide",
       "canonicalId": "lex-a9842864b228f32b",
-      "forms": [],
       "sourceIds": [
         "LEX2-horse"
       ],
       "aliases": [
         "seem:animals:3"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-cow",
@@ -1106,13 +1106,13 @@
       "ru": "корова",
       "game": "guide",
       "canonicalId": "lex-ee0918310dd84c13",
-      "forms": [],
       "sourceIds": [
         "LEX2-cow"
       ],
       "aliases": [
         "seem:animals:4"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-bird",
@@ -1120,13 +1120,13 @@
       "ru": "птица",
       "game": "guide",
       "canonicalId": "lex-d32b1821b14051bf",
-      "forms": [],
       "sourceIds": [
         "LEX2-bird"
       ],
       "aliases": [
         "seem:animals:0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-feed",
@@ -1134,10 +1134,10 @@
       "ru": "кормить",
       "game": "guide",
       "canonicalId": "lex-07ca115489899fab",
-      "forms": [],
       "sourceIds": [
         "LEX2-feed"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-givewater",
@@ -1145,10 +1145,10 @@
       "ru": "поить (животных)",
       "game": "guide",
       "canonicalId": "lex-e9dba745e63c11d2",
-      "forms": [],
       "sourceIds": [
         "LEX2-givewater"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-observe",
@@ -1156,10 +1156,10 @@
       "ru": "наблюдать",
       "game": "guide",
       "canonicalId": "lex-caf38a5a61f6d1cb",
-      "forms": [],
       "sourceIds": [
         "LEX2-observe"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-stand",
@@ -1167,10 +1167,10 @@
       "ru": "стоять",
       "game": "guide",
       "canonicalId": "lex-3aeee9040778901e",
-      "forms": [],
       "sourceIds": [
         "LEX2-stand"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-sit",
@@ -1178,10 +1178,10 @@
       "ru": "сидеть",
       "game": "guide",
       "canonicalId": "lex-af7247e5198b88c6",
-      "forms": [],
       "sourceIds": [
         "LEX2-sit"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-sleep",
@@ -1189,16 +1189,16 @@
       "ru": "спать",
       "game": "guide",
       "canonicalId": "lex-03c3adbe52514e7e",
-      "forms": [
+      "sourceIds": [
+        "LEX2-sleep"
+      ],
+      "observedForms": [
         "изисько",
         "изиськод",
         "изе",
         "изиськом",
         "изиськоды",
         "изё"
-      ],
-      "sourceIds": [
-        "LEX2-sleep"
       ]
     },
     {
@@ -1207,10 +1207,10 @@
       "ru": "пить",
       "game": "guide",
       "canonicalId": "lex-96741edb526a1957",
-      "forms": [],
       "sourceIds": [
         "LEX2-drink"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-hear",
@@ -1218,10 +1218,10 @@
       "ru": "слышать",
       "game": "guide",
       "canonicalId": "lex-5161b2c4c66a1570",
-      "forms": [],
       "sourceIds": [
         "LEX2-hear"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-see",
@@ -1229,10 +1229,10 @@
       "ru": "видеть",
       "game": "guide",
       "canonicalId": "lex-4fbcfd61b54d1c44",
-      "forms": [],
       "sourceIds": [
         "LEX2-see"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-shop",
@@ -1240,13 +1240,13 @@
       "ru": "магазин",
       "game": "guide",
       "canonicalId": "lex-3a64df4f3454aa52",
-      "forms": [],
       "sourceIds": [
         "LEX2-shop"
       ],
       "aliases": [
         "case-lock:lavka"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-please",
@@ -1254,10 +1254,10 @@
       "ru": "дайте, пожалуйста",
       "game": "guide",
       "canonicalId": "lex-707666c4b1eb4750",
-      "forms": [],
       "sourceIds": [
         "LEX2-please"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-need",
@@ -1265,10 +1265,10 @@
       "ru": "мне нужно",
       "game": "guide",
       "canonicalId": "lex-1c285fa73ae9a7ac",
-      "forms": [],
       "sourceIds": [
         "LEX2-need"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-take",
@@ -1276,10 +1276,10 @@
       "ru": "брать",
       "game": "guide",
       "canonicalId": "lex-8bc1f104ae80c650",
-      "forms": [],
       "sourceIds": [
         "LEX2-take"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-give",
@@ -1287,10 +1287,10 @@
       "ru": "давать",
       "game": "guide",
       "canonicalId": "lex-b0379c62ef721a45",
-      "forms": [],
       "sourceIds": [
         "LEX2-give"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-pay",
@@ -1298,10 +1298,10 @@
       "ru": "платить",
       "game": "guide",
       "canonicalId": "lex-71d9463ff51e057c",
-      "forms": [],
       "sourceIds": [
         "LEX2-pay"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-price",
@@ -1309,10 +1309,10 @@
       "ru": "сколько стоит?",
       "game": "guide",
       "canonicalId": "lex-47970088ec2c138d",
-      "forms": [],
       "sourceIds": [
         "LEX2-price"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-milk",
@@ -1320,10 +1320,10 @@
       "ru": "молоко",
       "game": "guide",
       "canonicalId": "lex-1b8d7f046c85e65f",
-      "forms": [],
       "sourceIds": [
         "LEX2-milk"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num6",
@@ -1331,13 +1331,13 @@
       "ru": "6",
       "game": "guide",
       "canonicalId": "lex-efcb7518ba62b810",
-      "forms": [],
       "sourceIds": [
         "LEX2-num6"
       ],
       "aliases": [
         "number:6"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num7",
@@ -1345,13 +1345,13 @@
       "ru": "7",
       "game": "guide",
       "canonicalId": "lex-6f2015850849423a",
-      "forms": [],
       "sourceIds": [
         "LEX2-num7"
       ],
       "aliases": [
         "number:7"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num8",
@@ -1359,13 +1359,13 @@
       "ru": "8",
       "game": "guide",
       "canonicalId": "lex-78855b6ff82e7f0c",
-      "forms": [],
       "sourceIds": [
         "LEX2-num8"
       ],
       "aliases": [
         "number:8"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num9",
@@ -1373,13 +1373,13 @@
       "ru": "9",
       "game": "guide",
       "canonicalId": "lex-ce54c71fce25a7dd",
-      "forms": [],
       "sourceIds": [
         "LEX2-num9"
       ],
       "aliases": [
         "number:9"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-num10",
@@ -1387,13 +1387,13 @@
       "ru": "10",
       "game": "guide",
       "canonicalId": "lex-abedaf12b56fde01",
-      "forms": [],
       "sourceIds": [
         "LEX2-num10"
       ],
       "aliases": [
         "number:10"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-friend",
@@ -1401,13 +1401,13 @@
       "ru": "друг",
       "game": "guide",
       "canonicalId": "lex-76cb570a26c1b90d",
-      "forms": [],
       "sourceIds": [
         "LEX2-friend"
       ],
       "aliases": [
         "seem:world:1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-school",
@@ -1415,10 +1415,10 @@
       "ru": "школа",
       "game": "guide",
       "canonicalId": "lex-f399e8caebdfc855",
-      "forms": [],
       "sourceIds": [
         "LEX2-school"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-book",
@@ -1426,10 +1426,10 @@
       "ru": "книга",
       "game": "guide",
       "canonicalId": "lex-695b9685757ab1a5",
-      "forms": [],
       "sourceIds": [
         "LEX2-book"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-read",
@@ -1437,16 +1437,16 @@
       "ru": "читать",
       "game": "guide",
       "canonicalId": "lex-2f220b2c77684870",
-      "forms": [
+      "sourceIds": [
+        "LEX2-read"
+      ],
+      "observedForms": [
         "лыдӟисько",
         "лыдӟиськод",
         "лыдӟе",
         "лыдӟиськом",
         "лыдӟиськоды",
         "лыдӟо"
-      ],
-      "sourceIds": [
-        "LEX2-read"
       ]
     },
     {
@@ -1455,10 +1455,10 @@
       "ru": "писать",
       "game": "guide",
       "canonicalId": "lex-4c322a49b6b521e9",
-      "forms": [],
       "sourceIds": [
         "LEX2-write"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-draw",
@@ -1466,10 +1466,10 @@
       "ru": "рисовать",
       "game": "guide",
       "canonicalId": "lex-316e19d4f1c85ac7",
-      "forms": [],
       "sourceIds": [
         "LEX2-draw"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-ask",
@@ -1477,10 +1477,10 @@
       "ru": "спрашивать",
       "game": "guide",
       "canonicalId": "lex-c0d708b6933ca8e0",
-      "forms": [],
       "sourceIds": [
         "LEX2-ask"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-answer",
@@ -1488,10 +1488,10 @@
       "ru": "отвечать",
       "game": "guide",
       "canonicalId": "lex-5f49dc45131542c0",
-      "forms": [],
       "sourceIds": [
         "LEX2-answer"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-play",
@@ -1499,7 +1499,10 @@
       "ru": "играть",
       "game": "guide",
       "canonicalId": "lex-5e479de04f5f9205",
-      "forms": [
+      "sourceIds": [
+        "LEX2-play"
+      ],
+      "observedForms": [
         "шудӥсько",
         "шудӥськод",
         "шудэ",
@@ -1512,9 +1515,6 @@
         "шудӥм",
         "шудӥды",
         "шудӥзы"
-      ],
-      "sourceIds": [
-        "LEX2-play"
       ]
     },
     {
@@ -1523,10 +1523,10 @@
       "ru": "прыгать",
       "game": "guide",
       "canonicalId": "lex-7a9404657a817cff",
-      "forms": [],
       "sourceIds": [
         "LEX2-jump"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-throw",
@@ -1534,10 +1534,10 @@
       "ru": "бросать",
       "game": "guide",
       "canonicalId": "lex-ac3f76700d1ef0f8",
-      "forms": [],
       "sourceIds": [
         "LEX2-throw"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-catch",
@@ -1545,10 +1545,10 @@
       "ru": "ловить",
       "game": "guide",
       "canonicalId": "lex-a2f1ae8b2df83017",
-      "forms": [],
       "sourceIds": [
         "LEX2-catch"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-ball",
@@ -1556,10 +1556,10 @@
       "ru": "мяч",
       "game": "guide",
       "canonicalId": "lex-4c29a72d90acff17",
-      "forms": [],
       "sourceIds": [
         "LEX2-ball"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-turn",
@@ -1567,10 +1567,10 @@
       "ru": "очередь / ход",
       "game": "guide",
       "canonicalId": "lex-7a9df834a6bb664e",
-      "forms": [],
       "sourceIds": [
         "LEX2-turn"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-forest",
@@ -1578,13 +1578,13 @@
       "ru": "лес",
       "game": "guide",
       "canonicalId": "lex-6340f0d1a4a316d7",
-      "forms": [],
       "sourceIds": [
         "LEX2-forest"
       ],
       "aliases": [
         "seem:nature:3"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-leaf",
@@ -1592,13 +1592,13 @@
       "ru": "лист",
       "game": "guide",
       "canonicalId": "lex-8f6f2299cdb3b29c",
-      "forms": [],
       "sourceIds": [
         "LEX2-leaf"
       ],
       "aliases": [
         "seem:plants:5"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-grass",
@@ -1606,13 +1606,13 @@
       "ru": "трава",
       "game": "guide",
       "canonicalId": "lex-a8daee51c18c9ecc",
-      "forms": [],
       "sourceIds": [
         "LEX2-grass"
       ],
       "aliases": [
         "seem:plants:2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-berry",
@@ -1620,13 +1620,13 @@
       "ru": "ягода",
       "game": "guide",
       "canonicalId": "lex-348b225467d9b5b3",
-      "forms": [],
       "sourceIds": [
         "LEX2-berry"
       ],
       "aliases": [
         "seem:plants:7"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-mushroom",
@@ -1634,13 +1634,13 @@
       "ru": "гриб",
       "game": "guide",
       "canonicalId": "lex-7eba56eb3888762e",
-      "forms": [],
       "sourceIds": [
         "LEX2-mushroom"
       ],
       "aliases": [
         "seem:plants:8"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-basket",
@@ -1648,10 +1648,10 @@
       "ru": "корзина",
       "game": "guide",
       "canonicalId": "lex-c3640bbb64fbc488",
-      "forms": [],
       "sourceIds": [
         "LEX2-basket"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-pattern",
@@ -1659,10 +1659,10 @@
       "ru": "узор",
       "game": "guide",
       "canonicalId": "lex-8bd8a3071a6bb992",
-      "forms": [],
       "sourceIds": [
         "LEX2-pattern"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-circle",
@@ -1670,13 +1670,13 @@
       "ru": "круг / солярный знак",
       "game": "guide",
       "canonicalId": "lex-c0cea31b940f3325",
-      "forms": [],
       "sourceIds": [
         "LEX2-circle"
       ],
       "aliases": [
         "pattern:0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-moon",
@@ -1684,13 +1684,13 @@
       "ru": "луна",
       "game": "guide",
       "canonicalId": "lex-b1dde2a0c4a7a0eb",
-      "forms": [],
       "sourceIds": [
         "LEX2-moon"
       ],
       "aliases": [
         "pattern:2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-star",
@@ -1698,13 +1698,13 @@
       "ru": "звезда",
       "game": "guide",
       "canonicalId": "lex-bff3f264977cebcd",
-      "forms": [],
       "sourceIds": [
         "LEX2-star"
       ],
       "aliases": [
         "pattern:4"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-fir",
@@ -1712,13 +1712,13 @@
       "ru": "ель",
       "game": "guide",
       "canonicalId": "lex-4e92b929004e24e5",
-      "forms": [],
       "sourceIds": [
         "LEX2-fir"
       ],
       "aliases": [
         "pattern:5"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-choose",
@@ -1726,10 +1726,10 @@
       "ru": "выбирать",
       "game": "guide",
       "canonicalId": "lex-8f5796ea3de5026b",
-      "forms": [],
       "sourceIds": [
         "LEX2-choose"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-decorate",
@@ -1737,10 +1737,10 @@
       "ru": "украшать",
       "game": "guide",
       "canonicalId": "lex-d8a6180bf3796e5c",
-      "forms": [],
       "sourceIds": [
         "LEX2-decorate"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-meet",
@@ -1748,10 +1748,10 @@
       "ru": "встречать",
       "game": "guide",
       "canonicalId": "lex-c3dabbd9500a6ffe",
-      "forms": [],
       "sourceIds": [
         "LEX2-meet"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-invite",
@@ -1759,10 +1759,10 @@
       "ru": "приглашать",
       "game": "guide",
       "canonicalId": "lex-0045e31cb8bd5b19",
-      "forms": [],
       "sourceIds": [
         "LEX2-invite"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-bring",
@@ -1770,10 +1770,10 @@
       "ru": "приносить",
       "game": "guide",
       "canonicalId": "lex-4a19245c410f2759",
-      "forms": [],
       "sourceIds": [
         "LEX2-bring"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-put",
@@ -1781,10 +1781,10 @@
       "ru": "класть",
       "game": "guide",
       "canonicalId": "lex-7e4e3c00b34debbb",
-      "forms": [],
       "sourceIds": [
         "LEX2-put"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-settable",
@@ -1792,10 +1792,10 @@
       "ru": "накрывать на стол",
       "game": "guide",
       "canonicalId": "lex-4b5e376469afb5ee",
-      "forms": [],
       "sourceIds": [
         "LEX2-settable"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-page",
@@ -1803,10 +1803,10 @@
       "ru": "страница",
       "game": "guide",
       "canonicalId": "lex-70787283a7fa682c",
-      "forms": [],
       "sourceIds": [
         "LEX2-page"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-glue",
@@ -1814,10 +1814,10 @@
       "ru": "приклеивать",
       "game": "guide",
       "canonicalId": "lex-f1726f6c204a896f",
-      "forms": [],
       "sourceIds": [
         "LEX2-glue"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-getup",
@@ -1825,16 +1825,16 @@
       "ru": "вставать",
       "game": "guide",
       "canonicalId": "lex-71921c1933482796",
-      "forms": [
+      "sourceIds": [
+        "LEX2-getup"
+      ],
+      "observedForms": [
         "султӥсько",
         "султӥськод",
         "султэ",
         "султӥськом",
         "султӥськоды",
         "султо"
-      ],
-      "sourceIds": [
-        "LEX2-getup"
       ]
     },
     {
@@ -1843,16 +1843,16 @@
       "ru": "умываться",
       "game": "guide",
       "canonicalId": "lex-963d19b0defb3916",
-      "forms": [
+      "sourceIds": [
+        "LEX2-wash"
+      ],
+      "observedForms": [
         "мисьтӥськисько",
         "мисьтӥськиськод",
         "мисьтӥське",
         "мисьтӥськиськом",
         "мисьтӥськиськоды",
         "мисьтӥсько"
-      ],
-      "sourceIds": [
-        "LEX2-wash"
       ]
     },
     {
@@ -1861,16 +1861,16 @@
       "ru": "одеваться",
       "game": "guide",
       "canonicalId": "lex-a0ee562ef6e91c70",
-      "forms": [
+      "sourceIds": [
+        "LEX2-dress"
+      ],
+      "observedForms": [
         "дӥсяськисько",
         "дӥсяськиськод",
         "дӥсяське",
         "дӥсяськиськом",
         "дӥсяськиськоды",
         "дӥсясько"
-      ],
-      "sourceIds": [
-        "LEX2-dress"
       ]
     },
     {
@@ -1879,16 +1879,16 @@
       "ru": "завтракать",
       "game": "guide",
       "canonicalId": "lex-9adbbfbafb972486",
-      "forms": [
+      "sourceIds": [
+        "LEX2-breakfast"
+      ],
+      "observedForms": [
         "сиськисько",
         "сиськиськод",
         "сиське",
         "сиськиськом",
         "сиськиськоды",
         "сисько"
-      ],
-      "sourceIds": [
-        "LEX2-breakfast"
       ]
     },
     {
@@ -1897,16 +1897,16 @@
       "ru": "заниматься / учиться",
       "game": "guide",
       "canonicalId": "lex-d20ee8533f66b63f",
-      "forms": [
+      "sourceIds": [
+        "LEX2-study"
+      ],
+      "observedForms": [
         "дышетскисько",
         "дышетскиськод",
         "дышетске",
         "дышетскиськом",
         "дышетскиськоды",
         "дышетско"
-      ],
-      "sourceIds": [
-        "LEX2-study"
       ]
     },
     {
@@ -1915,16 +1915,16 @@
       "ru": "отдыхать",
       "game": "guide",
       "canonicalId": "lex-5eceab9bb396994f",
-      "forms": [
+      "sourceIds": [
+        "LEX2-rest"
+      ],
+      "observedForms": [
         "шутэтскисько",
         "шутэтскиськод",
         "шутэтске",
         "шутэтскиськом",
         "шутэтскиськоды",
         "шутэтско"
-      ],
-      "sourceIds": [
-        "LEX2-rest"
       ]
     },
     {
@@ -1933,16 +1933,16 @@
       "ru": "ложиться",
       "game": "guide",
       "canonicalId": "lex-9f8195c3345b4cbf",
-      "forms": [
+      "sourceIds": [
+        "LEX2-gobed"
+      ],
+      "observedForms": [
         "выдӥсько",
         "выдӥськод",
         "выдэ",
         "выдӥськом",
         "выдӥськоды",
         "выдо"
-      ],
-      "sourceIds": [
-        "LEX2-gobed"
       ]
     },
     {
@@ -1951,10 +1951,10 @@
       "ru": "всегда",
       "game": "guide",
       "canonicalId": "lex-4381b5be42c494c1",
-      "forms": [],
       "sourceIds": [
         "LEX2-always"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-often",
@@ -1962,10 +1962,10 @@
       "ru": "часто",
       "game": "guide",
       "canonicalId": "lex-d24a3a66c3499f5c",
-      "forms": [],
       "sourceIds": [
         "LEX2-often"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-sometimes",
@@ -1973,10 +1973,10 @@
       "ru": "иногда",
       "game": "guide",
       "canonicalId": "lex-18ff722e700408e7",
-      "forms": [],
       "sourceIds": [
         "LEX2-sometimes"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-rarely",
@@ -1984,10 +1984,10 @@
       "ru": "редко",
       "game": "guide",
       "canonicalId": "lex-f89f66ca58657979",
-      "forms": [],
       "sourceIds": [
         "LEX2-rarely"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-never",
@@ -1995,10 +1995,10 @@
       "ru": "никогда",
       "game": "guide",
       "canonicalId": "lex-d42481898d333a02",
-      "forms": [],
       "sourceIds": [
         "LEX2-never"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-day",
@@ -2006,13 +2006,13 @@
       "ru": "день",
       "game": "guide",
       "canonicalId": "lex-eceb3e2faa242c9b",
-      "forms": [],
       "sourceIds": [
         "LEX2-day"
       ],
       "aliases": [
         "seem:world:6"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-night",
@@ -2020,13 +2020,13 @@
       "ru": "ночь",
       "game": "guide",
       "canonicalId": "lex-77b8783af67632d9",
-      "forms": [],
       "sourceIds": [
         "LEX2-night"
       ],
       "aliases": [
         "seem:world:7"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-zhyt",
@@ -2034,13 +2034,13 @@
       "ru": "вечер",
       "game": "guide",
       "canonicalId": "lex-4eee4e94d3c9371a",
-      "forms": [],
       "sourceIds": [
         "LEX2-zhyt"
       ],
       "aliases": [
         "guide:zhyt"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-today",
@@ -2048,10 +2048,10 @@
       "ru": "сегодня",
       "game": "guide",
       "canonicalId": "lex-f81bc9f953c81618",
-      "forms": [],
       "sourceIds": [
         "LEX2-today"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-yesterday",
@@ -2059,10 +2059,10 @@
       "ru": "вчера",
       "game": "guide",
       "canonicalId": "lex-4a1f8a9df4d93194",
-      "forms": [],
       "sourceIds": [
         "LEX2-yesterday"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-house-big",
@@ -2070,13 +2070,13 @@
       "ru": "большой",
       "game": "guide",
       "canonicalId": "lex-fe755961aede37d7",
-      "forms": [],
       "sourceIds": [
         "LEX2-house-big"
       ],
       "aliases": [
         "kin:бадӟым"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-house-small",
@@ -2084,13 +2084,13 @@
       "ru": "маленький",
       "game": "guide",
       "canonicalId": "lex-ef433d2a9748ee3f",
-      "forms": [],
       "sourceIds": [
         "LEX2-house-small"
       ],
       "aliases": [
         "kin:пичи"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-house-high",
@@ -2098,10 +2098,10 @@
       "ru": "высокий",
       "game": "guide",
       "canonicalId": "lex-574a42ed3b1db957",
-      "forms": [],
       "sourceIds": [
         "LEX2-house-high"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-house-low",
@@ -2109,10 +2109,10 @@
       "ru": "низкий",
       "game": "guide",
       "canonicalId": "lex-3aae30d1aaade5a0",
-      "forms": [],
       "sourceIds": [
         "LEX2-house-low"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-house-roof",
@@ -2120,10 +2120,10 @@
       "ru": "крыша",
       "game": "guide",
       "canonicalId": "lex-433336fb6edb7d8f",
-      "forms": [],
       "sourceIds": [
         "LEX2-house-roof"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-near",
@@ -2131,10 +2131,10 @@
       "ru": "близко",
       "game": "guide",
       "canonicalId": "lex-9b3d8f61cac641e2",
-      "forms": [],
       "sourceIds": [
         "LEX2-near"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-far",
@@ -2142,10 +2142,10 @@
       "ru": "далеко",
       "game": "guide",
       "canonicalId": "lex-8f9612929c2ab48b",
-      "forms": [],
       "sourceIds": [
         "LEX2-far"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-absent",
@@ -2153,10 +2153,10 @@
       "ru": "нет / отсутствует",
       "game": "guide",
       "canonicalId": "lex-154166ff0e294b07",
-      "forms": [],
       "sourceIds": [
         "LEX2-absent"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-drawing",
@@ -2164,10 +2164,10 @@
       "ru": "рисунок",
       "game": "guide",
       "canonicalId": "lex-a609036b4a15726d",
-      "forms": [],
       "sourceIds": [
         "LEX2-drawing"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-now",
@@ -2175,10 +2175,10 @@
       "ru": "сейчас",
       "game": "guide",
       "canonicalId": "lex-ed249bf0b6fbb38d",
-      "forms": [],
       "sourceIds": [
         "LEX2-now"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:LEX2-past",
@@ -2186,10 +2186,10 @@
       "ru": "уже прошло",
       "game": "guide",
       "canonicalId": "lex-9be1f6a8a768a71c",
-      "forms": [],
       "sourceIds": [
         "LEX2-past"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S01-0",
@@ -2197,10 +2197,10 @@
       "ru": "Сколько тебе лет?",
       "game": "guide",
       "canonicalId": "lex-a87ae5f1b2978edd",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S01-0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S01-1",
@@ -2208,10 +2208,10 @@
       "ru": "Где ты живёшь?",
       "game": "guide",
       "canonicalId": "lex-b850e347bbe49a73",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S01-1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S01-2",
@@ -2219,10 +2219,10 @@
       "ru": "Я живу в городе.",
       "game": "guide",
       "canonicalId": "lex-c094ca5850769250",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S01-2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S01-3",
@@ -2230,10 +2230,10 @@
       "ru": "Я живу в деревне.",
       "game": "guide",
       "canonicalId": "lex-34f5b2795aa3f315",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S01-3"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S02-1",
@@ -2241,10 +2241,10 @@
       "ru": "Напиши своё имя",
       "game": "guide",
       "canonicalId": "lex-2dbda7af7801b773",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S02-1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S03-0",
@@ -2252,10 +2252,10 @@
       "ru": "Это мой рисунок. А где твой?",
       "game": "guide",
       "canonicalId": "lex-803a0a2d054bca2b",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S03-0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S03-1",
@@ -2263,10 +2263,10 @@
       "ru": "Вот мой. Что здесь изображено?",
       "game": "guide",
       "canonicalId": "lex-0288f8b698b017fa",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S03-1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P11-S03-2",
@@ -2274,10 +2274,10 @@
       "ru": "Давай сохраним наши рисунки.",
       "game": "guide",
       "canonicalId": "lex-4c794457090d36e6",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P11-S03-2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P10-S02-0",
@@ -2285,10 +2285,10 @@
       "ru": "Здравствуй! Что тебе нужно?",
       "game": "guide",
       "canonicalId": "lex-f713f3f19aba4de5",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P10-S02-0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P06-S03-1",
@@ -2296,10 +2296,10 @@
       "ru": "На столе есть открытка?",
       "game": "guide",
       "canonicalId": "lex-e638e67c6ed114a5",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P06-S03-1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-C03-S04-0",
@@ -2307,10 +2307,10 @@
       "ru": "открытка",
       "game": "guide",
       "canonicalId": "lex-f45af69fe471b361",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-C03-S04-0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P15-S02-0",
@@ -2318,10 +2318,10 @@
       "ru": "Мы с ребятами пришли в гости.",
       "game": "guide",
       "canonicalId": "lex-200162196bd9f504",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P15-S02-0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P15-S02-1",
@@ -2329,10 +2329,10 @@
       "ru": "Спасибо. Чем помочь?",
       "game": "guide",
       "canonicalId": "lex-7294dcb76c416cf8",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P15-S02-1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P15-S02-2",
@@ -2340,10 +2340,10 @@
       "ru": "Поставим всё на стол, потом сыграем в нашу игру с мячом.",
       "game": "guide",
       "canonicalId": "lex-04d5a56993a35e5f",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P15-S02-2"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P18-S02-0",
@@ -2351,10 +2351,10 @@
       "ru": "Здесь наш дом и река. Я показываю путь.",
       "game": "guide",
       "canonicalId": "lex-2374127dcffb7c6d",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P18-S02-0"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261126-P18-S02-1",
@@ -2362,10 +2362,10 @@
       "ru": "А вот наша семейная страница. Кого ты можешь назвать?",
       "game": "guide",
       "canonicalId": "lex-2410d1489cf41f3f",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261126-P18-S02-1"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-ANIMAL-ыж",
@@ -2373,10 +2373,10 @@
       "ru": "овца",
       "game": "guide",
       "canonicalId": "lex-6742706af6a5bc35",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-ANIMAL-ыж"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-ANIMAL-кеч",
@@ -2384,10 +2384,10 @@
       "ru": "коза",
       "game": "guide",
       "canonicalId": "lex-bf6095d46163a668",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-ANIMAL-кеч"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-ANIMAL-лудкеч",
@@ -2395,13 +2395,13 @@
       "ru": "кролик",
       "game": "guide",
       "canonicalId": "lex-b34875382cdb6bf8",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-ANIMAL-лудкеч"
       ],
       "aliases": [
         "seem:animals:5"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261127-185",
@@ -2409,10 +2409,10 @@
       "ru": "курица",
       "game": "guide",
       "canonicalId": "lex-bc46dc486f69fbfe",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261127-185"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261127-186",
@@ -2420,10 +2420,10 @@
       "ru": "яблоко",
       "game": "guide",
       "canonicalId": "lex-cea448c2e8cf6c16",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261127-186"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261127-187",
@@ -2431,10 +2431,10 @@
       "ru": "домашнее животное",
       "game": "guide",
       "canonicalId": "lex-2b2eef4a6f458ad3",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261127-187"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261127-188",
@@ -2442,10 +2442,10 @@
       "ru": "Как у тебя дела?",
       "game": "guide",
       "canonicalId": "lex-9ddbcda68aefff33",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261127-188"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-20261127-189",
@@ -2453,10 +2453,10 @@
       "ru": "Сюда",
       "game": "guide",
       "canonicalId": "lex-22e3e07553066e92",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-20261127-189"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-190",
@@ -2464,10 +2464,10 @@
       "ru": "платье — платья",
       "game": "guide",
       "canonicalId": "lex-1567e590d72a5676",
-      "forms": [],
       "sourceIds": [
         "V041-190"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-191",
@@ -2475,10 +2475,10 @@
       "ru": "платок — платки",
       "game": "guide",
       "canonicalId": "lex-5693771d5502393c",
-      "forms": [],
       "sourceIds": [
         "V041-191"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-192",
@@ -2486,13 +2486,13 @@
       "ru": "это дерево",
       "game": "guide",
       "canonicalId": "lex-f63c966102fc8c0b",
-      "forms": [],
       "sourceIds": [
         "V041-192"
       ],
       "aliases": [
         "guide:tapispu"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-193",
@@ -2500,10 +2500,10 @@
       "ru": "это дом",
       "game": "guide",
       "canonicalId": "lex-819195dbee16f239",
-      "forms": [],
       "sourceIds": [
         "V041-193"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-194",
@@ -2511,10 +2511,10 @@
       "ru": "это река",
       "game": "guide",
       "canonicalId": "lex-9a9fd7dc13d5fb8c",
-      "forms": [],
       "sourceIds": [
         "V041-194"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-195",
@@ -2522,13 +2522,13 @@
       "ru": "мой / моя / моё / мои",
       "game": "guide",
       "canonicalId": "lex-8887735ba865b95d",
-      "forms": [],
       "sourceIds": [
         "V041-195"
       ],
       "aliases": [
         "guide:mynam"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-196",
@@ -2536,13 +2536,13 @@
       "ru": "твой / твоя / твоё / твои",
       "game": "guide",
       "canonicalId": "lex-2fa75e874010e737",
-      "forms": [],
       "sourceIds": [
         "V041-196"
       ],
       "aliases": [
         "guide:tynad"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-197",
@@ -2550,10 +2550,10 @@
       "ru": "его / её",
       "game": "guide",
       "canonicalId": "lex-a59976d14e6c7fb6",
-      "forms": [],
       "sourceIds": [
         "V041-197"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-198",
@@ -2561,10 +2561,10 @@
       "ru": "наш / наша / наше / наши",
       "game": "guide",
       "canonicalId": "lex-cc359bd54b6393e9",
-      "forms": [],
       "sourceIds": [
         "V041-198"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-199",
@@ -2572,10 +2572,10 @@
       "ru": "ваш / ваша / ваше / ваши",
       "game": "guide",
       "canonicalId": "lex-9228e12148caf287",
-      "forms": [],
       "sourceIds": [
         "V041-199"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-200",
@@ -2583,10 +2583,10 @@
       "ru": "их",
       "game": "guide",
       "canonicalId": "lex-0aee5bc962998d7a",
-      "forms": [],
       "sourceIds": [
         "V041-200"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-201",
@@ -2594,10 +2594,10 @@
       "ru": "где твой дом?",
       "game": "guide",
       "canonicalId": "lex-32fd1a9cb7f8aea7",
-      "forms": [],
       "sourceIds": [
         "V041-201"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-202",
@@ -2605,11 +2605,11 @@
       "ru": "моя мама",
       "game": "guide",
       "canonicalId": "lex-504d4d0b0000fb00",
-      "forms": [
-        "анаелэн"
-      ],
       "sourceIds": [
         "V041-202"
+      ],
+      "observedForms": [
+        "анаелэн"
       ]
     },
     {
@@ -2618,11 +2618,11 @@
       "ru": "твой старший брат",
       "game": "guide",
       "canonicalId": "lex-34eb6692d4baa1b5",
-      "forms": [
-        "агаедлэн"
-      ],
       "sourceIds": [
         "V041-203"
+      ],
+      "observedForms": [
+        "агаедлэн"
       ]
     },
     {
@@ -2631,10 +2631,10 @@
       "ru": "у меня есть",
       "game": "guide",
       "canonicalId": "lex-747197e7d99b2f08",
-      "forms": [],
       "sourceIds": [
         "V041-204"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-205",
@@ -2642,10 +2642,10 @@
       "ru": "у тебя есть",
       "game": "guide",
       "canonicalId": "lex-adbbfbdd666ab912",
-      "forms": [],
       "sourceIds": [
         "V041-205"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-206",
@@ -2653,10 +2653,10 @@
       "ru": "у него / неё есть",
       "game": "guide",
       "canonicalId": "lex-a33ce0388a58e0e7",
-      "forms": [],
       "sourceIds": [
         "V041-206"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-207",
@@ -2664,10 +2664,10 @@
       "ru": "у нас есть",
       "game": "guide",
       "canonicalId": "lex-e18edaaad3ca7663",
-      "forms": [],
       "sourceIds": [
         "V041-207"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-208",
@@ -2675,10 +2675,10 @@
       "ru": "у вас есть",
       "game": "guide",
       "canonicalId": "lex-4101a29a7ab77fd2",
-      "forms": [],
       "sourceIds": [
         "V041-208"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-209",
@@ -2686,10 +2686,10 @@
       "ru": "у них есть",
       "game": "guide",
       "canonicalId": "lex-83eaf21696ee3b50",
-      "forms": [],
       "sourceIds": [
         "V041-209"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-210",
@@ -2697,10 +2697,10 @@
       "ru": "есть ли?",
       "game": "guide",
       "canonicalId": "lex-4eead2045fff1244",
-      "forms": [],
       "sourceIds": [
         "V041-210"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-211",
@@ -2708,10 +2708,10 @@
       "ru": "в лес",
       "game": "guide",
       "canonicalId": "lex-9d9fa2294b0af76d",
-      "forms": [],
       "sourceIds": [
         "V041-211"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-212",
@@ -2719,10 +2719,10 @@
       "ru": "из леса",
       "game": "guide",
       "canonicalId": "lex-0dd32175a5b48c73",
-      "forms": [],
       "sourceIds": [
         "V041-212"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-213",
@@ -2730,10 +2730,10 @@
       "ru": "дикое животное",
       "game": "guide",
       "canonicalId": "lex-335a288a73d909c7",
-      "forms": [],
       "sourceIds": [
         "V041-213"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-214",
@@ -2741,10 +2741,10 @@
       "ru": "есть / принимать пищу",
       "game": "guide",
       "canonicalId": "lex-780106abc291b402",
-      "forms": [],
       "sourceIds": [
         "V041-214"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-215",
@@ -2752,10 +2752,10 @@
       "ru": "ребёнок кормит животное",
       "game": "guide",
       "canonicalId": "lex-bfe02908244ba984",
-      "forms": [],
       "sourceIds": [
         "V041-215"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-216",
@@ -2763,10 +2763,10 @@
       "ru": "ребёнок поит животное",
       "game": "guide",
       "canonicalId": "lex-ac52a2b9a9055369",
-      "forms": [],
       "sourceIds": [
         "V041-216"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-217",
@@ -2774,10 +2774,10 @@
       "ru": "ребёнок наблюдает за животным",
       "game": "guide",
       "canonicalId": "lex-c409e66a156f77ef",
-      "forms": [],
       "sourceIds": [
         "V041-217"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-218",
@@ -2785,10 +2785,10 @@
       "ru": "кот стоит",
       "game": "guide",
       "canonicalId": "lex-6e39a4ef5602d107",
-      "forms": [],
       "sourceIds": [
         "V041-218"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-219",
@@ -2796,10 +2796,10 @@
       "ru": "кот сидит",
       "game": "guide",
       "canonicalId": "lex-3b019051b5f2605a",
-      "forms": [],
       "sourceIds": [
         "V041-219"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-220",
@@ -2807,10 +2807,10 @@
       "ru": "кот спит",
       "game": "guide",
       "canonicalId": "lex-a859768036197910",
-      "forms": [],
       "sourceIds": [
         "V041-220"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-221",
@@ -2818,10 +2818,10 @@
       "ru": "кот ест",
       "game": "guide",
       "canonicalId": "lex-af145f9f95aeb5bc",
-      "forms": [],
       "sourceIds": [
         "V041-221"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-222",
@@ -2829,10 +2829,10 @@
       "ru": "кот пьёт",
       "game": "guide",
       "canonicalId": "lex-051715dfc0593fa0",
-      "forms": [],
       "sourceIds": [
         "V041-222"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-223",
@@ -2840,10 +2840,10 @@
       "ru": "кот не спит",
       "game": "guide",
       "canonicalId": "lex-a7cf3cbdb7bdf547",
-      "forms": [],
       "sourceIds": [
         "V041-223"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-224",
@@ -2851,10 +2851,10 @@
       "ru": "кот не ест",
       "game": "guide",
       "canonicalId": "lex-4deb41c7bc3dcd59",
-      "forms": [],
       "sourceIds": [
         "V041-224"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-225",
@@ -2862,10 +2862,10 @@
       "ru": "кот не пьёт",
       "game": "guide",
       "canonicalId": "lex-80614fac00250ab9",
-      "forms": [],
       "sourceIds": [
         "V041-225"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-226",
@@ -2873,10 +2873,10 @@
       "ru": "кот не бегает",
       "game": "guide",
       "canonicalId": "lex-59355f48274ce258",
-      "forms": [],
       "sourceIds": [
         "V041-226"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-227",
@@ -2884,10 +2884,10 @@
       "ru": "Сколько стоит хлеб?",
       "game": "guide",
       "canonicalId": "lex-a154a94b4f28101b",
-      "forms": [],
       "sourceIds": [
         "V041-227"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-228",
@@ -2895,10 +2895,10 @@
       "ru": "Сколько стоит масло?",
       "game": "guide",
       "canonicalId": "lex-a178a88c487cf5e9",
-      "forms": [],
       "sourceIds": [
         "V041-228"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-229",
@@ -2906,10 +2906,10 @@
       "ru": "Сколько стоит молоко?",
       "game": "guide",
       "canonicalId": "lex-f4d6ec11ab9c7ea6",
-      "forms": [],
       "sourceIds": [
         "V041-229"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-230",
@@ -2917,10 +2917,10 @@
       "ru": "есть / принимать пищу",
       "game": "guide",
       "canonicalId": "lex-0a7e77f2e7ae1da6",
-      "forms": [],
       "sourceIds": [
         "V041-230"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-231",
@@ -2928,10 +2928,10 @@
       "ru": "Ты иногда читаешь?",
       "game": "guide",
       "canonicalId": "lex-3d62ba6ecd8ef5c9",
-      "forms": [],
       "sourceIds": [
         "V041-231"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-232",
@@ -2939,10 +2939,10 @@
       "ru": "Они редко отдыхают здесь.",
       "game": "guide",
       "canonicalId": "lex-0d89dfe8c242d5b3",
-      "forms": [],
       "sourceIds": [
         "V041-232"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-233",
@@ -2950,10 +2950,10 @@
       "ru": "Я помог(ла) бабушке.",
       "game": "guide",
       "canonicalId": "lex-96965d6114c7cab4",
-      "forms": [],
       "sourceIds": [
         "V041-233"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-234",
@@ -2961,10 +2961,10 @@
       "ru": "Я играл(а) с ребятами.",
       "game": "guide",
       "canonicalId": "lex-05fb92dd0ede2e87",
-      "forms": [],
       "sourceIds": [
         "V041-234"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-235",
@@ -2972,10 +2972,10 @@
       "ru": "Кому ты помог?",
       "game": "guide",
       "canonicalId": "lex-e1e5f9271ace7dbf",
-      "forms": [],
       "sourceIds": [
         "V041-235"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-236",
@@ -2983,10 +2983,10 @@
       "ru": "С кем ты ходил?",
       "game": "guide",
       "canonicalId": "lex-31e8219d0db76e90",
-      "forms": [],
       "sourceIds": [
         "V041-236"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-237",
@@ -2994,10 +2994,10 @@
       "ru": "Мы играли с мячом.",
       "game": "guide",
       "canonicalId": "lex-dde1df247675aca6",
-      "forms": [],
       "sourceIds": [
         "V041-237"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-238",
@@ -3005,10 +3005,10 @@
       "ru": "Кто на семейной странице?",
       "game": "guide",
       "canonicalId": "lex-dd31919788a0cfca",
-      "forms": [],
       "sourceIds": [
         "V041-238"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-239",
@@ -3016,10 +3016,10 @@
       "ru": "Здесь бабушка и дедушка.",
       "game": "guide",
       "canonicalId": "lex-39abad6f80ae1900",
-      "forms": [],
       "sourceIds": [
         "V041-239"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-240",
@@ -3027,10 +3027,10 @@
       "ru": "я бросал мяч",
       "game": "guide",
       "canonicalId": "lex-23aa767815797b23",
-      "forms": [],
       "sourceIds": [
         "V041-240"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-241",
@@ -3038,10 +3038,10 @@
       "ru": "друг ловил мяч",
       "game": "guide",
       "canonicalId": "lex-aac87768647803c9",
-      "forms": [],
       "sourceIds": [
         "V041-241"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:V041-242",
@@ -3049,10 +3049,10 @@
       "ru": "я сделал семейную страницу",
       "game": "guide",
       "canonicalId": "lex-84be07f510f9564d",
-      "forms": [],
       "sourceIds": [
         "V041-242"
-      ]
+      ],
+      "observedForms": []
     },
     {
       "id": "guide-v041:AUTHOR-trousers-20261127",
@@ -3060,10 +3060,10 @@
       "ru": "брюки",
       "game": "guide",
       "canonicalId": "lex-2373afd3364cce27",
-      "forms": [],
       "sourceIds": [
         "AUTHOR-trousers-20261127"
-      ]
+      ],
+      "observedForms": []
     }
   ],
   "occurrences": [
