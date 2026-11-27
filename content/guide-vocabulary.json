@@ -1,0 +1,4828 @@
+{
+  "version": 1,
+  "gameId": "guide",
+  "entries": [
+    {
+      "id": "guide-v041:LEX2-zhechbur",
+      "u": "Ӟечбур",
+      "ru": "здравствуй / здравствуйте",
+      "game": "guide",
+      "canonicalId": "lex-1bd4cd25dc1c3ce5",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-zhechbur"
+      ],
+      "aliases": [
+        "guide:zhechbur"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-myname",
+      "u": "Мынам нимы",
+      "ru": "меня зовут…",
+      "game": "guide",
+      "canonicalId": "lex-eecd25cb7a1dff59",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-myname"
+      ],
+      "aliases": [
+        "guide:myname"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-whatname",
+      "u": "Кызьы тынад нимыд",
+      "ru": "как тебя зовут?",
+      "game": "guide",
+      "canonicalId": "lex-0b9f9fdf486b78c1",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-whatname"
+      ],
+      "aliases": [
+        "guide:whatname"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-mon",
+      "u": "мон",
+      "ru": "я",
+      "game": "guide",
+      "canonicalId": "lex-bf2a4f3e96151ef9",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-mon"
+      ],
+      "aliases": [
+        "guide:mon"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-ton",
+      "u": "тон",
+      "ru": "ты",
+      "game": "guide",
+      "canonicalId": "lex-f22cfc99b644255f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-ton"
+      ],
+      "aliases": [
+        "guide:ton"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-gurt",
+      "u": "гурт",
+      "ru": "деревня",
+      "game": "guide",
+      "canonicalId": "lex-8f1a622f6ce9a2a0",
+      "forms": [
+        "гуртэ",
+        "гуртысь"
+      ],
+      "sourceIds": [
+        "LEX2-gurt"
+      ],
+      "aliases": [
+        "seem:world:3"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-korka",
+      "u": "корка",
+      "ru": "дом",
+      "game": "guide",
+      "canonicalId": "lex-57be64acafc6bc13",
+      "forms": [
+        "коркае",
+        "коркаед",
+        "коркаез",
+        "коркамы",
+        "коркады",
+        "корказы",
+        "коркаысь"
+      ],
+      "sourceIds": [
+        "LEX2-korka"
+      ],
+      "aliases": [
+        "seem:home:0"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-pispu",
+      "u": "писпу",
+      "ru": "дерево (растение)",
+      "game": "guide",
+      "canonicalId": "lex-edeb49ac93ae965f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-pispu"
+      ],
+      "aliases": [
+        "seem:plants:0"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-pu",
+      "u": "пу",
+      "ru": "древесина",
+      "game": "guide",
+      "canonicalId": "lex-a25f8c8ece87820d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-pu"
+      ],
+      "aliases": [
+        "guide:pu"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-pesyanay",
+      "u": "песянай",
+      "ru": "бабушка",
+      "game": "guide",
+      "canonicalId": "lex-09b278ba590bd840",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-pesyanay"
+      ],
+      "aliases": [
+        "family:grandmother"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-pesyatay",
+      "u": "песятай",
+      "ru": "дедушка",
+      "game": "guide",
+      "canonicalId": "lex-c507f4d62a1fa203",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-pesyatay"
+      ],
+      "aliases": [
+        "family:grandfather"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-chukna",
+      "u": "ӵукна",
+      "ru": "утро",
+      "game": "guide",
+      "canonicalId": "lex-765f532d7d6f3514",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-chukna"
+      ],
+      "aliases": [
+        "guide:chukna"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-goodmorning",
+      "u": "Бур ӵукнаен",
+      "ru": "доброе утро",
+      "game": "guide",
+      "canonicalId": "lex-d6a3ea9357496c45",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-goodmorning"
+      ],
+      "aliases": [
+        "guide:goodmorning"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-nyan",
+      "u": "нянь",
+      "ru": "хлеб",
+      "game": "guide",
+      "canonicalId": "lex-d0d81b7ac7f19f40",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-nyan"
+      ],
+      "aliases": [
+        "guide:nyan"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-butter",
+      "u": "вӧй",
+      "ru": "масло",
+      "game": "guide",
+      "canonicalId": "lex-fa5875aec935e234",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-butter"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-zhok",
+      "u": "ӝӧк",
+      "ru": "стол",
+      "game": "guide",
+      "canonicalId": "lex-2f0f7fc6b3141b99",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-zhok"
+      ],
+      "aliases": [
+        "seem:home:9"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-shundy",
+      "u": "шунды",
+      "ru": "солнце",
+      "game": "guide",
+      "canonicalId": "lex-52ae8b6219a0c543",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-shundy"
+      ],
+      "aliases": [
+        "seem:nature:0"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-syaska",
+      "u": "сяська",
+      "ru": "цветок",
+      "game": "guide",
+      "canonicalId": "lex-682e6183f1975ca9",
+      "forms": [
+        "сяськаос"
+      ],
+      "sourceIds": [
+        "LEX2-syaska"
+      ],
+      "aliases": [
+        "seem:plants:1"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-watering",
+      "u": "вукиськан",
+      "ru": "лейка",
+      "game": "guide",
+      "canonicalId": "lex-6504172ec60d77c3",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-watering"
+      ],
+      "aliases": [
+        "guide:leyka"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-thanks",
+      "u": "Тау",
+      "ru": "спасибо",
+      "game": "guide",
+      "canonicalId": "lex-395908d48a9bf4d9",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-thanks"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-bouquet",
+      "u": "сяська керттэт",
+      "ru": "букет цветов",
+      "game": "guide",
+      "canonicalId": "lex-230ef529f92ad2bb",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-bouquet"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-bundle",
+      "u": "керттэт",
+      "ru": "букет / связка",
+      "game": "guide",
+      "canonicalId": "lex-2caf93eb74a82568",
+      "forms": [
+        "керттэтъёс"
+      ],
+      "sourceIds": [
+        "LEX2-bundle"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-derem",
+      "u": "дэрем",
+      "ru": "платье",
+      "game": "guide",
+      "canonicalId": "lex-2fe2af1938c56d7b",
+      "forms": [
+        "дэремъёс"
+      ],
+      "sourceIds": [
+        "LEX2-derem"
+      ],
+      "aliases": [
+        "guide:derem"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-yyrkyshet",
+      "u": "йыркышет",
+      "ru": "головной платок",
+      "game": "guide",
+      "canonicalId": "lex-f5af6b23463d9f2d",
+      "forms": [
+        "йыркышетъёс"
+      ],
+      "sourceIds": [
+        "LEX2-yyrkyshet"
+      ],
+      "aliases": [
+        "guide:yyrkyshet"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-kuskertton",
+      "u": "кускерттон",
+      "ru": "пояс",
+      "game": "guide",
+      "canonicalId": "lex-30cf69b74ce96280",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-kuskertton"
+      ],
+      "aliases": [
+        "guide:kuskertton"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-chyrtyves",
+      "u": "чыртывесь",
+      "ru": "монисто",
+      "game": "guide",
+      "canonicalId": "lex-fdedee486db5cce1",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-chyrtyves"
+      ],
+      "aliases": [
+        "memory:7"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-red",
+      "u": "горд",
+      "ru": "красный",
+      "game": "guide",
+      "canonicalId": "lex-f1a3450720bd89dc",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-red"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-blue",
+      "u": "лыз",
+      "ru": "синий",
+      "game": "guide",
+      "canonicalId": "lex-465d48f0411f0ef1",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-blue"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-green",
+      "u": "вож",
+      "ru": "зелёный",
+      "game": "guide",
+      "canonicalId": "lex-8c35ba56975b7ad3",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-green"
+      ],
+      "aliases": [
+        "kin:вож"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-water",
+      "u": "Ву",
+      "ru": "вода",
+      "game": "guide",
+      "canonicalId": "lex-ca9c8d428c4b0c8d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-water"
+      ],
+      "aliases": [
+        "seem:nature:2"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-so",
+      "u": "со",
+      "ru": "он / она",
+      "game": "guide",
+      "canonicalId": "lex-4b7c90b8f6cf6fa5",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-so"
+      ],
+      "aliases": [
+        "guide:so"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-mi",
+      "u": "ми",
+      "ru": "мы",
+      "game": "guide",
+      "canonicalId": "lex-89a46a478e1fcd22",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-mi"
+      ],
+      "aliases": [
+        "guide:mi"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-ti",
+      "u": "тӥ",
+      "ru": "вы",
+      "game": "guide",
+      "canonicalId": "lex-d8e2379fc5d110bb",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-ti"
+      ],
+      "aliases": [
+        "guide:ti"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-soos",
+      "u": "соос",
+      "ru": "они",
+      "game": "guide",
+      "canonicalId": "lex-41a2a9053978c7df",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-soos"
+      ],
+      "aliases": [
+        "guide:soos"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-photo",
+      "u": "туспуктэм",
+      "ru": "фотография",
+      "game": "guide",
+      "canonicalId": "lex-cf9e296ddd38f001",
+      "forms": [
+        "туспуктэмез"
+      ],
+      "sourceIds": [
+        "LEX2-photo"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-marta",
+      "u": "мар та",
+      "ru": "что это?",
+      "game": "guide",
+      "canonicalId": "lex-7d507a2edd407192",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-marta"
+      ],
+      "aliases": [
+        "guide:marta"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-shur",
+      "u": "шур",
+      "ru": "река",
+      "game": "guide",
+      "canonicalId": "lex-93ac34a93db328ca",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-shur"
+      ],
+      "aliases": [
+        "seem:nature:4"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-syures",
+      "u": "сюрес",
+      "ru": "дорога",
+      "game": "guide",
+      "canonicalId": "lex-3a0b82611e277bd4",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-syures"
+      ],
+      "aliases": [
+        "seem:world:8"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-kytyn",
+      "u": "кытын",
+      "ru": "где?",
+      "game": "guide",
+      "canonicalId": "lex-8b9d6caee36c83d8",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-kytyn"
+      ],
+      "aliases": [
+        "guide:kytyn"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-kinta",
+      "u": "кин та",
+      "ru": "кто это?",
+      "game": "guide",
+      "canonicalId": "lex-509e9c82a45b6231",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-kinta"
+      ],
+      "aliases": [
+        "guide:kinta"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-anay",
+      "u": "анай",
+      "ru": "мама",
+      "game": "guide",
+      "canonicalId": "lex-656c040c22164131",
+      "forms": [
+        "анайлэн"
+      ],
+      "sourceIds": [
+        "LEX2-anay"
+      ],
+      "aliases": [
+        "family:mother"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-atay",
+      "u": "атай",
+      "ru": "папа",
+      "game": "guide",
+      "canonicalId": "lex-466437b92020c368",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-atay"
+      ],
+      "aliases": [
+        "family:father"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-apay",
+      "u": "апай",
+      "ru": "старшая сестра",
+      "game": "guide",
+      "canonicalId": "lex-8282ec9d97e13b62",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-apay"
+      ],
+      "aliases": [
+        "family:eldersister"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-agay",
+      "u": "агай",
+      "ru": "старший брат",
+      "game": "guide",
+      "canonicalId": "lex-1fe6dbeea6ae1cca",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-agay"
+      ],
+      "aliases": [
+        "family:elderbrother"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-album",
+      "u": "альбом",
+      "ru": "альбом",
+      "game": "guide",
+      "canonicalId": "lex-f3e4721d6b4fee4d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-album"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-there",
+      "u": "отын",
+      "ru": "там",
+      "game": "guide",
+      "canonicalId": "lex-a2ab366168f2673c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-there"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-here",
+      "u": "татын",
+      "ru": "тут",
+      "game": "guide",
+      "canonicalId": "lex-de3e9470cb820858",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-here"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-exist",
+      "u": "вань",
+      "ru": "есть / имеется",
+      "game": "guide",
+      "canonicalId": "lex-363b56c1f314ba79",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-exist"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-window",
+      "u": "Укно",
+      "ru": "окно",
+      "game": "guide",
+      "canonicalId": "lex-4ef300bacf4e9508",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-window"
+      ],
+      "aliases": [
+        "seem:home:7"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-door",
+      "u": "Ӧс",
+      "ru": "дверь",
+      "game": "guide",
+      "canonicalId": "lex-a594999209f20e7b",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-door"
+      ],
+      "aliases": [
+        "seem:home:8"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num1",
+      "u": "одӥг",
+      "ru": "1",
+      "game": "guide",
+      "canonicalId": "lex-af20763cb1e708bc",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num1"
+      ],
+      "aliases": [
+        "number:1"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num2",
+      "u": "кык",
+      "ru": "2",
+      "game": "guide",
+      "canonicalId": "lex-c0126a5508a58b8b",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num2"
+      ],
+      "aliases": [
+        "number:2"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num3",
+      "u": "куинь",
+      "ru": "3",
+      "game": "guide",
+      "canonicalId": "lex-de13cc8bdbdcbe8f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num3"
+      ],
+      "aliases": [
+        "number:3"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num4",
+      "u": "ньыль",
+      "ru": "4",
+      "game": "guide",
+      "canonicalId": "lex-ddd77d38e238d8e1",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num4"
+      ],
+      "aliases": [
+        "number:4"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num5",
+      "u": "вить",
+      "ru": "5",
+      "game": "guide",
+      "canonicalId": "lex-d4682caa400ce4bd",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num5"
+      ],
+      "aliases": [
+        "number:5"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-do",
+      "u": "карыны",
+      "ru": "делать",
+      "game": "guide",
+      "canonicalId": "lex-41357122eb97ed90",
+      "forms": [
+        "карисько",
+        "кариськод",
+        "каре",
+        "кариськом",
+        "кариськоды",
+        "каро",
+        "лэсьтӥ",
+        "лэсьтӥд",
+        "лэсьтӥз",
+        "лэсьтӥм",
+        "лэсьтӥды",
+        "лэсьтӥзы"
+      ],
+      "sourceIds": [
+        "LEX2-do"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-walk",
+      "u": "ветлыны",
+      "ru": "ходить",
+      "game": "guide",
+      "canonicalId": "lex-8b014c3755173cbf",
+      "forms": [
+        "ветлӥсько",
+        "ветлӥськод",
+        "ветлэ",
+        "ветлӥськом",
+        "ветлӥськоды",
+        "ветло"
+      ],
+      "sourceIds": [
+        "LEX2-walk"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-look",
+      "u": "учкыны",
+      "ru": "смотреть",
+      "game": "guide",
+      "canonicalId": "lex-8e26d5ad5d502fb7",
+      "forms": [
+        "учкисько",
+        "учкиськод",
+        "учке",
+        "учкиськом",
+        "учкиськоды",
+        "учко",
+        "учки",
+        "учкид",
+        "учкиз",
+        "учким",
+        "учкиды",
+        "учкизы"
+      ],
+      "sourceIds": [
+        "LEX2-look"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-search",
+      "u": "утчаны",
+      "ru": "искать",
+      "game": "guide",
+      "canonicalId": "lex-458d5e8ef6a4e153",
+      "forms": [
+        "утчасько",
+        "утчаськод",
+        "утча",
+        "утчаськом",
+        "утчаськоды",
+        "утчало"
+      ],
+      "sourceIds": [
+        "LEX2-search"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-speak",
+      "u": "вераны",
+      "ru": "говорить / сказать",
+      "game": "guide",
+      "canonicalId": "lex-7c12d62172447979",
+      "forms": [
+        "верасько",
+        "вераськод",
+        "вера",
+        "вераськом",
+        "вераськоды",
+        "верало",
+        "верай",
+        "верад",
+        "шуиз",
+        "верамы",
+        "верады",
+        "веразы"
+      ],
+      "sourceIds": [
+        "LEX2-speak"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-waterverb",
+      "u": "кисьтаны",
+      "ru": "поливать",
+      "game": "guide",
+      "canonicalId": "lex-a57b2e374b93535e",
+      "forms": [
+        "киськасько",
+        "киськаськод",
+        "киська",
+        "киськаськом",
+        "киськаськоды",
+        "киськало"
+      ],
+      "sourceIds": [
+        "LEX2-waterverb"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-plant",
+      "u": "мерттыны",
+      "ru": "сажать",
+      "game": "guide",
+      "canonicalId": "lex-9b1312f48255ed54",
+      "forms": [
+        "мерттӥсько",
+        "мерттӥськод",
+        "мерттэ",
+        "мерттӥськоды",
+        "мертто"
+      ],
+      "sourceIds": [
+        "LEX2-plant"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-help",
+      "u": "юрттыны",
+      "ru": "помогать",
+      "game": "guide",
+      "canonicalId": "lex-9db8dba0da896a9e",
+      "forms": [
+        "юрттӥсько",
+        "юрттӥськод",
+        "юрттэ",
+        "юрттӥськом",
+        "юрттӥськоды",
+        "юртто",
+        "юрттӥ",
+        "юрттӥд",
+        "юрттӥз",
+        "юрттӥм",
+        "юрттӥды",
+        "юрттӥзы"
+      ],
+      "sourceIds": [
+        "LEX2-help"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-where_to",
+      "u": "кытчы?",
+      "ru": "куда?",
+      "game": "guide",
+      "canonicalId": "lex-9704bc1b28e18971",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-where_to"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-where_from",
+      "u": "кытысь?",
+      "ru": "откуда?",
+      "game": "guide",
+      "canonicalId": "lex-b1c90ea9401b9da8",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-where_from"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-go",
+      "u": "мыныны",
+      "ru": "идти",
+      "game": "guide",
+      "canonicalId": "lex-0a4640e475ee628d",
+      "forms": [
+        "мынӥсько",
+        "мынӥськод",
+        "мынэ",
+        "мынӥськом",
+        "мынӥськоды",
+        "мыно",
+        "мынӥ",
+        "мынӥд",
+        "мынӥз",
+        "мынӥм",
+        "мынӥды",
+        "мынӥзы"
+      ],
+      "sourceIds": [
+        "LEX2-go"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-run",
+      "u": "бызьылыны",
+      "ru": "бегать",
+      "game": "guide",
+      "canonicalId": "lex-01eefa193e7e12f1",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-run"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-hurry",
+      "u": "дырттыны",
+      "ru": "спешить",
+      "game": "guide",
+      "canonicalId": "lex-64d430e7aa846ff0",
+      "forms": [
+        "дыртӥсько",
+        "дыртӥськод",
+        "дырттэ",
+        "дыртӥськом",
+        "дыртӥськоды",
+        "дыртто"
+      ],
+      "sourceIds": [
+        "LEX2-hurry"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-arrive",
+      "u": "лыктыны",
+      "ru": "приезжать",
+      "game": "guide",
+      "canonicalId": "lex-43054ffd36593f87",
+      "forms": [
+        "лыктӥсько",
+        "лыктӥськод",
+        "лыктэ",
+        "лыктӥськом",
+        "лыктӥськоды",
+        "лыкто"
+      ],
+      "sourceIds": [
+        "LEX2-arrive"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-up",
+      "u": "тубыны",
+      "ru": "подниматься",
+      "game": "guide",
+      "canonicalId": "lex-0f589bd82d65399c",
+      "forms": [
+        "тубисько",
+        "тубиськод",
+        "тубе",
+        "тубиськом",
+        "тубиськоды",
+        "тубо"
+      ],
+      "sourceIds": [
+        "LEX2-up"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-down",
+      "u": "васькыны",
+      "ru": "спускаться",
+      "game": "guide",
+      "canonicalId": "lex-ec7533e218b80fd2",
+      "forms": [
+        "васькисько",
+        "васькиськод",
+        "ваське",
+        "васькиськом",
+        "васькиськоды",
+        "васько"
+      ],
+      "sourceIds": [
+        "LEX2-down"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-cat",
+      "u": "Коӵыш",
+      "ru": "кошка / кот",
+      "game": "guide",
+      "canonicalId": "lex-7881b0273cf20369",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-cat"
+      ],
+      "aliases": [
+        "seem:animals:1"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-dog",
+      "u": "Пуны",
+      "ru": "собака",
+      "game": "guide",
+      "canonicalId": "lex-75a8cee147298170",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-dog"
+      ],
+      "aliases": [
+        "seem:animals:2"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-horse",
+      "u": "Вал",
+      "ru": "лошадь",
+      "game": "guide",
+      "canonicalId": "lex-a9842864b228f32b",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-horse"
+      ],
+      "aliases": [
+        "seem:animals:3"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-cow",
+      "u": "Скал",
+      "ru": "корова",
+      "game": "guide",
+      "canonicalId": "lex-ee0918310dd84c13",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-cow"
+      ],
+      "aliases": [
+        "seem:animals:4"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-bird",
+      "u": "Тылобурдо",
+      "ru": "птица",
+      "game": "guide",
+      "canonicalId": "lex-d32b1821b14051bf",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-bird"
+      ],
+      "aliases": [
+        "seem:animals:0"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-feed",
+      "u": "сюдыны",
+      "ru": "кормить",
+      "game": "guide",
+      "canonicalId": "lex-07ca115489899fab",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-feed"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-givewater",
+      "u": "люктаны",
+      "ru": "поить (животных)",
+      "game": "guide",
+      "canonicalId": "lex-e9dba745e63c11d2",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-givewater"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-observe",
+      "u": "эскерыны",
+      "ru": "наблюдать",
+      "game": "guide",
+      "canonicalId": "lex-caf38a5a61f6d1cb",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-observe"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-stand",
+      "u": "сылыны",
+      "ru": "стоять",
+      "game": "guide",
+      "canonicalId": "lex-3aeee9040778901e",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-stand"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-sit",
+      "u": "пукыны",
+      "ru": "сидеть",
+      "game": "guide",
+      "canonicalId": "lex-af7247e5198b88c6",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-sit"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-sleep",
+      "u": "изьыны",
+      "ru": "спать",
+      "game": "guide",
+      "canonicalId": "lex-03c3adbe52514e7e",
+      "forms": [
+        "изисько",
+        "изиськод",
+        "изе",
+        "изиськом",
+        "изиськоды",
+        "изё"
+      ],
+      "sourceIds": [
+        "LEX2-sleep"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-drink",
+      "u": "юыны",
+      "ru": "пить",
+      "game": "guide",
+      "canonicalId": "lex-96741edb526a1957",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-drink"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-hear",
+      "u": "кылыны",
+      "ru": "слышать",
+      "game": "guide",
+      "canonicalId": "lex-5161b2c4c66a1570",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-hear"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-see",
+      "u": "адӟыны",
+      "ru": "видеть",
+      "game": "guide",
+      "canonicalId": "lex-4fbcfd61b54d1c44",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-see"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-shop",
+      "u": "лавка",
+      "ru": "магазин",
+      "game": "guide",
+      "canonicalId": "lex-3a64df4f3454aa52",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-shop"
+      ],
+      "aliases": [
+        "case-lock:lavka"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-please",
+      "u": "Сётэ вал",
+      "ru": "дайте, пожалуйста",
+      "game": "guide",
+      "canonicalId": "lex-707666c4b1eb4750",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-please"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-need",
+      "u": "мыным кулэ",
+      "ru": "мне нужно",
+      "game": "guide",
+      "canonicalId": "lex-1c285fa73ae9a7ac",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-need"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-take",
+      "u": "басьтыны",
+      "ru": "брать",
+      "game": "guide",
+      "canonicalId": "lex-8bc1f104ae80c650",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-take"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-give",
+      "u": "сётыны",
+      "ru": "давать",
+      "game": "guide",
+      "canonicalId": "lex-b0379c62ef721a45",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-give"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-pay",
+      "u": "уксё тырыны",
+      "ru": "платить",
+      "game": "guide",
+      "canonicalId": "lex-71d9463ff51e057c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-pay"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-price",
+      "u": "кӧня сылэ?",
+      "ru": "сколько стоит?",
+      "game": "guide",
+      "canonicalId": "lex-47970088ec2c138d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-price"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-milk",
+      "u": "йӧл",
+      "ru": "молоко",
+      "game": "guide",
+      "canonicalId": "lex-1b8d7f046c85e65f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-milk"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num6",
+      "u": "куать",
+      "ru": "6",
+      "game": "guide",
+      "canonicalId": "lex-efcb7518ba62b810",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num6"
+      ],
+      "aliases": [
+        "number:6"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num7",
+      "u": "сизьым",
+      "ru": "7",
+      "game": "guide",
+      "canonicalId": "lex-6f2015850849423a",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num7"
+      ],
+      "aliases": [
+        "number:7"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num8",
+      "u": "тямыс",
+      "ru": "8",
+      "game": "guide",
+      "canonicalId": "lex-78855b6ff82e7f0c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num8"
+      ],
+      "aliases": [
+        "number:8"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num9",
+      "u": "укмыс",
+      "ru": "9",
+      "game": "guide",
+      "canonicalId": "lex-ce54c71fce25a7dd",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num9"
+      ],
+      "aliases": [
+        "number:9"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-num10",
+      "u": "дас",
+      "ru": "10",
+      "game": "guide",
+      "canonicalId": "lex-abedaf12b56fde01",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-num10"
+      ],
+      "aliases": [
+        "number:10"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-friend",
+      "u": "Эш",
+      "ru": "друг",
+      "game": "guide",
+      "canonicalId": "lex-76cb570a26c1b90d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-friend"
+      ],
+      "aliases": [
+        "seem:world:1"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-school",
+      "u": "Школа",
+      "ru": "школа",
+      "game": "guide",
+      "canonicalId": "lex-f399e8caebdfc855",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-school"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-book",
+      "u": "Книга",
+      "ru": "книга",
+      "game": "guide",
+      "canonicalId": "lex-695b9685757ab1a5",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-book"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-read",
+      "u": "лыдӟыны",
+      "ru": "читать",
+      "game": "guide",
+      "canonicalId": "lex-2f220b2c77684870",
+      "forms": [
+        "лыдӟисько",
+        "лыдӟиськод",
+        "лыдӟе",
+        "лыдӟиськом",
+        "лыдӟиськоды",
+        "лыдӟо"
+      ],
+      "sourceIds": [
+        "LEX2-read"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-write",
+      "u": "гожъяны",
+      "ru": "писать",
+      "game": "guide",
+      "canonicalId": "lex-4c322a49b6b521e9",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-write"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-draw",
+      "u": "суредаськыны",
+      "ru": "рисовать",
+      "game": "guide",
+      "canonicalId": "lex-316e19d4f1c85ac7",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-draw"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-ask",
+      "u": "юаны",
+      "ru": "спрашивать",
+      "game": "guide",
+      "canonicalId": "lex-c0d708b6933ca8e0",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-ask"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-answer",
+      "u": "валэктыны",
+      "ru": "отвечать",
+      "game": "guide",
+      "canonicalId": "lex-5f49dc45131542c0",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-answer"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-play",
+      "u": "шудыны",
+      "ru": "играть",
+      "game": "guide",
+      "canonicalId": "lex-5e479de04f5f9205",
+      "forms": [
+        "шудӥсько",
+        "шудӥськод",
+        "шудэ",
+        "шудӥськом",
+        "шудӥськоды",
+        "шудо",
+        "шудӥ",
+        "шудӥд",
+        "шудӥз",
+        "шудӥм",
+        "шудӥды",
+        "шудӥзы"
+      ],
+      "sourceIds": [
+        "LEX2-play"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-jump",
+      "u": "тэтчаны",
+      "ru": "прыгать",
+      "game": "guide",
+      "canonicalId": "lex-7a9404657a817cff",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-jump"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-throw",
+      "u": "лэзьыны",
+      "ru": "бросать",
+      "game": "guide",
+      "canonicalId": "lex-ac3f76700d1ef0f8",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-throw"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-catch",
+      "u": "кутыны",
+      "ru": "ловить",
+      "game": "guide",
+      "canonicalId": "lex-a2f1ae8b2df83017",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-catch"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-ball",
+      "u": "туп",
+      "ru": "мяч",
+      "game": "guide",
+      "canonicalId": "lex-4c29a72d90acff17",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-ball"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-turn",
+      "u": "черод",
+      "ru": "очередь / ход",
+      "game": "guide",
+      "canonicalId": "lex-7a9df834a6bb664e",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-turn"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-forest",
+      "u": "Нюлэс",
+      "ru": "лес",
+      "game": "guide",
+      "canonicalId": "lex-6340f0d1a4a316d7",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-forest"
+      ],
+      "aliases": [
+        "seem:nature:3"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-leaf",
+      "u": "Куар",
+      "ru": "лист",
+      "game": "guide",
+      "canonicalId": "lex-8f6f2299cdb3b29c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-leaf"
+      ],
+      "aliases": [
+        "seem:plants:5"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-grass",
+      "u": "Турын",
+      "ru": "трава",
+      "game": "guide",
+      "canonicalId": "lex-a8daee51c18c9ecc",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-grass"
+      ],
+      "aliases": [
+        "seem:plants:2"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-berry",
+      "u": "Узы",
+      "ru": "ягода",
+      "game": "guide",
+      "canonicalId": "lex-348b225467d9b5b3",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-berry"
+      ],
+      "aliases": [
+        "seem:plants:7"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-mushroom",
+      "u": "Губи",
+      "ru": "гриб",
+      "game": "guide",
+      "canonicalId": "lex-7eba56eb3888762e",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-mushroom"
+      ],
+      "aliases": [
+        "seem:plants:8"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-basket",
+      "u": "куды",
+      "ru": "корзина",
+      "game": "guide",
+      "canonicalId": "lex-c3640bbb64fbc488",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-basket"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-pattern",
+      "u": "пужы",
+      "ru": "узор",
+      "game": "guide",
+      "canonicalId": "lex-8bd8a3071a6bb992",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-pattern"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-circle",
+      "u": "Питыри",
+      "ru": "круг / солярный знак",
+      "game": "guide",
+      "canonicalId": "lex-c0cea31b940f3325",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-circle"
+      ],
+      "aliases": [
+        "pattern:0"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-moon",
+      "u": "Толэзь",
+      "ru": "луна",
+      "game": "guide",
+      "canonicalId": "lex-b1dde2a0c4a7a0eb",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-moon"
+      ],
+      "aliases": [
+        "pattern:2"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-star",
+      "u": "Кизили",
+      "ru": "звезда",
+      "game": "guide",
+      "canonicalId": "lex-bff3f264977cebcd",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-star"
+      ],
+      "aliases": [
+        "pattern:4"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-fir",
+      "u": "Кыз",
+      "ru": "ель",
+      "game": "guide",
+      "canonicalId": "lex-4e92b929004e24e5",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-fir"
+      ],
+      "aliases": [
+        "pattern:5"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-choose",
+      "u": "бырйыны",
+      "ru": "выбирать",
+      "game": "guide",
+      "canonicalId": "lex-8f5796ea3de5026b",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-choose"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-decorate",
+      "u": "чеберъяны",
+      "ru": "украшать",
+      "game": "guide",
+      "canonicalId": "lex-d8a6180bf3796e5c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-decorate"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-meet",
+      "u": "пумитаны",
+      "ru": "встречать",
+      "game": "guide",
+      "canonicalId": "lex-c3dabbd9500a6ffe",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-meet"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-invite",
+      "u": "ӧтьыны",
+      "ru": "приглашать",
+      "game": "guide",
+      "canonicalId": "lex-0045e31cb8bd5b19",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-invite"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-bring",
+      "u": "вайыны",
+      "ru": "приносить",
+      "game": "guide",
+      "canonicalId": "lex-4a19245c410f2759",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-bring"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-put",
+      "u": "поныны",
+      "ru": "класть",
+      "game": "guide",
+      "canonicalId": "lex-7e4e3c00b34debbb",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-put"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-settable",
+      "u": "ӝӧк вылэ сиён-юон пуктыны",
+      "ru": "накрывать на стол",
+      "game": "guide",
+      "canonicalId": "lex-4b5e376469afb5ee",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-settable"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-page",
+      "u": "бам",
+      "ru": "страница",
+      "game": "guide",
+      "canonicalId": "lex-70787283a7fa682c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-page"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-glue",
+      "u": "лякыны",
+      "ru": "приклеивать",
+      "game": "guide",
+      "canonicalId": "lex-f1726f6c204a896f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-glue"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-getup",
+      "u": "султыны",
+      "ru": "вставать",
+      "game": "guide",
+      "canonicalId": "lex-71921c1933482796",
+      "forms": [
+        "султӥсько",
+        "султӥськод",
+        "султэ",
+        "султӥськом",
+        "султӥськоды",
+        "султо"
+      ],
+      "sourceIds": [
+        "LEX2-getup"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-wash",
+      "u": "мисьтӥськыны",
+      "ru": "умываться",
+      "game": "guide",
+      "canonicalId": "lex-963d19b0defb3916",
+      "forms": [
+        "мисьтӥськисько",
+        "мисьтӥськиськод",
+        "мисьтӥське",
+        "мисьтӥськиськом",
+        "мисьтӥськиськоды",
+        "мисьтӥсько"
+      ],
+      "sourceIds": [
+        "LEX2-wash"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-dress",
+      "u": "дӥсяськыны",
+      "ru": "одеваться",
+      "game": "guide",
+      "canonicalId": "lex-a0ee562ef6e91c70",
+      "forms": [
+        "дӥсяськисько",
+        "дӥсяськиськод",
+        "дӥсяське",
+        "дӥсяськиськом",
+        "дӥсяськиськоды",
+        "дӥсясько"
+      ],
+      "sourceIds": [
+        "LEX2-dress"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-breakfast",
+      "u": "ӵукназэ сиськыны",
+      "ru": "завтракать",
+      "game": "guide",
+      "canonicalId": "lex-9adbbfbafb972486",
+      "forms": [
+        "сиськисько",
+        "сиськиськод",
+        "сиське",
+        "сиськиськом",
+        "сиськиськоды",
+        "сисько"
+      ],
+      "sourceIds": [
+        "LEX2-breakfast"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-study",
+      "u": "дышетскыны",
+      "ru": "заниматься / учиться",
+      "game": "guide",
+      "canonicalId": "lex-d20ee8533f66b63f",
+      "forms": [
+        "дышетскисько",
+        "дышетскиськод",
+        "дышетске",
+        "дышетскиськом",
+        "дышетскиськоды",
+        "дышетско"
+      ],
+      "sourceIds": [
+        "LEX2-study"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-rest",
+      "u": "шутэтскыны",
+      "ru": "отдыхать",
+      "game": "guide",
+      "canonicalId": "lex-5eceab9bb396994f",
+      "forms": [
+        "шутэтскисько",
+        "шутэтскиськод",
+        "шутэтске",
+        "шутэтскиськом",
+        "шутэтскиськоды",
+        "шутэтско"
+      ],
+      "sourceIds": [
+        "LEX2-rest"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-gobed",
+      "u": "выдыны",
+      "ru": "ложиться",
+      "game": "guide",
+      "canonicalId": "lex-9f8195c3345b4cbf",
+      "forms": [
+        "выдӥсько",
+        "выдӥськод",
+        "выдэ",
+        "выдӥськом",
+        "выдӥськоды",
+        "выдо"
+      ],
+      "sourceIds": [
+        "LEX2-gobed"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-always",
+      "u": "котьку",
+      "ru": "всегда",
+      "game": "guide",
+      "canonicalId": "lex-4381b5be42c494c1",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-always"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-often",
+      "u": "ӵем",
+      "ru": "часто",
+      "game": "guide",
+      "canonicalId": "lex-d24a3a66c3499f5c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-often"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-sometimes",
+      "u": "куддыръя",
+      "ru": "иногда",
+      "game": "guide",
+      "canonicalId": "lex-18ff722e700408e7",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-sometimes"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-rarely",
+      "u": "шер",
+      "ru": "редко",
+      "game": "guide",
+      "canonicalId": "lex-f89f66ca58657979",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-rarely"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-never",
+      "u": "ноку",
+      "ru": "никогда",
+      "game": "guide",
+      "canonicalId": "lex-d42481898d333a02",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-never"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-day",
+      "u": "Нунал",
+      "ru": "день",
+      "game": "guide",
+      "canonicalId": "lex-eceb3e2faa242c9b",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-day"
+      ],
+      "aliases": [
+        "seem:world:6"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-night",
+      "u": "Уй",
+      "ru": "ночь",
+      "game": "guide",
+      "canonicalId": "lex-77b8783af67632d9",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-night"
+      ],
+      "aliases": [
+        "seem:world:7"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-zhyt",
+      "u": "ӝыт",
+      "ru": "вечер",
+      "game": "guide",
+      "canonicalId": "lex-4eee4e94d3c9371a",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-zhyt"
+      ],
+      "aliases": [
+        "guide:zhyt"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-today",
+      "u": "туннэ",
+      "ru": "сегодня",
+      "game": "guide",
+      "canonicalId": "lex-f81bc9f953c81618",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-today"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-yesterday",
+      "u": "толон",
+      "ru": "вчера",
+      "game": "guide",
+      "canonicalId": "lex-4a1f8a9df4d93194",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-yesterday"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-house-big",
+      "u": "бадӟым",
+      "ru": "большой",
+      "game": "guide",
+      "canonicalId": "lex-fe755961aede37d7",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-house-big"
+      ],
+      "aliases": [
+        "kin:бадӟым"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-house-small",
+      "u": "пичи",
+      "ru": "маленький",
+      "game": "guide",
+      "canonicalId": "lex-ef433d2a9748ee3f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-house-small"
+      ],
+      "aliases": [
+        "kin:пичи"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-house-high",
+      "u": "ӝужыт",
+      "ru": "высокий",
+      "game": "guide",
+      "canonicalId": "lex-574a42ed3b1db957",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-house-high"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-house-low",
+      "u": "лапег",
+      "ru": "низкий",
+      "game": "guide",
+      "canonicalId": "lex-3aae30d1aaade5a0",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-house-low"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-house-roof",
+      "u": "липет",
+      "ru": "крыша",
+      "game": "guide",
+      "canonicalId": "lex-433336fb6edb7d8f",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-house-roof"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-near",
+      "u": "матын",
+      "ru": "близко",
+      "game": "guide",
+      "canonicalId": "lex-9b3d8f61cac641e2",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-near"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-far",
+      "u": "кыдёкын",
+      "ru": "далеко",
+      "game": "guide",
+      "canonicalId": "lex-8f9612929c2ab48b",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-far"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-absent",
+      "u": "ӧвӧл",
+      "ru": "нет / отсутствует",
+      "game": "guide",
+      "canonicalId": "lex-154166ff0e294b07",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-absent"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-drawing",
+      "u": "суред",
+      "ru": "рисунок",
+      "game": "guide",
+      "canonicalId": "lex-a609036b4a15726d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-drawing"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-now",
+      "u": "али",
+      "ru": "сейчас",
+      "game": "guide",
+      "canonicalId": "lex-ed249bf0b6fbb38d",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-now"
+      ]
+    },
+    {
+      "id": "guide-v041:LEX2-past",
+      "u": "ортчиз ини",
+      "ru": "уже прошло",
+      "game": "guide",
+      "canonicalId": "lex-9be1f6a8a768a71c",
+      "forms": [],
+      "sourceIds": [
+        "LEX2-past"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S01-0",
+      "u": "Кӧня тыныд арес?",
+      "ru": "Сколько тебе лет?",
+      "game": "guide",
+      "canonicalId": "lex-a87ae5f1b2978edd",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S01-0"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S01-1",
+      "u": "Кытын тон улӥськод?",
+      "ru": "Где ты живёшь?",
+      "game": "guide",
+      "canonicalId": "lex-b850e347bbe49a73",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S01-1"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S01-2",
+      "u": "Мон карын улӥсько.",
+      "ru": "Я живу в городе.",
+      "game": "guide",
+      "canonicalId": "lex-c094ca5850769250",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S01-2"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S01-3",
+      "u": "Мон гуртын улӥсько.",
+      "ru": "Я живу в деревне.",
+      "game": "guide",
+      "canonicalId": "lex-34f5b2795aa3f315",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S01-3"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S02-1",
+      "u": "Нимдэ гожты",
+      "ru": "Напиши своё имя",
+      "game": "guide",
+      "canonicalId": "lex-2dbda7af7801b773",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S02-1"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S03-0",
+      "u": "Та мынам суредэ. Нош кытын тынад?",
+      "ru": "Это мой рисунок. А где твой?",
+      "game": "guide",
+      "canonicalId": "lex-803a0a2d054bca2b",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S03-0"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S03-1",
+      "u": "Тани мынам. Мар татын возьматэмын?",
+      "ru": "Вот мой. Что здесь изображено?",
+      "game": "guide",
+      "canonicalId": "lex-0288f8b698b017fa",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S03-1"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P11-S03-2",
+      "u": "Ойдо суредъёсмес кельтом.",
+      "ru": "Давай сохраним наши рисунки.",
+      "game": "guide",
+      "canonicalId": "lex-4c794457090d36e6",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P11-S03-2"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P10-S02-0",
+      "u": "Ӟечбур! Мар тыныд кулэ?",
+      "ru": "Здравствуй! Что тебе нужно?",
+      "game": "guide",
+      "canonicalId": "lex-f713f3f19aba4de5",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P10-S02-0"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P06-S03-1",
+      "u": "Ӝӧк вылын открытка вань-а?",
+      "ru": "На столе есть открытка?",
+      "game": "guide",
+      "canonicalId": "lex-e638e67c6ed114a5",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P06-S03-1"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-C03-S04-0",
+      "u": "открытка",
+      "ru": "открытка",
+      "game": "guide",
+      "canonicalId": "lex-f45af69fe471b361",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-C03-S04-0"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P15-S02-0",
+      "u": "Ми пиналъёсын куное лыктӥм.",
+      "ru": "Мы с ребятами пришли в гости.",
+      "game": "guide",
+      "canonicalId": "lex-200162196bd9f504",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P15-S02-0"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P15-S02-1",
+      "u": "Тау. Маин юрттыны луэ?",
+      "ru": "Спасибо. Чем помочь?",
+      "game": "guide",
+      "canonicalId": "lex-7294dcb76c416cf8",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P15-S02-1"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P15-S02-2",
+      "u": "Ваньзэ ӝӧк вылэ пуктом, собере тупен шудонмес шудом.",
+      "ru": "Поставим всё на стол, потом сыграем в нашу игру с мячом.",
+      "game": "guide",
+      "canonicalId": "lex-04d5a56993a35e5f",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P15-S02-2"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P18-S02-0",
+      "u": "Татын коркамы но шур. Мон сюресэз возьматӥсько.",
+      "ru": "Здесь наш дом и река. Я показываю путь.",
+      "game": "guide",
+      "canonicalId": "lex-2374127dcffb7c6d",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P18-S02-0"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261126-P18-S02-1",
+      "u": "Нош тани семья баммы. Кинэ тон вераны быгатӥськод?",
+      "ru": "А вот наша семейная страница. Кого ты можешь назвать?",
+      "game": "guide",
+      "canonicalId": "lex-2410d1489cf41f3f",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261126-P18-S02-1"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-ANIMAL-ыж",
+      "u": "ыж",
+      "ru": "овца",
+      "game": "guide",
+      "canonicalId": "lex-6742706af6a5bc35",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-ANIMAL-ыж"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-ANIMAL-кеч",
+      "u": "кеч",
+      "ru": "коза",
+      "game": "guide",
+      "canonicalId": "lex-bf6095d46163a668",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-ANIMAL-кеч"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-ANIMAL-лудкеч",
+      "u": "лудкеч",
+      "ru": "кролик",
+      "game": "guide",
+      "canonicalId": "lex-b34875382cdb6bf8",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-ANIMAL-лудкеч"
+      ],
+      "aliases": [
+        "seem:animals:5"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261127-185",
+      "u": "курег",
+      "ru": "курица",
+      "game": "guide",
+      "canonicalId": "lex-bc46dc486f69fbfe",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261127-185"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261127-186",
+      "u": "улмо",
+      "ru": "яблоко",
+      "game": "guide",
+      "canonicalId": "lex-cea448c2e8cf6c16",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261127-186"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261127-187",
+      "u": "пудо-живот",
+      "ru": "домашнее животное",
+      "game": "guide",
+      "canonicalId": "lex-2b2eef4a6f458ad3",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261127-187"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261127-188",
+      "u": "Кыӵе тынад ужъёсыд?",
+      "ru": "Как у тебя дела?",
+      "game": "guide",
+      "canonicalId": "lex-9ddbcda68aefff33",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261127-188"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-20261127-189",
+      "u": "Татчы",
+      "ru": "Сюда",
+      "game": "guide",
+      "canonicalId": "lex-22e3e07553066e92",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-20261127-189"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-190",
+      "u": "дэрем — дэремъёс",
+      "ru": "платье — платья",
+      "game": "guide",
+      "canonicalId": "lex-1567e590d72a5676",
+      "forms": [],
+      "sourceIds": [
+        "V041-190"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-191",
+      "u": "йыркышет — йыркышетъёс",
+      "ru": "платок — платки",
+      "game": "guide",
+      "canonicalId": "lex-5693771d5502393c",
+      "forms": [],
+      "sourceIds": [
+        "V041-191"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-192",
+      "u": "Та писпу",
+      "ru": "это дерево",
+      "game": "guide",
+      "canonicalId": "lex-f63c966102fc8c0b",
+      "forms": [],
+      "sourceIds": [
+        "V041-192"
+      ],
+      "aliases": [
+        "guide:tapispu"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-193",
+      "u": "Та корка",
+      "ru": "это дом",
+      "game": "guide",
+      "canonicalId": "lex-819195dbee16f239",
+      "forms": [],
+      "sourceIds": [
+        "V041-193"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-194",
+      "u": "Та шур",
+      "ru": "это река",
+      "game": "guide",
+      "canonicalId": "lex-9a9fd7dc13d5fb8c",
+      "forms": [],
+      "sourceIds": [
+        "V041-194"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-195",
+      "u": "Мынам",
+      "ru": "мой / моя / моё / мои",
+      "game": "guide",
+      "canonicalId": "lex-8887735ba865b95d",
+      "forms": [],
+      "sourceIds": [
+        "V041-195"
+      ],
+      "aliases": [
+        "guide:mynam"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-196",
+      "u": "Тынад",
+      "ru": "твой / твоя / твоё / твои",
+      "game": "guide",
+      "canonicalId": "lex-2fa75e874010e737",
+      "forms": [],
+      "sourceIds": [
+        "V041-196"
+      ],
+      "aliases": [
+        "guide:tynad"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-197",
+      "u": "Солэн",
+      "ru": "его / её",
+      "game": "guide",
+      "canonicalId": "lex-a59976d14e6c7fb6",
+      "forms": [],
+      "sourceIds": [
+        "V041-197"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-198",
+      "u": "Милям",
+      "ru": "наш / наша / наше / наши",
+      "game": "guide",
+      "canonicalId": "lex-cc359bd54b6393e9",
+      "forms": [],
+      "sourceIds": [
+        "V041-198"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-199",
+      "u": "Тӥляд",
+      "ru": "ваш / ваша / ваше / ваши",
+      "game": "guide",
+      "canonicalId": "lex-9228e12148caf287",
+      "forms": [],
+      "sourceIds": [
+        "V041-199"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-200",
+      "u": "Соослэн",
+      "ru": "их",
+      "game": "guide",
+      "canonicalId": "lex-0aee5bc962998d7a",
+      "forms": [],
+      "sourceIds": [
+        "V041-200"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-201",
+      "u": "кытын тынад коркаед",
+      "ru": "где твой дом?",
+      "game": "guide",
+      "canonicalId": "lex-32fd1a9cb7f8aea7",
+      "forms": [],
+      "sourceIds": [
+        "V041-201"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-202",
+      "u": "анае",
+      "ru": "моя мама",
+      "game": "guide",
+      "canonicalId": "lex-504d4d0b0000fb00",
+      "forms": [
+        "анаелэн"
+      ],
+      "sourceIds": [
+        "V041-202"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-203",
+      "u": "агаед",
+      "ru": "твой старший брат",
+      "game": "guide",
+      "canonicalId": "lex-34eb6692d4baa1b5",
+      "forms": [
+        "агаедлэн"
+      ],
+      "sourceIds": [
+        "V041-203"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-204",
+      "u": "Мынам вань",
+      "ru": "у меня есть",
+      "game": "guide",
+      "canonicalId": "lex-747197e7d99b2f08",
+      "forms": [],
+      "sourceIds": [
+        "V041-204"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-205",
+      "u": "Тынад вань",
+      "ru": "у тебя есть",
+      "game": "guide",
+      "canonicalId": "lex-adbbfbdd666ab912",
+      "forms": [],
+      "sourceIds": [
+        "V041-205"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-206",
+      "u": "Солэн вань",
+      "ru": "у него / неё есть",
+      "game": "guide",
+      "canonicalId": "lex-a33ce0388a58e0e7",
+      "forms": [],
+      "sourceIds": [
+        "V041-206"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-207",
+      "u": "Милям вань",
+      "ru": "у нас есть",
+      "game": "guide",
+      "canonicalId": "lex-e18edaaad3ca7663",
+      "forms": [],
+      "sourceIds": [
+        "V041-207"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-208",
+      "u": "тӥляд вань",
+      "ru": "у вас есть",
+      "game": "guide",
+      "canonicalId": "lex-4101a29a7ab77fd2",
+      "forms": [],
+      "sourceIds": [
+        "V041-208"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-209",
+      "u": "Соослэн вань",
+      "ru": "у них есть",
+      "game": "guide",
+      "canonicalId": "lex-83eaf21696ee3b50",
+      "forms": [],
+      "sourceIds": [
+        "V041-209"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-210",
+      "u": "вань-а?",
+      "ru": "есть ли?",
+      "game": "guide",
+      "canonicalId": "lex-4eead2045fff1244",
+      "forms": [],
+      "sourceIds": [
+        "V041-210"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-211",
+      "u": "нюлэскы",
+      "ru": "в лес",
+      "game": "guide",
+      "canonicalId": "lex-9d9fa2294b0af76d",
+      "forms": [],
+      "sourceIds": [
+        "V041-211"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-212",
+      "u": "нюлэскысь",
+      "ru": "из леса",
+      "game": "guide",
+      "canonicalId": "lex-0dd32175a5b48c73",
+      "forms": [],
+      "sourceIds": [
+        "V041-212"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-213",
+      "u": "пӧйшур",
+      "ru": "дикое животное",
+      "game": "guide",
+      "canonicalId": "lex-335a288a73d909c7",
+      "forms": [],
+      "sourceIds": [
+        "V041-213"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-214",
+      "u": "сиськыны",
+      "ru": "есть / принимать пищу",
+      "game": "guide",
+      "canonicalId": "lex-780106abc291b402",
+      "forms": [],
+      "sourceIds": [
+        "V041-214"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-215",
+      "u": "нылпи пудоез сюдэ",
+      "ru": "ребёнок кормит животное",
+      "game": "guide",
+      "canonicalId": "lex-bfe02908244ba984",
+      "forms": [],
+      "sourceIds": [
+        "V041-215"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-216",
+      "u": "пинал пудоез люкта",
+      "ru": "ребёнок поит животное",
+      "game": "guide",
+      "canonicalId": "lex-ac52a2b9a9055369",
+      "forms": [],
+      "sourceIds": [
+        "V041-216"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-217",
+      "u": "пинал пудоез эскере",
+      "ru": "ребёнок наблюдает за животным",
+      "game": "guide",
+      "canonicalId": "lex-c409e66a156f77ef",
+      "forms": [],
+      "sourceIds": [
+        "V041-217"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-218",
+      "u": "Коӵыш сылэ",
+      "ru": "кот стоит",
+      "game": "guide",
+      "canonicalId": "lex-6e39a4ef5602d107",
+      "forms": [],
+      "sourceIds": [
+        "V041-218"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-219",
+      "u": "Коӵыш пуке",
+      "ru": "кот сидит",
+      "game": "guide",
+      "canonicalId": "lex-3b019051b5f2605a",
+      "forms": [],
+      "sourceIds": [
+        "V041-219"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-220",
+      "u": "Коӵыш изе",
+      "ru": "кот спит",
+      "game": "guide",
+      "canonicalId": "lex-a859768036197910",
+      "forms": [],
+      "sourceIds": [
+        "V041-220"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-221",
+      "u": "Коӵыш сие",
+      "ru": "кот ест",
+      "game": "guide",
+      "canonicalId": "lex-af145f9f95aeb5bc",
+      "forms": [],
+      "sourceIds": [
+        "V041-221"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-222",
+      "u": "Коӵыш юэ",
+      "ru": "кот пьёт",
+      "game": "guide",
+      "canonicalId": "lex-051715dfc0593fa0",
+      "forms": [],
+      "sourceIds": [
+        "V041-222"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-223",
+      "u": "Коӵыш уг изьы",
+      "ru": "кот не спит",
+      "game": "guide",
+      "canonicalId": "lex-a7cf3cbdb7bdf547",
+      "forms": [],
+      "sourceIds": [
+        "V041-223"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-224",
+      "u": "Коӵыш уг сиы",
+      "ru": "кот не ест",
+      "game": "guide",
+      "canonicalId": "lex-4deb41c7bc3dcd59",
+      "forms": [],
+      "sourceIds": [
+        "V041-224"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-225",
+      "u": "Коӵыш уг юы",
+      "ru": "кот не пьёт",
+      "game": "guide",
+      "canonicalId": "lex-80614fac00250ab9",
+      "forms": [],
+      "sourceIds": [
+        "V041-225"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-226",
+      "u": "Коӵыш уг бызьылы",
+      "ru": "кот не бегает",
+      "game": "guide",
+      "canonicalId": "lex-59355f48274ce258",
+      "forms": [],
+      "sourceIds": [
+        "V041-226"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-227",
+      "u": "Нянь кӧня сылэ?",
+      "ru": "Сколько стоит хлеб?",
+      "game": "guide",
+      "canonicalId": "lex-a154a94b4f28101b",
+      "forms": [],
+      "sourceIds": [
+        "V041-227"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-228",
+      "u": "Вӧй кӧня сылэ?",
+      "ru": "Сколько стоит масло?",
+      "game": "guide",
+      "canonicalId": "lex-a178a88c487cf5e9",
+      "forms": [],
+      "sourceIds": [
+        "V041-228"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-229",
+      "u": "Йӧл кӧня сылэ?",
+      "ru": "Сколько стоит молоко?",
+      "game": "guide",
+      "canonicalId": "lex-f4d6ec11ab9c7ea6",
+      "forms": [],
+      "sourceIds": [
+        "V041-229"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-230",
+      "u": "сиыны",
+      "ru": "есть / принимать пищу",
+      "game": "guide",
+      "canonicalId": "lex-0a7e77f2e7ae1da6",
+      "forms": [],
+      "sourceIds": [
+        "V041-230"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-231",
+      "u": "Тон куддыр лыдӟиськод-а?",
+      "ru": "Ты иногда читаешь?",
+      "game": "guide",
+      "canonicalId": "lex-3d62ba6ecd8ef5c9",
+      "forms": [],
+      "sourceIds": [
+        "V041-231"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-232",
+      "u": "Соос  шер шутэтско.",
+      "ru": "Они редко отдыхают здесь.",
+      "game": "guide",
+      "canonicalId": "lex-0d89dfe8c242d5b3",
+      "forms": [],
+      "sourceIds": [
+        "V041-232"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-233",
+      "u": "Мон песянаелы юрттӥ.",
+      "ru": "Я помог(ла) бабушке.",
+      "game": "guide",
+      "canonicalId": "lex-96965d6114c7cab4",
+      "forms": [],
+      "sourceIds": [
+        "V041-233"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-234",
+      "u": "Мон пиналъёсын шудӥ.",
+      "ru": "Я играл(а) с ребятами.",
+      "game": "guide",
+      "canonicalId": "lex-05fb92dd0ede2e87",
+      "forms": [],
+      "sourceIds": [
+        "V041-234"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-235",
+      "u": "Кинлы тон юрттӥд?",
+      "ru": "Кому ты помог?",
+      "game": "guide",
+      "canonicalId": "lex-e1e5f9271ace7dbf",
+      "forms": [],
+      "sourceIds": [
+        "V041-235"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-236",
+      "u": "Кинэн тон ветлӥд?",
+      "ru": "С кем ты ходил?",
+      "game": "guide",
+      "canonicalId": "lex-31e8219d0db76e90",
+      "forms": [],
+      "sourceIds": [
+        "V041-236"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-237",
+      "u": "Ми тупен шудӥм.",
+      "ru": "Мы играли с мячом.",
+      "game": "guide",
+      "canonicalId": "lex-dde1df247675aca6",
+      "forms": [],
+      "sourceIds": [
+        "V041-237"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-238",
+      "u": "Кин семья бамын?",
+      "ru": "Кто на семейной странице?",
+      "game": "guide",
+      "canonicalId": "lex-dd31919788a0cfca",
+      "forms": [],
+      "sourceIds": [
+        "V041-238"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-239",
+      "u": "Татын песянай-песятайъёсы",
+      "ru": "Здесь бабушка и дедушка.",
+      "game": "guide",
+      "canonicalId": "lex-39abad6f80ae1900",
+      "forms": [],
+      "sourceIds": [
+        "V041-239"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-240",
+      "u": "тупез лэзьяй",
+      "ru": "я бросал мяч",
+      "game": "guide",
+      "canonicalId": "lex-23aa767815797b23",
+      "forms": [],
+      "sourceIds": [
+        "V041-240"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-241",
+      "u": "эше тупез кутиз",
+      "ru": "друг ловил мяч",
+      "game": "guide",
+      "canonicalId": "lex-aac87768647803c9",
+      "forms": [],
+      "sourceIds": [
+        "V041-241"
+      ]
+    },
+    {
+      "id": "guide-v041:V041-242",
+      "u": "семьямылэсь бамзэ лэсьтӥ",
+      "ru": "я сделал семейную страницу",
+      "game": "guide",
+      "canonicalId": "lex-84be07f510f9564d",
+      "forms": [],
+      "sourceIds": [
+        "V041-242"
+      ]
+    },
+    {
+      "id": "guide-v041:AUTHOR-trousers-20261127",
+      "u": "штани",
+      "ru": "брюки",
+      "game": "guide",
+      "canonicalId": "lex-2373afd3364cce27",
+      "forms": [],
+      "sourceIds": [
+        "AUTHOR-trousers-20261127"
+      ]
+    }
+  ],
+  "occurrences": [
+    {
+      "surface": "сяськаос",
+      "entryId": "guide-v041:LEX2-syaska"
+    },
+    {
+      "surface": "керттэтъёс",
+      "entryId": "guide-v041:LEX2-bundle"
+    },
+    {
+      "surface": "дэремъёс",
+      "entryId": "guide-v041:LEX2-derem"
+    },
+    {
+      "surface": "йыркышетъёс",
+      "entryId": "guide-v041:LEX2-yyrkyshet"
+    },
+    {
+      "surface": "гуртэ",
+      "entryId": "guide-v041:LEX2-gurt"
+    },
+    {
+      "surface": "коркае",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "коркаед",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "коркаез",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "коркамы",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "коркады",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "корказы",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "анайлэн",
+      "entryId": "guide-v041:LEX2-anay"
+    },
+    {
+      "surface": "анаелэн",
+      "entryId": "guide-v041:V041-202"
+    },
+    {
+      "surface": "агаедлэн",
+      "entryId": "guide-v041:V041-203"
+    },
+    {
+      "surface": "туспуктэмез",
+      "entryId": "guide-v041:LEX2-photo"
+    },
+    {
+      "surface": "мон карисько",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "тон кариськод",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "со каре",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "ми кариськом",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "тӥ кариськоды",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "соос каро",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "мон ветлӥсько",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "тон ветлӥськод",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "со ветлэ",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "ми ветлӥськом",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "тӥ ветлӥськоды",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "соос ветло",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "мон учкисько",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "тон учкиськод",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "со учке",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "ми учкиськом",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "тӥ учкиськоды",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "соос учко",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "мон утчасько",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "тон утчаськод",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "со утча",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "ми утчаськом",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "тӥ утчаськоды",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "соос утчало",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "верасько",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "вераськод",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "вера",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "ми вераськом",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "тӥ вераськоды",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "соос верало",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "мон киськасько",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "тон киськаськод",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "со киська",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "ми киськаськом",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "тӥ киськаськоды",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "соос киськало",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "мон мерттӥсько",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "тон мерттӥськод",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "со мерттэ",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "ми мон мерттӥськом",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "тӥ мерттӥськоды",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "соос мертто",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "мон юрттӥсько",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "тон юрттӥськод",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "со юрттэ",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "ми юрттӥськом",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "тӥ юрттӥськоды",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "соос юртто",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "мон мынӥсько",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "тон мынӥськод",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "со мынэ",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "ми мынӥськом",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "тӥ мынӥськоды",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "соос мыно",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "мон дыртӥсько",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "тон дыртӥськод",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "со дырттэ",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "ми дыртӥськом",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "тӥ дыртӥськоды",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "соос дыртто",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "мон лыктӥсько",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "тон лыктӥськод",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "со лыктэ",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "ми лыктӥськом",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "тӥ лыктӥськоды",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "соос лыкто",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "мон тубисько",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "тон тубиськод",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "со тубе",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "ми тубиськом",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "тӥ тубиськоды",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "соос тубо",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "мон васькисько",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "тон васькиськод",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "со ваське",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "ми васькиськом",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "тӥ васькиськоды",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "соос васько",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "коркаысь",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "гуртысь",
+      "entryId": "guide-v041:LEX2-gurt"
+    },
+    {
+      "surface": "мон султӥсько",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "тон султӥськод",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "со султэ",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "ми султӥськом",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "тӥ султӥськоды",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "соос султо",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "мон мисьтӥськисько",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "тон мисьтӥськиськод",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "со мисьтӥське",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "ми мисьтӥськиськом",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "тӥ мисьтӥськиськоды",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "соос мисьтӥсько",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "мон дӥсяськисько",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "тон дӥсяськиськод",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "со дӥсяське",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "ми дӥсяськиськом",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "тӥ дӥсяськиськоды",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "соос дӥсясько",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "мон сиськисько",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "тон сиськиськод",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "со сиське",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "ми сиськиськом",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "тӥ сиськиськоды",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "соос сисько",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "мон дышетскисько",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "тон дышетскиськод",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "со дышетске",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "ми дышетскиськом",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "тӥ дышетскиськоды",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "соос дышетско",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "мон шудӥсько",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "тон шудӥськод",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "со шудэ",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "ми шудӥськом",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "тӥ шудӥськоды",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "соос шудо",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "мон шутэтскисько",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "тон шутэтскиськод",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "со шутэтске",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "ми шутэтскиськом",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "тӥ шутэтскиськоды",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "соос шутэтско",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "мон лыдӟисько",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "тон лыдӟиськод",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "со лыдӟе",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "ми лыдӟиськом",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "тӥ лыдӟиськоды",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "соос лыдӟо",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "мон выдӥсько",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "тон выдӥськод",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "со выдэ",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "ми выдӥськом",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "тӥ выдӥськоды",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "соос выдо",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "мон изисько",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "тон изиськод",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "со изе",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "ми изиськом",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "тӥ изиськоды",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "соос изё",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "мон лэсьтӥ",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "тон лэсьтӥд",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "со лэсьтӥз",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "ми лэсьтӥм",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "тӥ лэсьтӥды",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "соос лэсьтӥзы",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "мон мынӥ",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "тон мынӥд",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "со мынӥз",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "ми мынӥм",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "тӥ мынӥды",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "соос мынӥзы",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "мон шудӥ",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "тон шудӥд",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "со шудӥз",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "ми шудӥм",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "тӥ шудӥды",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "соос шудӥзы",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "мон юрттӥ",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "тон юрттӥд",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "со юрттӥз",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "ми юрттӥм",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "тӥ юрттӥды",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "соос юрттӥзы",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "мон учки",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "тон учкид",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "со учкиз",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "ми учким",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "тӥ учкиды",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "соос учкизы",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "мон верай",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "тон верад",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "со шуиз",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "ми верамы",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "тӥ верады",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "соос веразы",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "ӟечбур",
+      "entryId": "guide-v041:LEX2-zhechbur"
+    },
+    {
+      "surface": "мынам нимы",
+      "entryId": "guide-v041:LEX2-myname"
+    },
+    {
+      "surface": "кызьы тынад нимыд",
+      "entryId": "guide-v041:LEX2-whatname"
+    },
+    {
+      "surface": "мон",
+      "entryId": "guide-v041:LEX2-mon"
+    },
+    {
+      "surface": "тон",
+      "entryId": "guide-v041:LEX2-ton"
+    },
+    {
+      "surface": "гурт",
+      "entryId": "guide-v041:LEX2-gurt"
+    },
+    {
+      "surface": "корка",
+      "entryId": "guide-v041:LEX2-korka"
+    },
+    {
+      "surface": "писпу",
+      "entryId": "guide-v041:LEX2-pispu"
+    },
+    {
+      "surface": "пу",
+      "entryId": "guide-v041:LEX2-pu"
+    },
+    {
+      "surface": "песянай",
+      "entryId": "guide-v041:LEX2-pesyanay"
+    },
+    {
+      "surface": "песятай",
+      "entryId": "guide-v041:LEX2-pesyatay"
+    },
+    {
+      "surface": "ӵукна",
+      "entryId": "guide-v041:LEX2-chukna"
+    },
+    {
+      "surface": "бур ӵукнаен",
+      "entryId": "guide-v041:LEX2-goodmorning"
+    },
+    {
+      "surface": "нянь",
+      "entryId": "guide-v041:LEX2-nyan"
+    },
+    {
+      "surface": "вӧй",
+      "entryId": "guide-v041:LEX2-butter"
+    },
+    {
+      "surface": "ӝӧк",
+      "entryId": "guide-v041:LEX2-zhok"
+    },
+    {
+      "surface": "шунды",
+      "entryId": "guide-v041:LEX2-shundy"
+    },
+    {
+      "surface": "сяська",
+      "entryId": "guide-v041:LEX2-syaska"
+    },
+    {
+      "surface": "вукиськан",
+      "entryId": "guide-v041:LEX2-watering"
+    },
+    {
+      "surface": "тау",
+      "entryId": "guide-v041:LEX2-thanks"
+    },
+    {
+      "surface": "сяська керттэт",
+      "entryId": "guide-v041:LEX2-bouquet"
+    },
+    {
+      "surface": "керттэт",
+      "entryId": "guide-v041:LEX2-bundle"
+    },
+    {
+      "surface": "дэрем",
+      "entryId": "guide-v041:LEX2-derem"
+    },
+    {
+      "surface": "йыркышет",
+      "entryId": "guide-v041:LEX2-yyrkyshet"
+    },
+    {
+      "surface": "кускерттон",
+      "entryId": "guide-v041:LEX2-kuskertton"
+    },
+    {
+      "surface": "чыртывесь",
+      "entryId": "guide-v041:LEX2-chyrtyves"
+    },
+    {
+      "surface": "горд",
+      "entryId": "guide-v041:LEX2-red"
+    },
+    {
+      "surface": "лыз",
+      "entryId": "guide-v041:LEX2-blue"
+    },
+    {
+      "surface": "вож",
+      "entryId": "guide-v041:LEX2-green"
+    },
+    {
+      "surface": "ву",
+      "entryId": "guide-v041:LEX2-water"
+    },
+    {
+      "surface": "со",
+      "entryId": "guide-v041:LEX2-so"
+    },
+    {
+      "surface": "ми",
+      "entryId": "guide-v041:LEX2-mi"
+    },
+    {
+      "surface": "тӥ",
+      "entryId": "guide-v041:LEX2-ti"
+    },
+    {
+      "surface": "соос",
+      "entryId": "guide-v041:LEX2-soos"
+    },
+    {
+      "surface": "туспуктэм",
+      "entryId": "guide-v041:LEX2-photo"
+    },
+    {
+      "surface": "мар та",
+      "entryId": "guide-v041:LEX2-marta"
+    },
+    {
+      "surface": "шур",
+      "entryId": "guide-v041:LEX2-shur"
+    },
+    {
+      "surface": "сюрес",
+      "entryId": "guide-v041:LEX2-syures"
+    },
+    {
+      "surface": "кытын",
+      "entryId": "guide-v041:LEX2-kytyn"
+    },
+    {
+      "surface": "кин та",
+      "entryId": "guide-v041:LEX2-kinta"
+    },
+    {
+      "surface": "анай",
+      "entryId": "guide-v041:LEX2-anay"
+    },
+    {
+      "surface": "атай",
+      "entryId": "guide-v041:LEX2-atay"
+    },
+    {
+      "surface": "апай",
+      "entryId": "guide-v041:LEX2-apay"
+    },
+    {
+      "surface": "агай",
+      "entryId": "guide-v041:LEX2-agay"
+    },
+    {
+      "surface": "альбом",
+      "entryId": "guide-v041:LEX2-album"
+    },
+    {
+      "surface": "отын",
+      "entryId": "guide-v041:LEX2-there"
+    },
+    {
+      "surface": "татын",
+      "entryId": "guide-v041:LEX2-here"
+    },
+    {
+      "surface": "вань",
+      "entryId": "guide-v041:LEX2-exist"
+    },
+    {
+      "surface": "укно",
+      "entryId": "guide-v041:LEX2-window"
+    },
+    {
+      "surface": "ӧс",
+      "entryId": "guide-v041:LEX2-door"
+    },
+    {
+      "surface": "одӥг",
+      "entryId": "guide-v041:LEX2-num1"
+    },
+    {
+      "surface": "кык",
+      "entryId": "guide-v041:LEX2-num2"
+    },
+    {
+      "surface": "куинь",
+      "entryId": "guide-v041:LEX2-num3"
+    },
+    {
+      "surface": "ньыль",
+      "entryId": "guide-v041:LEX2-num4"
+    },
+    {
+      "surface": "вить",
+      "entryId": "guide-v041:LEX2-num5"
+    },
+    {
+      "surface": "карыны",
+      "entryId": "guide-v041:LEX2-do"
+    },
+    {
+      "surface": "ветлыны",
+      "entryId": "guide-v041:LEX2-walk"
+    },
+    {
+      "surface": "учкыны",
+      "entryId": "guide-v041:LEX2-look"
+    },
+    {
+      "surface": "утчаны",
+      "entryId": "guide-v041:LEX2-search"
+    },
+    {
+      "surface": "вераны",
+      "entryId": "guide-v041:LEX2-speak"
+    },
+    {
+      "surface": "кисьтаны",
+      "entryId": "guide-v041:LEX2-waterverb"
+    },
+    {
+      "surface": "мерттыны",
+      "entryId": "guide-v041:LEX2-plant"
+    },
+    {
+      "surface": "юрттыны",
+      "entryId": "guide-v041:LEX2-help"
+    },
+    {
+      "surface": "кытчы",
+      "entryId": "guide-v041:LEX2-where_to"
+    },
+    {
+      "surface": "кытысь",
+      "entryId": "guide-v041:LEX2-where_from"
+    },
+    {
+      "surface": "мыныны",
+      "entryId": "guide-v041:LEX2-go"
+    },
+    {
+      "surface": "бызьылыны",
+      "entryId": "guide-v041:LEX2-run"
+    },
+    {
+      "surface": "дырттыны",
+      "entryId": "guide-v041:LEX2-hurry"
+    },
+    {
+      "surface": "лыктыны",
+      "entryId": "guide-v041:LEX2-arrive"
+    },
+    {
+      "surface": "тубыны",
+      "entryId": "guide-v041:LEX2-up"
+    },
+    {
+      "surface": "васькыны",
+      "entryId": "guide-v041:LEX2-down"
+    },
+    {
+      "surface": "коӵыш",
+      "entryId": "guide-v041:LEX2-cat"
+    },
+    {
+      "surface": "пуны",
+      "entryId": "guide-v041:LEX2-dog"
+    },
+    {
+      "surface": "вал",
+      "entryId": "guide-v041:LEX2-horse"
+    },
+    {
+      "surface": "скал",
+      "entryId": "guide-v041:LEX2-cow"
+    },
+    {
+      "surface": "тылобурдо",
+      "entryId": "guide-v041:LEX2-bird"
+    },
+    {
+      "surface": "сюдыны",
+      "entryId": "guide-v041:LEX2-feed"
+    },
+    {
+      "surface": "люктаны",
+      "entryId": "guide-v041:LEX2-givewater"
+    },
+    {
+      "surface": "эскерыны",
+      "entryId": "guide-v041:LEX2-observe"
+    },
+    {
+      "surface": "сылыны",
+      "entryId": "guide-v041:LEX2-stand"
+    },
+    {
+      "surface": "пукыны",
+      "entryId": "guide-v041:LEX2-sit"
+    },
+    {
+      "surface": "изьыны",
+      "entryId": "guide-v041:LEX2-sleep"
+    },
+    {
+      "surface": "юыны",
+      "entryId": "guide-v041:LEX2-drink"
+    },
+    {
+      "surface": "кылыны",
+      "entryId": "guide-v041:LEX2-hear"
+    },
+    {
+      "surface": "адӟыны",
+      "entryId": "guide-v041:LEX2-see"
+    },
+    {
+      "surface": "лавка",
+      "entryId": "guide-v041:LEX2-shop"
+    },
+    {
+      "surface": "сётэ вал",
+      "entryId": "guide-v041:LEX2-please"
+    },
+    {
+      "surface": "мыным кулэ",
+      "entryId": "guide-v041:LEX2-need"
+    },
+    {
+      "surface": "басьтыны",
+      "entryId": "guide-v041:LEX2-take"
+    },
+    {
+      "surface": "сётыны",
+      "entryId": "guide-v041:LEX2-give"
+    },
+    {
+      "surface": "уксё тырыны",
+      "entryId": "guide-v041:LEX2-pay"
+    },
+    {
+      "surface": "кӧня сылэ",
+      "entryId": "guide-v041:LEX2-price"
+    },
+    {
+      "surface": "йӧл",
+      "entryId": "guide-v041:LEX2-milk"
+    },
+    {
+      "surface": "куать",
+      "entryId": "guide-v041:LEX2-num6"
+    },
+    {
+      "surface": "сизьым",
+      "entryId": "guide-v041:LEX2-num7"
+    },
+    {
+      "surface": "тямыс",
+      "entryId": "guide-v041:LEX2-num8"
+    },
+    {
+      "surface": "укмыс",
+      "entryId": "guide-v041:LEX2-num9"
+    },
+    {
+      "surface": "дас",
+      "entryId": "guide-v041:LEX2-num10"
+    },
+    {
+      "surface": "эш",
+      "entryId": "guide-v041:LEX2-friend"
+    },
+    {
+      "surface": "школа",
+      "entryId": "guide-v041:LEX2-school"
+    },
+    {
+      "surface": "книга",
+      "entryId": "guide-v041:LEX2-book"
+    },
+    {
+      "surface": "лыдӟыны",
+      "entryId": "guide-v041:LEX2-read"
+    },
+    {
+      "surface": "гожъяны",
+      "entryId": "guide-v041:LEX2-write"
+    },
+    {
+      "surface": "суредаськыны",
+      "entryId": "guide-v041:LEX2-draw"
+    },
+    {
+      "surface": "юаны",
+      "entryId": "guide-v041:LEX2-ask"
+    },
+    {
+      "surface": "валэктыны",
+      "entryId": "guide-v041:LEX2-answer"
+    },
+    {
+      "surface": "шудыны",
+      "entryId": "guide-v041:LEX2-play"
+    },
+    {
+      "surface": "тэтчаны",
+      "entryId": "guide-v041:LEX2-jump"
+    },
+    {
+      "surface": "лэзьыны",
+      "entryId": "guide-v041:LEX2-throw"
+    },
+    {
+      "surface": "кутыны",
+      "entryId": "guide-v041:LEX2-catch"
+    },
+    {
+      "surface": "туп",
+      "entryId": "guide-v041:LEX2-ball"
+    },
+    {
+      "surface": "черод",
+      "entryId": "guide-v041:LEX2-turn"
+    },
+    {
+      "surface": "нюлэс",
+      "entryId": "guide-v041:LEX2-forest"
+    },
+    {
+      "surface": "куар",
+      "entryId": "guide-v041:LEX2-leaf"
+    },
+    {
+      "surface": "турын",
+      "entryId": "guide-v041:LEX2-grass"
+    },
+    {
+      "surface": "узы",
+      "entryId": "guide-v041:LEX2-berry"
+    },
+    {
+      "surface": "губи",
+      "entryId": "guide-v041:LEX2-mushroom"
+    },
+    {
+      "surface": "куды",
+      "entryId": "guide-v041:LEX2-basket"
+    },
+    {
+      "surface": "пужы",
+      "entryId": "guide-v041:LEX2-pattern"
+    },
+    {
+      "surface": "питыри",
+      "entryId": "guide-v041:LEX2-circle"
+    },
+    {
+      "surface": "толэзь",
+      "entryId": "guide-v041:LEX2-moon"
+    },
+    {
+      "surface": "кизили",
+      "entryId": "guide-v041:LEX2-star"
+    },
+    {
+      "surface": "кыз",
+      "entryId": "guide-v041:LEX2-fir"
+    },
+    {
+      "surface": "бырйыны",
+      "entryId": "guide-v041:LEX2-choose"
+    },
+    {
+      "surface": "чеберъяны",
+      "entryId": "guide-v041:LEX2-decorate"
+    },
+    {
+      "surface": "пумитаны",
+      "entryId": "guide-v041:LEX2-meet"
+    },
+    {
+      "surface": "ӧтьыны",
+      "entryId": "guide-v041:LEX2-invite"
+    },
+    {
+      "surface": "вайыны",
+      "entryId": "guide-v041:LEX2-bring"
+    },
+    {
+      "surface": "поныны",
+      "entryId": "guide-v041:LEX2-put"
+    },
+    {
+      "surface": "ӝӧк вылэ сиён-юон пуктыны",
+      "entryId": "guide-v041:LEX2-settable"
+    },
+    {
+      "surface": "бам",
+      "entryId": "guide-v041:LEX2-page"
+    },
+    {
+      "surface": "лякыны",
+      "entryId": "guide-v041:LEX2-glue"
+    },
+    {
+      "surface": "султыны",
+      "entryId": "guide-v041:LEX2-getup"
+    },
+    {
+      "surface": "мисьтӥськыны",
+      "entryId": "guide-v041:LEX2-wash"
+    },
+    {
+      "surface": "дӥсяськыны",
+      "entryId": "guide-v041:LEX2-dress"
+    },
+    {
+      "surface": "ӵукназэ сиськыны",
+      "entryId": "guide-v041:LEX2-breakfast"
+    },
+    {
+      "surface": "дышетскыны",
+      "entryId": "guide-v041:LEX2-study"
+    },
+    {
+      "surface": "шутэтскыны",
+      "entryId": "guide-v041:LEX2-rest"
+    },
+    {
+      "surface": "выдыны",
+      "entryId": "guide-v041:LEX2-gobed"
+    },
+    {
+      "surface": "котьку",
+      "entryId": "guide-v041:LEX2-always"
+    },
+    {
+      "surface": "ӵем",
+      "entryId": "guide-v041:LEX2-often"
+    },
+    {
+      "surface": "куддыръя",
+      "entryId": "guide-v041:LEX2-sometimes"
+    },
+    {
+      "surface": "шер",
+      "entryId": "guide-v041:LEX2-rarely"
+    },
+    {
+      "surface": "ноку",
+      "entryId": "guide-v041:LEX2-never"
+    },
+    {
+      "surface": "нунал",
+      "entryId": "guide-v041:LEX2-day"
+    },
+    {
+      "surface": "уй",
+      "entryId": "guide-v041:LEX2-night"
+    },
+    {
+      "surface": "ӝыт",
+      "entryId": "guide-v041:LEX2-zhyt"
+    },
+    {
+      "surface": "туннэ",
+      "entryId": "guide-v041:LEX2-today"
+    },
+    {
+      "surface": "толон",
+      "entryId": "guide-v041:LEX2-yesterday"
+    },
+    {
+      "surface": "бадӟым",
+      "entryId": "guide-v041:LEX2-house-big"
+    },
+    {
+      "surface": "пичи",
+      "entryId": "guide-v041:LEX2-house-small"
+    },
+    {
+      "surface": "ӝужыт",
+      "entryId": "guide-v041:LEX2-house-high"
+    },
+    {
+      "surface": "лапег",
+      "entryId": "guide-v041:LEX2-house-low"
+    },
+    {
+      "surface": "липет",
+      "entryId": "guide-v041:LEX2-house-roof"
+    },
+    {
+      "surface": "матын",
+      "entryId": "guide-v041:LEX2-near"
+    },
+    {
+      "surface": "кыдёкын",
+      "entryId": "guide-v041:LEX2-far"
+    },
+    {
+      "surface": "ӧвӧл",
+      "entryId": "guide-v041:LEX2-absent"
+    },
+    {
+      "surface": "суред",
+      "entryId": "guide-v041:LEX2-drawing"
+    },
+    {
+      "surface": "али",
+      "entryId": "guide-v041:LEX2-now"
+    },
+    {
+      "surface": "ортчиз ини",
+      "entryId": "guide-v041:LEX2-past"
+    },
+    {
+      "surface": "кӧня тыныд арес",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S01-0"
+    },
+    {
+      "surface": "кытын тон улӥськод",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S01-1"
+    },
+    {
+      "surface": "мон карын улӥсько",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S01-2"
+    },
+    {
+      "surface": "мон гуртын улӥсько",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S01-3"
+    },
+    {
+      "surface": "нимдэ гожты",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S02-1"
+    },
+    {
+      "surface": "та мынам суредэ. нош кытын тынад",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S03-0"
+    },
+    {
+      "surface": "тани мынам. мар татын возьматэмын",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S03-1"
+    },
+    {
+      "surface": "ойдо суредъёсмес кельтом",
+      "entryId": "guide-v041:AUTHOR-20261126-P11-S03-2"
+    },
+    {
+      "surface": "ӟечбур! мар тыныд кулэ",
+      "entryId": "guide-v041:AUTHOR-20261126-P10-S02-0"
+    },
+    {
+      "surface": "ӝӧк вылын открытка вань-а",
+      "entryId": "guide-v041:AUTHOR-20261126-P06-S03-1"
+    },
+    {
+      "surface": "открытка",
+      "entryId": "guide-v041:AUTHOR-20261126-C03-S04-0"
+    },
+    {
+      "surface": "ми пиналъёсын куное лыктӥм",
+      "entryId": "guide-v041:AUTHOR-20261126-P15-S02-0"
+    },
+    {
+      "surface": "тау. маин юрттыны луэ",
+      "entryId": "guide-v041:AUTHOR-20261126-P15-S02-1"
+    },
+    {
+      "surface": "ваньзэ ӝӧк вылэ пуктом, собере тупен шудонмес шудом",
+      "entryId": "guide-v041:AUTHOR-20261126-P15-S02-2"
+    },
+    {
+      "surface": "татын коркамы но шур. мон сюресэз возьматӥсько",
+      "entryId": "guide-v041:AUTHOR-20261126-P18-S02-0"
+    },
+    {
+      "surface": "нош тани семья баммы. кинэ тон вераны быгатӥськод",
+      "entryId": "guide-v041:AUTHOR-20261126-P18-S02-1"
+    },
+    {
+      "surface": "ыж",
+      "entryId": "guide-v041:AUTHOR-ANIMAL-ыж"
+    },
+    {
+      "surface": "кеч",
+      "entryId": "guide-v041:AUTHOR-ANIMAL-кеч"
+    },
+    {
+      "surface": "лудкеч",
+      "entryId": "guide-v041:AUTHOR-ANIMAL-лудкеч"
+    },
+    {
+      "surface": "курег",
+      "entryId": "guide-v041:AUTHOR-20261127-185"
+    },
+    {
+      "surface": "улмо",
+      "entryId": "guide-v041:AUTHOR-20261127-186"
+    },
+    {
+      "surface": "пудо-живот",
+      "entryId": "guide-v041:AUTHOR-20261127-187"
+    },
+    {
+      "surface": "кыӵе тынад ужъёсыд",
+      "entryId": "guide-v041:AUTHOR-20261127-188"
+    },
+    {
+      "surface": "татчы",
+      "entryId": "guide-v041:AUTHOR-20261127-189"
+    },
+    {
+      "surface": "дэрем — дэремъёс",
+      "entryId": "guide-v041:V041-190"
+    },
+    {
+      "surface": "йыркышет — йыркышетъёс",
+      "entryId": "guide-v041:V041-191"
+    },
+    {
+      "surface": "та писпу",
+      "entryId": "guide-v041:V041-192"
+    },
+    {
+      "surface": "та корка",
+      "entryId": "guide-v041:V041-193"
+    },
+    {
+      "surface": "та шур",
+      "entryId": "guide-v041:V041-194"
+    },
+    {
+      "surface": "мынам",
+      "entryId": "guide-v041:V041-195"
+    },
+    {
+      "surface": "тынад",
+      "entryId": "guide-v041:V041-196"
+    },
+    {
+      "surface": "солэн",
+      "entryId": "guide-v041:V041-197"
+    },
+    {
+      "surface": "милям",
+      "entryId": "guide-v041:V041-198"
+    },
+    {
+      "surface": "тӥляд",
+      "entryId": "guide-v041:V041-199"
+    },
+    {
+      "surface": "соослэн",
+      "entryId": "guide-v041:V041-200"
+    },
+    {
+      "surface": "кытын тынад коркаед",
+      "entryId": "guide-v041:V041-201"
+    },
+    {
+      "surface": "анае",
+      "entryId": "guide-v041:V041-202"
+    },
+    {
+      "surface": "агаед",
+      "entryId": "guide-v041:V041-203"
+    },
+    {
+      "surface": "мынам вань",
+      "entryId": "guide-v041:V041-204"
+    },
+    {
+      "surface": "тынад вань",
+      "entryId": "guide-v041:V041-205"
+    },
+    {
+      "surface": "солэн вань",
+      "entryId": "guide-v041:V041-206"
+    },
+    {
+      "surface": "милям вань",
+      "entryId": "guide-v041:V041-207"
+    },
+    {
+      "surface": "тӥляд вань",
+      "entryId": "guide-v041:V041-208"
+    },
+    {
+      "surface": "соослэн вань",
+      "entryId": "guide-v041:V041-209"
+    },
+    {
+      "surface": "вань-а",
+      "entryId": "guide-v041:V041-210"
+    },
+    {
+      "surface": "нюлэскы",
+      "entryId": "guide-v041:V041-211"
+    },
+    {
+      "surface": "нюлэскысь",
+      "entryId": "guide-v041:V041-212"
+    },
+    {
+      "surface": "пӧйшур",
+      "entryId": "guide-v041:V041-213"
+    },
+    {
+      "surface": "сиськыны",
+      "entryId": "guide-v041:V041-214"
+    },
+    {
+      "surface": "нылпи пудоез сюдэ",
+      "entryId": "guide-v041:V041-215"
+    },
+    {
+      "surface": "пинал пудоез люкта",
+      "entryId": "guide-v041:V041-216"
+    },
+    {
+      "surface": "пинал пудоез эскере",
+      "entryId": "guide-v041:V041-217"
+    },
+    {
+      "surface": "коӵыш сылэ",
+      "entryId": "guide-v041:V041-218"
+    },
+    {
+      "surface": "коӵыш пуке",
+      "entryId": "guide-v041:V041-219"
+    },
+    {
+      "surface": "коӵыш изе",
+      "entryId": "guide-v041:V041-220"
+    },
+    {
+      "surface": "коӵыш сие",
+      "entryId": "guide-v041:V041-221"
+    },
+    {
+      "surface": "коӵыш юэ",
+      "entryId": "guide-v041:V041-222"
+    },
+    {
+      "surface": "коӵыш уг изьы",
+      "entryId": "guide-v041:V041-223"
+    },
+    {
+      "surface": "коӵыш уг сиы",
+      "entryId": "guide-v041:V041-224"
+    },
+    {
+      "surface": "коӵыш уг юы",
+      "entryId": "guide-v041:V041-225"
+    },
+    {
+      "surface": "коӵыш уг бызьылы",
+      "entryId": "guide-v041:V041-226"
+    },
+    {
+      "surface": "нянь кӧня сылэ",
+      "entryId": "guide-v041:V041-227"
+    },
+    {
+      "surface": "вӧй кӧня сылэ",
+      "entryId": "guide-v041:V041-228"
+    },
+    {
+      "surface": "йӧл кӧня сылэ",
+      "entryId": "guide-v041:V041-229"
+    },
+    {
+      "surface": "сиыны",
+      "entryId": "guide-v041:V041-230"
+    },
+    {
+      "surface": "тон куддыр лыдӟиськод-а",
+      "entryId": "guide-v041:V041-231"
+    },
+    {
+      "surface": "соос шер шутэтско",
+      "entryId": "guide-v041:V041-232"
+    },
+    {
+      "surface": "мон песянаелы юрттӥ",
+      "entryId": "guide-v041:V041-233"
+    },
+    {
+      "surface": "мон пиналъёсын шудӥ",
+      "entryId": "guide-v041:V041-234"
+    },
+    {
+      "surface": "кинлы тон юрттӥд",
+      "entryId": "guide-v041:V041-235"
+    },
+    {
+      "surface": "кинэн тон ветлӥд",
+      "entryId": "guide-v041:V041-236"
+    },
+    {
+      "surface": "ми тупен шудӥм",
+      "entryId": "guide-v041:V041-237"
+    },
+    {
+      "surface": "кин семья бамын",
+      "entryId": "guide-v041:V041-238"
+    },
+    {
+      "surface": "татын песянай-песятайъёсы",
+      "entryId": "guide-v041:V041-239"
+    },
+    {
+      "surface": "тупез лэзьяй",
+      "entryId": "guide-v041:V041-240"
+    },
+    {
+      "surface": "эше тупез кутиз",
+      "entryId": "guide-v041:V041-241"
+    },
+    {
+      "surface": "семьямылэсь бамзэ лэсьтӥ",
+      "entryId": "guide-v041:V041-242"
+    },
+    {
+      "surface": "штани",
+      "entryId": "guide-v041:AUTHOR-trousers-20261127"
+    }
+  ],
+  "legacy": {
+    "mon": "guide-v041:LEX2-mon",
+    "ton": "guide-v041:LEX2-ton",
+    "so": "guide-v041:LEX2-so",
+    "mi": "guide-v041:LEX2-mi",
+    "ti": "guide-v041:LEX2-ti",
+    "soos": "guide-v041:LEX2-soos",
+    "kytyn": "guide-v041:LEX2-kytyn",
+    "kinta": "guide-v041:LEX2-kinta",
+    "atay": "guide-v041:LEX2-atay",
+    "apay": "guide-v041:LEX2-apay",
+    "agay": "guide-v041:LEX2-agay",
+    "mynam": "guide-v041:V041-195",
+    "tynad": "guide-v041:V041-196",
+    "marta": "guide-v041:LEX2-marta",
+    "tapispu": "guide-v041:V041-192",
+    "shur": "guide-v041:LEX2-shur",
+    "syures": "guide-v041:LEX2-syures",
+    "gurt": "guide-v041:LEX2-gurt",
+    "korka": "guide-v041:LEX2-korka",
+    "pispu": "guide-v041:LEX2-pispu",
+    "pu": "guide-v041:LEX2-pu",
+    "pesyanay": "guide-v041:LEX2-pesyanay",
+    "pesyatay": "guide-v041:LEX2-pesyatay",
+    "anay": "guide-v041:LEX2-anay",
+    "zhechbur": "guide-v041:LEX2-zhechbur",
+    "myname": "guide-v041:LEX2-myname",
+    "whatname": "guide-v041:LEX2-whatname",
+    "chukna": "guide-v041:LEX2-chukna",
+    "goodmorning": "guide-v041:LEX2-goodmorning",
+    "zhyt": "guide-v041:LEX2-zhyt",
+    "nyan": "guide-v041:LEX2-nyan",
+    "zhok": "guide-v041:LEX2-zhok",
+    "syaska": "guide-v041:LEX2-syaska",
+    "shundy": "guide-v041:LEX2-shundy",
+    "leyka": "guide-v041:LEX2-watering",
+    "derem": "guide-v041:LEX2-derem",
+    "yyrkyshet": "guide-v041:LEX2-yyrkyshet",
+    "kuskertton": "guide-v041:LEX2-kuskertton",
+    "chyrtyves": "guide-v041:LEX2-chyrtyves"
+  }
+}

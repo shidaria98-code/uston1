@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const store=new Map(),storage={get length(){return store.size},key:i=>[...store.keys()][i],getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,String(v)),removeItem:k=>store.delete(k)};
+const ctx={window:{UstonNewGames:{keys:[],validate(){}}},localStorage:storage,console,Date,Map,Set,crypto:require('node:crypto').webcrypto};vm.createContext(ctx);
+for(const f of ['assets/lexicon-v18.js','assets/vocabulary-extra.js','assets/dictionary-core.js','assets/guide-vocabulary.js','assets/guide-progress.js'])vm.runInContext(fs.readFileSync(f,'utf8'),ctx,{filename:f});
+const {UstonDictionary:d,UstonGuideVocabulary:v,UstonGuidePortal:g}=ctx.window;
+const entry=u=>v.entries.find(e=>e.u.toLowerCase()===u);assert.equal(d.rows().length,0,'catalog registration must not unlock words');
+const bread=entry('нянь');const other=ctx.window.UstonVocabularyExtra.find(e=>e.game==='cheskyt'&&e.u.toLowerCase()==='нянь');assert(other);assert.equal(bread.canonicalId,other.canonicalId);
+d.encounter({gameId:'cheskyt',words:[other],eventId:'shop-bread'});
+const state={started:true,scene:20,name:'Аня',gender:'girl',phase:'practice',learned:['Нянь','ыж','Штани','мон карисько'],done:{},completed:[],artifacts:{drawing:{value:{image:'data:image/png;base64,test'}}},responses:{},answerLog:{}};
+store.set(g.key,JSON.stringify(state));const read=(k,f)=>{try{return JSON.parse(storage.getItem(k))??f}catch{return f}};
+g.reconcile(read);const count=d.events().length;g.reconcile(read);assert.equal(d.events().length,count,'reconcile must be idempotent');
+assert.equal(d.rows().filter(w=>w.u.toLowerCase()==='нянь').length,1);assert(d.rows().find(w=>w.u.toLowerCase()==='нянь').games.includes('guide'));assert(d.rows().some(w=>w.u==='ыж'));assert(d.rows().some(w=>w.u==='штани'));assert(d.rows().some(w=>w.u==='карыны'));assert(!d.rows().some(w=>w.u==='мон карисько'));
+const plural=v.occurrences.find(o=>o.surface==='дэремъёс');assert(plural);const dress=v.entries.find(e=>e.id===plural.entryId);assert.equal(dress.u.toLowerCase(),'дэрем');assert(dress.forms.includes('дэремъёс'));
+const out={};ctx.window.UstonNewGames.validate({[g.key]:state,[g.notesKey]:{'C01-S01':'Проверено'}},out);assert.equal(out[g.key].artifacts.drawing.value.image,'data:image/png;base64,test');assert.equal(out[g.notesKey]['C01-S01'],'Проверено');assert(ctx.window.UstonNewGames.keys.includes(g.key));assert.throws(()=>g.validateState({...state,scene:68}));assert.throws(()=>g.validateState({...state,learned:'all'}));assert.throws(()=>g.validateNotes({bad:[] }));
+store.set('udmurt_v026_dictionary',JSON.stringify({unlocked:['mon','leyka']}));g.reconcile(read);assert(d.rows().some(w=>w.u==='вукиськан'));assert(d.rows().some(w=>w.u==='мон'));
+console.log('PASS guide/shared dictionary deduplication, explicit finite/plural links, encounter-only unlocking, idempotent migration, old words and full new-save backup.');

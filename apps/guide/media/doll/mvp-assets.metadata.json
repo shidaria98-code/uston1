@@ -1,0 +1,20 @@
+{
+  "version": "0.38",
+  "method": "built-in image_gen",
+  "base_references": [
+    "v0.37/media/doll/base.png",
+    "v0.37/media/doll/dressed-red.png",
+    "v0.37/media/scenes/img_p07_s02_bg__hero_b__v01.png"
+  ],
+  "assets": [
+    "dress-layer.png",
+    "scarf-layer.png",
+    "boy-base.png",
+    "boy-shirt-layer.png",
+    "boy-trousers-layer.png"
+  ],
+  "integrated": true,
+  "prompts": "sibling .prompt.txt files",
+  "colors": "SVG filters preserve light details; independent colors stored per garment",
+  "registration": "shared 1024x1536 canvas; boy shirt offset -1.8% height"
+}
